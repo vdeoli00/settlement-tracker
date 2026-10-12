@@ -127,6 +127,9 @@ function friendly(msg) {
 // ---------------- sync ----------------
 async function pull() {
   if (!state.session) return;
+  const uid = state.session.user.id;
+  // Data left in this browser by a different account must never merge into this one.
+  if (store.owner && store.owner !== uid) store.resetAll();
   state.sync = 'syncing'; emit();
   const res = await sb.from('user_data').select('*').maybeSingle();
   if (res.error) { state.sync = 'error'; state.error = res.error.message; emit(); return; }
@@ -138,6 +141,7 @@ async function pull() {
     const prefs = remoteHasProfile || !local.prefs.kw.length ? { ...local.prefs, ...rp, theme: rp.theme || local.prefs.theme } : local.prefs;
     store.replace({ prefs, claims: mergeClaims(local.claims, row.statuses || {}) }, 'remote');
   }
+  store.setOwner(uid);
   state.sync = 'synced'; state.syncAt = Date.now(); emit();
 }
 
@@ -256,6 +260,7 @@ export const account = {
     if (!sb) return;
     if (state.session) await keyDel(state.session.user.id);
     await sb.auth.signOut();
+    store.resetAll(); // shared devices: the next person starts clean
     state.session = null; state.vaultUnlocked = false; state.isAdmin = false; vaultKey = null; vaultData = null; row = null; emit();
   },
 

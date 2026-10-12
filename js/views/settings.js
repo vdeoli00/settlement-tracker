@@ -27,7 +27,7 @@ export function render(root, { data }) {
           <span class="r-main"><span class="r-title">${esc(email)}</span><span class="r-sub">${syncText(a)}</span></span>
           <button class="btn sm" data-act="sync" aria-label="Sync now">${icon('refresh', 'sm')}</button></div>
         <button class="row" data-act="password"><span class="r-icon">${icon('key')}</span><span class="r-main"><span class="r-title">Change password</span><span class="r-sub">Your claim info is re-encrypted, nothing is lost</span></span>${icon('chevronRight', 'sm')}</button>
-        <button class="row" data-act="signout"><span class="r-icon red">${icon('logout')}</span><span class="r-main"><span class="r-title" style="color:var(--danger)">Sign out</span><span class="r-sub">Removes this device's saved unlock key</span></span></button>
+        <button class="row" data-act="signout"><span class="r-icon red">${icon('logout')}</span><span class="r-main"><span class="r-title" style="color:var(--danger)">Sign out</span><span class="r-sub">Clears your data from this device. It stays safe in your account.</span></span></button>
       </div>`
     : `
       <form class="surface auth-card" id="signin" style="margin:0;max-width:none" novalidate>

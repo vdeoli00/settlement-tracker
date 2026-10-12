@@ -43,7 +43,7 @@ function load() {
   }
   const claims = {};
   Object.entries(raw?.claims || {}).forEach(([id, c]) => { const n = normClaim(c); if (n) claims[id] = n; });
-  return { prefs: normPrefs(raw?.prefs), claims };
+  return { prefs: normPrefs(raw?.prefs), claims, owner: raw?.owner || null };
 }
 
 const state = load();
@@ -56,6 +56,9 @@ function emit(source = 'local') { persist(); listeners.forEach((fn) => fn(source
 export const store = {
   get prefs() { return state.prefs; },
   get claims() { return state.claims; },
+  // Which account this browser's local data belongs to (null = signed-out data).
+  get owner() { return state.owner; },
+  setOwner(uid) { state.owner = uid; persist(); },
   claim(id) { const c = state.claims[id]; return c && c.s ? c : null; },
   on(fn) { listeners.add(fn); return () => listeners.delete(fn); },
 
@@ -87,7 +90,7 @@ export const store = {
     emit(source);
   },
   // 'reset' source: the account module must not push this wipe to the server.
-  resetAll() { state.prefs = normPrefs({}); state.claims = {}; emit('reset'); },
+  resetAll() { state.prefs = normPrefs({ theme: state.prefs.theme }); state.claims = {}; state.owner = null; emit('reset'); },
   snapshot() { return JSON.parse(JSON.stringify(state)); },
 };
 
