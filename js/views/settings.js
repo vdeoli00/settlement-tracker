@@ -78,7 +78,7 @@ export function render(root, { data }) {
 
     <div class="group-label">What to show</div>
     <div class="list">
-      ${toggle('showNotice', 'I received a settlement notice', 'Show claims that need the ID from a mailed or emailed notice', 'mail', p)}
+      ${toggle('showNotice', 'Include claims that need a notice ID', 'Off by default. Turn on only if you got a settlement email or letter with a Claim ID', 'mail', p)}
       ${toggle('showDocs', 'Documentation-required claims', 'Show claims that need receipts or records', 'file', p)}
       ${toggle('showAuto', 'Automatic payments', 'Show settlements that pay without a claim form', 'sparkles', p)}
       ${toggle('showOther', 'Other states & Canada', 'Show settlements limited to other regions', 'pin', p)}

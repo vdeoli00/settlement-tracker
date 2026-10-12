@@ -69,14 +69,21 @@ def no_proof_amount(text):
 LINE = re.compile(r"^- \[(?P<title>.+?)\]\((?P<url>https?://[^)\s]+)\):\s*(?P<desc>.*)$")
 
 
+NOTICE_RE = re.compile(
+    r"(class member|claim|claimant|unique|notice|settlement|member)\s*(id|identification|pin|code)\b"
+    r"|\bwith id\b|\bid required\b|\bid from (?:the |your )?notice|(?:received|got) (?:a |an )?(?:notice|postcard|email notice)"
+    r"|(?:sent|mailed|emailed) (?:a )?notice", re.I)
+
+
 def classify_oca(desc, title):
     d = desc.lower()
     if "automatic payment" in d:
         return "automatic"
+    # Titles sometimes carry the ID requirement even when the short description says "no proof".
+    if "id/code from notice" in d or "claim id" in d or "member id" in d or NOTICE_RE.search(title):
+        return "notice_id"
     if "no proof required" in d:
         return "none"
-    if "id/code from notice" in d or "claim id" in d or "member id" in d:
-        return "notice_id"
     if "documentation required" in d or "required" in d:
         return "docs"
     return "unknown"
@@ -151,10 +158,15 @@ def parse_tca(xml_text):
         claim = re.search(r'<a[^>]+href="([^"]+)"[^>]*>(?:\s|<[^>]+>)*CLICK HERE TO FILE A CLAIM', raw, re.I)
         pop_t = pop.group(1).strip() if pop else ""
         low = text.lower()
-        if re.search(r"(class member|claim|unique|notice)\s+(id|identification number|pin)\b", low):
+        if re.search(r"automatically receive|will be paid automatically|do not need to (?:take any action|file a claim)", low):
+            proof = "automatic"
+        elif NOTICE_RE.search(text):
             proof = "notice_id"
-        elif pop_t.upper() in ("N/A", "NONE", "") or re.search(r"no proof|not required", pop_t, re.I):
-            proof = "none" if pop_t else "unknown"
+        elif re.search(r"no proof (?:of purchase )?(?:is )?(?:required|needed)|without (?:a )?proof", pop_t + " " + low, re.I):
+            proof = "none"
+        elif pop_t.upper() in ("N/A", "NONE", ""):
+            # "N/A" only means no receipt; many of these still need an ID from a notice, so don't claim "no proof".
+            proof = "unknown"
         else:
             proof = "docs"
         option = proof != "none" and bool(re.search(
@@ -262,6 +274,14 @@ def main():
         print("TCA failed:", e, file=sys.stderr)
         tca = prev_by_src.get("Top Class Actions", [])
         status["Top Class Actions"] = {"ok": False, "error": str(e)[:200], "count": len(tca)}
+
+    def is_claimable(i):
+        t = i["title"]
+        if re.search(r"\b(?:Lawsuit|Investigation|Hold Your Employer)\b", t) and not re.search(r"Settlement|Refund|Restitution|Recall", t, re.I):
+            return False
+        return not re.match(r"Rolling . (?:state )?statutes of limitations|Rolling . federal wage|Rolling . no complaint", i.get("deadline_text") or "")
+
+    oca = [i for i in oca if is_claimable(i)]
 
     def is_open(i):
         return not i["deadline"] or dt.date.fromisoformat(i["deadline"]) >= TODAY
