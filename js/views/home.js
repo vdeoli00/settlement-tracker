@@ -15,7 +15,6 @@ export function render(root, { data }) {
   const easy = items.filter((i) => isEasyFor(i, prefs));
   const matches = items.filter((i) => (isEasyFor(i, prefs) || eligibleForLists(i, prefs)) && matchesFor(i, kws).length);
   const matchEasy = matches.filter((i) => i.easy);
-  const potential = (kws.length ? matchEasy : easy).reduce((t, i) => t + (i.est || 0), 0);
   const ending = sortItems(easy.filter((i) => i.days != null && i.days <= 14), 'deadline').slice(0, 8);
   const week = easy.filter((i) => i.days != null && i.days <= 7).length;
   const fresh = sortItems(items.filter((i) => i.isNew && (isEasyFor(i, prefs) || eligibleForLists(i, prefs))), 'new').slice(0, 6);
@@ -39,9 +38,9 @@ export function render(root, { data }) {
 
     <div class="kpis">
       <div class="surface kpi hero enter" style="--i:0">
-        <span class="k-label">${icon('sparkles')}${kws.length ? 'No-proof money waiting for you' : 'No-proof payouts open now'}</span>
-        <span class="k-value" data-count="${potential}">${money(potential)}</span>
-        <span class="k-sub">${kws.length ? `${matchEasy.length} no-proof claim${matchEasy.length === 1 ? '' : 's'} match your profile` : `${easy.length} claims need no receipts · add brands to personalize`}</span>
+        <span class="k-label">${icon('check')}No-proof claims you can file</span>
+        <span class="k-value" data-count="${easy.length}" data-int="1">${easy.length}</span>
+        <span class="k-sub">${kws.length ? `${matchEasy.length} match your brands` : 'Add brands to see which match you'} · ${week} closing this week</span>
       </div>
       <a class="surface kpi enter" style="--i:1" href="#/claims?tab=paid"><span class="k-label">${icon('wallet')}Received</span><span class="k-value" data-count="${totals.received}" data-cents="1">${money(totals.received)}</span><span class="k-sub">${totals.paid} paid claim${totals.paid === 1 ? '' : 's'}</span></a>
       <a class="surface kpi enter" style="--i:2" href="#/claims?tab=filed"><span class="k-label">${icon('clock')}Pending</span><span class="k-value" data-count="${totals.pending}">${money(totals.pending)}</span><span class="k-sub">${totals.filed} filed, awaiting payment</span></a>
@@ -80,6 +79,7 @@ export function render(root, { data }) {
   `;
 
   $$('[data-count]', root).forEach((el) => {
+    if (el.dataset.int) { countUp(el, Number(el.dataset.count)); return; }
     const cents = el.dataset.cents;
     countUp(el, Number(el.dataset.count), (n) => money(cents ? Math.round(n * 100) / 100 : Math.round(n)));
   });
