@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Settlement Tracker</title>
+<style>
+:root {
+  --bg: #f5f6f8; --panel: #fff; --text: #191c21; --muted: #5f6875; --border: #dde1e7;
+  --accent: #0f766e; --accent-text: #fff; --soft: #eef1f4;
+  --green: #15803d; --green-bg: #dcfce7; --amber: #b45309; --amber-bg: #fef3c7;
+  --red: #b91c1c; --red-bg: #fee2e2; --blue: #1d4ed8; --blue-bg: #dbeafe; --gray-bg: #e5e7eb;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1114; --panel: #161a1f; --text: #e7eaee; --muted: #9aa3ae; --border: #2a3038;
+    --accent: #2dd4bf; --accent-text: #0e1114; --soft: #1d232a;
+    --green: #4ade80; --green-bg: #14321f; --amber: #fbbf24; --amber-bg: #3a2c0b;
+    --red: #f87171; --red-bg: #3b1515; --blue: #93c5fd; --blue-bg: #172554; --gray-bg: #2a3038;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1114; --panel: #161a1f; --text: #e7eaee; --muted: #9aa3ae; --border: #2a3038;
+  --accent: #2dd4bf; --accent-text: #0e1114; --soft: #1d232a;
+  --green: #4ade80; --green-bg: #14321f; --amber: #fbbf24; --amber-bg: #3a2c0b;
+  --red: #f87171; --red-bg: #3b1515; --blue: #93c5fd; --blue-bg: #172554; --gray-bg: #2a3038;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 18px 16px 80px; }
+h1 { font-size: 22px; margin: 0; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.warn { background: var(--amber-bg); color: var(--text); border-radius: 8px; padding: 8px 12px; margin: 12px 0; font-size: 13px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin: 12px 0; }
+.stat { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
+.stat b { display: block; font-size: 20px; }
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+details.panel > summary { cursor: pointer; font-weight: 600; }
+label { font-size: 13px; font-weight: 600; display: block; margin-bottom: 3px; }
+input[type=text], input[type=search], input[type=number], select { background: var(--bg); color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px; font: inherit; width: 100%; }
+.grid { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-top: 10px; }
+.checks { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; }
+.checks label { font-weight: 400; display: flex; gap: 6px; align-items: center; margin: 0; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.tabs button { border: 1px solid var(--border); background: var(--panel); color: var(--text); border-radius: 999px; padding: 6px 14px; font: inherit; cursor: pointer; }
+.tabs button.on { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+.bar { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+.bar input { flex: 1 1 220px; }
+.bar select { width: auto; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; margin-bottom: 10px; }
+.card.match { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.card h3 { margin: 0 0 4px; font-size: 16px; line-height: 1.35; }
+.card h3 a { color: var(--text); text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.b { font-size: 12px; border-radius: 6px; padding: 2px 8px; font-weight: 600; background: var(--gray-bg); }
+.b.green { background: var(--green-bg); color: var(--green); }
+.b.amber { background: var(--amber-bg); color: var(--amber); }
+.b.red { background: var(--red-bg); color: var(--red); }
+.b.blue { background: var(--blue-bg); color: var(--blue); }
+.meta { font-size: 13px; color: var(--muted); }
+.meta b { color: var(--text); font-weight: 600; }
+.sum { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+.btn { border: 1px solid var(--border); background: var(--panel); color: var(--text); border-radius: 8px; padding: 6px 12px; font: inherit; font-size: 14px; cursor: pointer; text-decoration: none; display: inline-block; }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+.actions select { width: auto; padding: 6px; }
+.actions input[type=number] { width: 110px; padding: 6px; }
+.empty { text-align: center; padding: 30px; color: var(--muted); }
+mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding: 0 2px; }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <h1>Settlement Tracker</h1>
+    <span class="muted small" id="fresh">Loading…</span>
+  </div>
+  <div class="warn">Only file claims you actually qualify for. Claim forms are signed under penalty of perjury, even when no proof is required.
+    Always confirm details on the official settlement site before filing.</div>
+
+  <div class="stats" id="stats"></div>
+
+  <details class="panel" id="profilePanel">
+    <summary>My profile <span class="muted small" id="profileSummary"></span></summary>
+    <div class="grid">
+      <div>
+        <label for="kw">Brands, products, services, banks, apps, employers I've used (comma separated)</label>
+        <input type="text" id="kw" placeholder="e.g. Apple, Verizon, Chase, Netflix, Walmart, Google, Facebook, Ring">
+      </div>
+      <div>
+        <label for="state">My state</label>
+        <select id="state"><option value="">Any / not set</option></select>
+      </div>
+    </div>
+    <div class="checks">
+      <label><input type="checkbox" id="showNotice"> I got a notice with a claim ID (show "ID from notice" ones)</label>
+      <label><input type="checkbox" id="showDocs"> Show "documentation required"</label>
+      <label><input type="checkbox" id="showAuto"> Show automatic payments (nothing to file)</label>
+      <label><input type="checkbox" id="showOther"> Show other states / Canada</label>
+    </div>
+    <p class="muted small" style="margin-bottom:0">Saved only in this browser. Nothing you enter is uploaded anywhere.</p>
+  </details>
+
+  <div class="tabs" id="tabs">
+    <button data-v="easy" class="on">No proof</button>
+    <button data-v="match">My matches</button>
+    <button data-v="all">All open</button>
+    <button data-v="tracked">Tracked</button>
+  </div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search settlements…">
+    <select id="sort">
+      <option value="deadline">Deadline (soonest)</option>
+      <option value="payout">Payout (highest)</option>
+    </select>
+  </div>
+  <div id="list"><div class="empty">Loading settlements…</div></div>
+  <p class="muted small">Data: <a href="https://openclassactions.com/" rel="noopener">OpenClassActions</a> and
+    <a href="https://topclassactions.com/" rel="noopener">Top Class Actions</a>, refreshed automatically.
+    This page is a personal tracker, not legal advice.</p>
+</div>
+
+<script>
+(() => {
+  const STATES = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',
+    FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',
+    ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',
+    NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',
+    OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',
+    UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'District of Columbia' };
+  const PROOF = {
+    none: ['No proof', 'green'], notice_id: ['ID from notice', 'blue'], docs: ['Documentation required', 'amber'],
+    automatic: ['Automatic payment', 'gray'], unknown: ['Proof: check site', 'gray'],
+  };
+  const KEY = 'settle.v1';
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  const safeUrl = (u) => (/^https?:\/\//i.test(u || '') ? u : null);
+
+  let data = { items: [] };
+  let view = 'easy';
+  const store = load();
+
+  function load() {
+    const d = { kw: '', state: '', showNotice: false, showDocs: false, showAuto: false, showOther: false, status: {} };
+    try { return Object.assign(d, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) { return d; }
+  }
+  function save() {
+    // Remember title/url with each status so tracked items survive dropping off the feed.
+    Object.entries(store.status).forEach(([id, s]) => {
+      const it = data.items.find((x) => x.id === id);
+      if (it) { s.title = it.title; s.url = it.url; }
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* in-memory only */ }
+  }
+
+  // ---------- profile ----------
+  const stSel = $('#state');
+  Object.entries(STATES).forEach(([k, v]) => stSel.insertAdjacentHTML('beforeend', `<option value="${k}">${v}</option>`));
+  $('#kw').value = store.kw; stSel.value = store.state;
+  ['showNotice', 'showDocs', 'showAuto', 'showOther'].forEach((k) => {
+    $('#' + k).checked = !!store[k];
+    $('#' + k).addEventListener('change', (e) => { store[k] = e.target.checked; save(); render(); });
+  });
+  $('#kw').addEventListener('input', (e) => { store.kw = e.target.value; save(); render(); });
+  stSel.addEventListener('change', (e) => { store.state = e.target.value; save(); render(); });
+  if (!store.kw) $('#profilePanel').open = true;
+
+  $('#tabs').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    view = b.dataset.v;
+    document.querySelectorAll('#tabs button').forEach((x) => x.classList.toggle('on', x === b));
+    render();
+  });
+  $('#q').addEventListener('input', render);
+  $('#sort').addEventListener('change', render);
+
+  // ---------- helpers ----------
+  function keywords() {
+    return store.kw.split(',').map((s) => s.trim()).filter((s) => s.length > 1);
+  }
+  function kwRegex(k) { return new RegExp('\\b' + k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i'); }
+  function matchedKeywords(it) {
+    const hay = it.title + ' ' + (it.summary || '');
+    return keywords().filter((k) => kwRegex(k).test(hay));
+  }
+  function regionInfo(it) {
+    const r = it.region || '';
+    if (!r) return { label: '', ok: true };
+    if (/canada/i.test(r)) return { label: r, ok: false };
+    const codes = Object.keys(STATES).filter((c) => new RegExp('\\b' + c + '\\b').test(r) || new RegExp(STATES[c], 'i').test(r));
+    if (!codes.length) return { label: r, ok: true };
+    return { label: r, ok: !store.state || codes.includes(store.state) };
+  }
+  function daysLeft(it) {
+    if (!it.deadline) return null;
+    const d = new Date(it.deadline + 'T23:59:59');
+    return Math.ceil((d - new Date()) / 86400000);
+  }
+  const isEasy = (it) => it.proof === 'none' || it.no_proof_option;
+
+  function visible(it) {
+    const st = store.status[it.id];
+    if (view === 'tracked') return !!(st && st.s);
+    if (st && st.s === 'skip') return false;
+    const reg = regionInfo(it);
+    if (!reg.ok && !store.showOther) return false;
+    if (view === 'match') return matchedKeywords(it).length > 0 && (it.proof !== 'automatic' || store.showAuto);
+    // No-proof options gated on a notice ID only help if you actually got the notice.
+    if (view === 'easy') return isEasy(it) && (it.proof !== 'notice_id' || store.showNotice);
+    if (it.proof === 'automatic' && !store.showAuto) return false;
+    if (it.proof === 'docs' && !it.no_proof_option && !store.showDocs) return false;
+    if (it.proof === 'notice_id' && !it.no_proof_option && !store.showNotice) return false;
+    return true;
+  }
+
+  // ---------- calendar ----------
+  function ics(it) {
+    const d = it.deadline.replace(/-/g, '');
+    const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//settlement-tracker//EN', 'BEGIN:VEVENT',
+      'UID:' + it.id.replace(/[^\w-]/g, '') + '@settlement-tracker', 'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z',
+      'DTSTART;VALUE=DATE:' + d, 'SUMMARY:Claim deadline: ' + it.title.replace(/[,;\\]/g, ' ').slice(0, 120),
+      'DESCRIPTION:' + (it.claim_url || it.url), 'BEGIN:VALARM', 'TRIGGER:-P3D', 'ACTION:DISPLAY', 'DESCRIPTION:Claim deadline in 3 days', 'END:VALARM',
+      'END:VEVENT', 'END:VCALENDAR'];
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([lines.join('\r\n')], { type: 'text/calendar' }));
+    a.download = 'deadline-' + it.deadline + '.ics';
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+
+  // ---------- render ----------
+  function render() {
+    const q = $('#q').value.trim().toLowerCase();
+    let items = data.items.filter(visible);
+    if (q) items = items.filter((it) => (it.title + ' ' + (it.summary || '') + ' ' + (it.category || '')).toLowerCase().includes(q));
+    if ($('#sort').value === 'payout') items.sort((a, b) => (b.payout_max || 0) - (a.payout_max || 0));
+    else items.sort((a, b) => (a.deadline || '9999').localeCompare(b.deadline || '9999'));
+
+    const kws = keywords();
+    $('#profileSummary').textContent = kws.length ? '· ' + kws.length + ' keywords' + (store.state ? ' · ' + store.state : '') : '· set this up first';
+
+    // stats
+    const open = data.items.filter((it) => it.proof !== 'automatic');
+    const easy = data.items.filter(isEasy);
+    const week = easy.filter((it) => { const d = daysLeft(it); return d !== null && d <= 7; });
+    const statuses = Object.values(store.status);
+    const filed = statuses.filter((s) => s.s === 'filed' || s.s === 'paid').length;
+    const paid = statuses.filter((s) => s.s === 'paid').reduce((t, s) => t + (parseFloat(s.amt) || 0), 0);
+    const matches = data.items.filter((it) => kws.length && matchedKeywords(it).length).length;
+    $('#stats').innerHTML =
+      `<div class="stat"><b>${open.length}</b><span class="muted small">open claims</span></div>` +
+      `<div class="stat"><b>${easy.length}</b><span class="muted small">no proof needed</span></div>` +
+      `<div class="stat"><b>${week.length}</b><span class="muted small">no-proof ending ≤ 7 days</span></div>` +
+      `<div class="stat"><b>${matches}</b><span class="muted small">match my profile</span></div>` +
+      `<div class="stat"><b>${filed}</b><span class="muted small">filed</span></div>` +
+      `<div class="stat"><b>$${paid.toFixed(2)}</b><span class="muted small">received</span></div>`;
+
+    if (!items.length) {
+      const msg = view === 'match' && !kws.length ? 'Add some brands or services in My profile to see matches.'
+        : view === 'tracked' ? 'Nothing tracked yet. Mark a settlement as Interested or Filed.' : 'No settlements match these filters.';
+      $('#list').innerHTML = `<div class="empty">${msg}</div>`;
+      return;
+    }
+
+    $('#list').innerHTML = items.map((it) => {
+      const m = matchedKeywords(it);
+      const p = PROOF[it.proof] || PROOF.unknown;
+      const dl = daysLeft(it);
+      const reg = regionInfo(it);
+      const st = store.status[it.id] || {};
+      let title = esc(it.title);
+      m.forEach((k) => { title = title.replace(kwRegex(esc(k)), (x) => '<mark>' + x + '</mark>'); });
+      const badges = [];
+      badges.push(`<span class="b ${p[1]}">${p[0]}</span>`);
+      if (it.no_proof_option) badges.push(`<span class="b green">No-proof option${it.no_proof_amount ? ' ($' + it.no_proof_amount + ')' : ''}</span>`);
+      if (dl !== null) badges.push(`<span class="b ${dl <= 3 ? 'red' : dl <= 10 ? 'amber' : ''}">${dl <= 0 ? 'Due today' : dl + ' days left'}</span>`);
+      if (m.length) badges.push(`<span class="b blue">Matches: ${esc(m.join(', '))}</span>`);
+      if (reg.label) badges.push(`<span class="b ${reg.ok ? '' : 'red'}">${esc(reg.label)}</span>`);
+      const claim = safeUrl(it.claim_url);
+      const page = safeUrl(it.url);
+      const deadline = it.deadline ? new Date(it.deadline + 'T12:00:00').toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' }) : esc(it.deadline_text || 'Not set');
+      return `<div class="card${m.length ? ' match' : ''}" data-id="${esc(it.id)}">
+        <h3>${page ? `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">${title}</a>` : title}</h3>
+        <div class="badges">${badges.join('')}</div>
+        <div class="meta">Deadline <b>${deadline}</b>${it.payout_text ? ' · Payout <b>' + esc(it.payout_text) + '</b>' : ''}${it.category ? ' · ' + esc(it.category) : ''}</div>
+        ${it.proof_text ? `<div class="meta">${esc(it.proof_text)}</div>` : ''}
+        ${it.summary ? `<div class="sum">${esc(it.summary.slice(0, 260))}${it.summary.length > 260 ? '…' : ''}</div>` : ''}
+        <div class="actions">
+          ${claim ? `<a class="btn primary" href="${esc(claim)}" target="_blank" rel="noopener noreferrer">File claim ↗</a>` : ''}
+          ${page ? `<a class="btn${claim ? '' : ' primary'}" href="${esc(page)}" target="_blank" rel="noopener noreferrer">${claim ? 'Details' : 'Details & claim link'} ↗</a>` : ''}
+          <select data-act="status" aria-label="Status">
+            ${[['', 'Status…'], ['want', 'Interested'], ['filed', 'Filed'], ['paid', 'Paid'], ['skip', 'Not eligible / skip']]
+              .map(([v, l]) => `<option value="${v}"${(st.s || '') === v ? ' selected' : ''}>${l}</option>`).join('')}
+          </select>
+          ${st.s === 'paid' ? `<input type="number" step="0.01" min="0" data-act="amt" placeholder="$ amount" value="${esc(st.amt || '')}">` : ''}
+          ${it.deadline ? '<button class="btn" data-act="ics" title="Add deadline to calendar">📅 Remind me</button>' : ''}
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  $('#list').addEventListener('change', (e) => {
+    const card = e.target.closest('.card'); if (!card) return;
+    const id = card.dataset.id;
+    if (e.target.dataset.act === 'status') {
+      const s = e.target.value;
+      if (s) store.status[id] = Object.assign(store.status[id] || {}, { s, at: new Date().toISOString().slice(0, 10) });
+      else delete store.status[id];
+      save(); render();
+    }
+    if (e.target.dataset.act === 'amt') { store.status[id].amt = e.target.value; save(); render(); }
+  });
+  $('#list').addEventListener('click', (e) => {
+    if (e.target.dataset.act !== 'ics') return;
+    const it = data.items.find((x) => x.id === e.target.closest('.card').dataset.id);
+    if (it) ics(it);
+  });
+
+  // ---------- load ----------
+  fetch('data/settlements.json', { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((d) => {
+      data = d;
+      // Keep tracked items visible even after they drop off the feed.
+      const ids = new Set(d.items.map((i) => i.id));
+      Object.entries(store.status).forEach(([id, s]) => {
+        if (!ids.has(id) && s.title) d.items.push({ id, title: s.title, url: s.url, proof: 'unknown', deadline: null, deadline_text: 'Closed', summary: '' });
+      });
+      const ago = Math.round((Date.now() - new Date(d.updated)) / 3600000);
+      const bad = Object.entries(d.sources || {}).filter(([, s]) => !s.ok).map(([k]) => k);
+      $('#fresh').textContent = 'Updated ' + (ago < 1 ? 'just now' : ago + 'h ago') + (bad.length ? ' · ⚠ ' + bad.join(', ') + ' failed last run' : '');
+      render();
+    })
+    .catch((err) => { $('#list').innerHTML = '<div class="empty">Could not load data (' + esc(err.message) + ').</div>'; });
+
+})();
+</script>
+</body>
+</html>
