@@ -1,32 +1,39 @@
-# Settlement Tracker
+# Settled
 
-Personal tracker for open class action settlements. Filters to no-proof claims and to brands/services you list, tracks what you filed and what got paid, and exports deadline reminders to your calendar.
+Personal app for tracking open class action settlements: find the ones you qualify for (no-proof first), file faster with one-tap copy of your claim info, and log every payout.
 
-## Setup (one time)
+Live: https://vdeoli00.github.io/settlement-tracker/ (installable: Share → Add to Home Screen)
 
-Settings → Pages → Build and deployment → Source: **GitHub Actions**. Then Actions → "Update settlements and deploy" → Run workflow. Site: https://vdeoli00.github.io/settlement-tracker/
+## Features
 
-## How it updates
+- **Home dashboard**: no-proof money matching your profile, received / pending totals, ending-soon rail, matches, new this week.
+- **Browse**: instant search, filters (no proof, for you, ending soon, new, all), categories, sort, incremental rendering.
+- **Detail sheet**: deadline countdown, payout, proof rules, "I've filed this claim" check with confirmation number and expected payout, payment logging (amount, date, method), notes, calendar reminder, quick-copy claim info.
+- **Filing flow**: after you open a claim form and come back, the app asks if you finished and records it.
+- **My claims**: Filed → Paid pipeline, received total, payout rate, CSV export.
+- **Settings**: account, light/dark/auto theme, brands and state, list filters, encrypted claim info, backup/restore, data source status.
+- **PWA**: offline support, installable, update prompt, pull-to-refresh.
 
-A GitHub Action runs every 6 hours:
+## How it's built
 
-1. `scripts/update.py` pulls the open-settlement directory from [OpenClassActions](https://openclassactions.com/llms.txt) and the open-settlements RSS feed from [Top Class Actions](https://topclassactions.com/).
-2. It classifies each one (no proof / ID from notice / documentation / automatic), extracts deadline and payout, merges duplicates, drops expired ones, and writes `data/settlements.json`.
-3. The site is redeployed to GitHub Pages.
-
-If a source fails or changes format, the last good data for that source is kept and the page shows a warning.
-
-Run locally: `python3 scripts/update.py && python3 -m http.server` then open http://localhost:8000.
+- Static site on GitHub Pages; vanilla ES modules, no framework or build step. `css/app.css` holds the design system (tokens, light/dark, motion with reduced-motion support).
+- `scripts/update.py` (GitHub Action, every 6h) pulls OpenClassActions' directory and Top Class Actions' RSS feed, classifies proof requirements, merges duplicates, tracks `first_seen`, drops expired items, and writes `data/settlements.json`.
+- The deploy job stamps a build id into asset URLs and the service worker for cache busting.
 
 ## Accounts, sync and privacy
 
-- Signed out, your profile and claim statuses live only in your browser's localStorage.
-- Signed in (email + password via Supabase), they sync to a `user_data` row that row-level security limits to your account.
-- Claim info (name, address, payment handles) is encrypted in the browser with AES-GCM using a key derived from your login password (PBKDF2, 310k iterations) and cached per device as a non-exportable key. Only ciphertext is stored. A password reset makes old claim info unreadable; re-enter it.
+- Signed out, everything is stored in this browser only.
+- Signed in (email + password via Supabase), profile and claim records sync to a `user_data` row protected by row-level security.
+- Claim info is AES-GCM encrypted in the browser with a key derived from your password (PBKDF2, 310k iterations) and cached per device as a non-exportable key. Only ciphertext is stored. Resetting your password makes old claim info unreadable.
+- Supabase's client is vendored (`vendor/`) and loaded only when needed. A strict Content-Security-Policy allows scripts only from this site and network calls only to this site and the Supabase project.
 - `config.js` holds the Supabase URL and publishable key, which are designed to be public.
-- The update job pings Supabase every 6 hours so the free project is not paused.
+- The update job pings Supabase every 6 hours so the free project isn't paused.
 
-## Notes
+## Local development
 
-- Proof and payout labels are parsed automatically from source text. Confirm on the official settlement site before filing.
-- Only file claims you qualify for; claim forms are signed under penalty of perjury.
+```
+python3 scripts/update.py      # refresh data
+python3 -m http.server         # then open http://localhost:8000
+```
+
+Only file claims you qualify for; claim forms are signed under penalty of perjury.

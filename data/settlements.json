@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T22:35:13+00:00",
+ "updated": "2026-10-12T22:51:03+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -29,7 +29,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:fca-us-emissions-warranty-class-action-settlement",
@@ -49,7 +50,8 @@
    "region": "",
    "category": "",
    "summary": "FCA US LLC has agreed to a class action settlement to end claims it failed to provide appropriate warranty coverage for certain valve train system components in some Dodge, Jeep and Chrysler vehicles. The FCA settlement benefits individuals who purchased or leased certain Dodge, Jeep and Chrysler vehicles in the states of California, Connecticut, Delaware, Maine, Maryland, Massachusetts, Oregon, Pennsylvania, Rhode I",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hydromax-usa-job-postings-washington-class-action-settlement",
@@ -69,7 +71,8 @@
    "region": "WA job applicants",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fca-3-6l-valve-train-warranty-class-action-settlement",
@@ -89,7 +92,8 @@
    "region": "CA, CT, DE, ME, MD, MA, OR, PA, RI, VT & WA purchases only",
    "category": "automotive",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:rapid-investments-axiom-bank-release-card-class-action-settlement",
@@ -109,7 +113,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:scribd-washington-job-postings-class-action-settlement",
@@ -129,7 +134,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:spectrum-pharmaceuticals-securities-class-action-settlement",
@@ -149,7 +155,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:3-75m-hirevue-illinois-bipa-class-action-settlement",
@@ -169,7 +176,8 @@
    "region": "",
    "category": "",
    "summary": "HireVue agreed to a $3.75 million class action settlement to resolve claims it violated Illinois\u2019 Biometric Information Privacy Act (BIPA) by collecting biometrics from job applicants during video interviews. The HireVue settlement benefits individuals who completed a HireVue interview in Illinois that involved voice and facial recognition technology between Jan. 27, 2017, and June 25, 2026. According to a class acti",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hain-celestial-securities-class-action-settlement",
@@ -189,7 +197,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:diisocyanates-mdi-tdi-antitrust-class-action-settlement",
@@ -209,7 +218,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:crossroads-trading-data-breach-settlement",
@@ -234,7 +244,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/600k-crossroads-trading-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:davison-design-washington-text-message-class-action-settlement",
@@ -254,7 +265,8 @@
    "region": "WA residents",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:doxim-data-breach-settlement",
@@ -274,7 +286,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hirevue-bipa-biometric-privacy-class-action-settlement",
@@ -294,7 +307,8 @@
    "region": "IL residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sansone-group-data-breach-settlement",
@@ -314,7 +328,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:talkdesk-washington-job-postings-class-action-settlement",
@@ -334,7 +349,8 @@
    "region": "WA job applicants",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dairy-farmers-of-america-data-breach-settlement",
@@ -354,7 +370,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:flo-health-app-privacy-settlement",
@@ -379,7 +396,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/59-5m-flo-data-sharing-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:canadian-armed-forces-racial-discrimination-settlement",
@@ -399,7 +417,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:docketwise-data-breach-settlement",
@@ -419,7 +438,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:rockley-photonics-securities-class-action-settlement",
@@ -439,7 +459,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:tift-regional-health-system-data-breach-settlement",
@@ -464,7 +485,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-2m-tift-regional-health-system-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:eagle-pharmaceuticals-securities-class-action-settlement",
@@ -484,7 +506,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:silk-beverage-class-action-settlement-canada",
@@ -504,7 +527,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:seagate-securities-class-action-settlement",
@@ -524,7 +548,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:21-5m-new-york-city-central-booking-class-action-settlement",
@@ -544,7 +569,8 @@
    "region": "",
    "category": "",
    "summary": "The City of New York has agreed to pay $21.5 million to resolve class action lawsuit claims that it violated the rights of people detained in its Central Booking facilities. The New York settlement benefits individuals who were detained in New York City\u2019s Central Booking facilities between April 8, 2017, and Dec. 27, 2019, for detainees at Brooklyn Central Booking and between Feb. 3, 2020, and March 1, 2023, for deta",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:anixter-center-data-breach-settlement",
@@ -564,7 +590,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:csx-livingston-kentucky-train-derailment-class-action-settlement",
@@ -584,7 +611,8 @@
    "region": "KY residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:community-dental-care-data-breach-settlement",
@@ -609,7 +637,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/community-dental-care-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:concora-credit-tcpa-prerecorded-calls-class-action-settlement",
@@ -634,7 +663,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/9-37m-concora-credit-tcpa-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:globe-life-american-income-life-data-breach-settlement",
@@ -659,7 +689,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-4m-globe-life-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:le-moyne-college-covid-fee-refund-class-action-settlement",
@@ -679,7 +710,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mcna-dental-data-breach-settlement",
@@ -699,7 +731,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:managed-care-of-north-america-data-breach-class-action-settlement",
@@ -719,7 +752,8 @@
    "region": "",
    "category": "",
    "summary": "Managed Care of North America (MCNA) has agreed to a class action settlement to resolve claims it failed to prevent a 2023 data breach that compromised sensitive consumer information. The MCNA settlement benefits individuals who received a data breach notice from MCNA informing them that their personal and medical data may have been compromised in a cyberattack between Feb. 26 and March 7, 2023. The MCNA data breach ",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:nyc-central-booking-class-action-settlement",
@@ -739,7 +773,8 @@
    "region": "New York City detentions only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:powerschool-stockholders-class-action-settlement",
@@ -759,7 +794,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:state-farm-louisiana-total-loss-purchasing-fees-settlement",
@@ -784,7 +820,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/state-farm-louisiana-car-insurance-total-loss-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:tennessee-farmers-mutual-total-loss-class-action-settlement",
@@ -804,7 +841,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wpm-pathology-salina-regional-data-breach-settlement",
@@ -824,7 +862,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:1-65m-geico-credit-reporting-class-action-settlement",
@@ -844,7 +883,8 @@
    "region": "",
    "category": "",
    "summary": "Government Employees Insurance Company (GEICO) has agreed to pay $1.65 million to resolve a class action lawsuit accusing it of failing to properly investigate and correct inaccurate insurance information shared with consumer reporting agency LexisNexis Risk Solutions. The GEICO settlement benefits individuals who filed one or more disputes through LexisNexis Risk Solutions between March 13, 2022, and May 1, 2026, in",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:20m-vsl-pharmaceuticals-probiotic-class-action-settlement",
@@ -864,7 +904,8 @@
    "region": "",
    "category": "",
    "summary": "VSL Pharmaceuticals has agreed to a $20 million class action settlement to resolve claims it falsely advertised the VSL#3 probiotic as clinically proven to treat certain medical conditions. The VSL#3 settlement benefits consumers who purchased VSL#3 in the United States between June 1, 2016, and June 19, 2019. Plaintiffs in the class action lawsuit claim VSL Pharmaceuticals falsely advertised the VSL#3 probiotics as ",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:altrua-healthshare-tcpa-prerecorded-calls-class-action-settlement",
@@ -884,7 +925,8 @@
    "region": "",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ohio-nightclub-dancer-unpaid-wages-class-action-settlement",
@@ -904,7 +946,8 @@
    "region": "Ohio clubs only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:vsl3-probiotic-class-action-settlement",
@@ -924,7 +967,8 @@
    "region": "",
    "category": "false advertising",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:exo-commuter-train-delays-class-action-settlement-quebec",
@@ -944,7 +988,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dap-health-data-breach-settlement",
@@ -964,7 +1009,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dartmouth-oracle-ebs-data-breach-settlement",
@@ -984,7 +1030,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mercurys-coffee-washington-job-postings-class-action-settlement",
@@ -1004,7 +1051,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:playstudios-myvegas-social-casino-class-action-settlement",
@@ -1024,7 +1072,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:americold-data-breach-settlement",
@@ -1049,7 +1098,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/5-25m-americold-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:efs-advisors-aviben-data-breach-settlement",
@@ -1069,7 +1119,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:highlands-oncology-group-data-breach-settlement",
@@ -1094,7 +1145,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/highlands-oncology-group-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lands-end-data-breach-class-action-settlement",
@@ -1119,7 +1171,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/lands-end-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:palomar-health-medical-group-data-breach-settlement",
@@ -1144,7 +1197,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-1m-palomar-health-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:waste-connections-rate-increase-fuel-surcharge-class-action-settlement",
@@ -1164,7 +1218,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cosco-fire-protection-washington-job-postings-class-action-settlement",
@@ -1184,7 +1239,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:equinox-data-breach-settlement",
@@ -1209,7 +1265,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/685000-equinox-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pineda-inn-tip-credit-class-action-settlement",
@@ -1229,7 +1286,8 @@
    "region": "",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:350000-ted-foundation-vppa-class-action-settlement",
@@ -1249,7 +1307,8 @@
    "region": "",
    "category": "",
    "summary": "TED Foundation Inc. agreed to a $350,000 class action settlement to resolve claims it violated federal privacy law by disclosing account holders\u2019 information to third parties. The TED settlement benefits TED account holders who watched a pre-recorded video on the TED website or mobile apps between Oct. 19, 2021, and July 14, 2026. The class action lawsuit claimed TED disclosed users\u2019 personally identifiable informati",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:continental-resources-shareholder-class-action-settlement",
@@ -1269,7 +1328,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:costa-del-mar-sunglasses-repair-fee-class-action-settlement",
@@ -1294,7 +1354,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/23-9m-costa-del-mar-sunglasses-repair-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bucio-fn-logistics-california-wage-paga-class-action-settlement",
@@ -1319,7 +1380,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/5-56m-fn-logistics-wage-and-hour-violations-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:gosiger-washington-job-postings-class-action-settlement",
@@ -1339,7 +1401,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:muscatine-power-and-water-data-breach-settlement",
@@ -1359,7 +1422,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:russelectric-esop-erisa-class-action-settlement",
@@ -1379,7 +1443,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:star-casualty-florida-total-loss-fees-class-action-settlement",
@@ -1399,7 +1464,8 @@
    "region": "Florida policyholders only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ted-foundation-vppa-video-privacy-settlement",
@@ -1419,7 +1485,8 @@
    "region": "",
    "category": "vppa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:thermoflex-bipa-class-action-settlement",
@@ -1439,7 +1506,8 @@
    "region": "",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:120m-nar-real-estate-commission-class-action-settlement",
@@ -1459,7 +1527,8 @@
    "region": "",
    "category": "",
    "summary": "The National Association of Realtors (NAR) and several real estate brokerage companies agreed to pay more than $120 million to resolve claims they violated federal antitrust laws by conspiring to raise and fix real estate broker commissions. The NAR settlement benefits individuals who purchased a home that was listed on a multiple listing service (MLS) anywhere in the United States where a commission was paid to any ",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:amn-healthcare-interpretation-call-recording-class-action-settlement",
@@ -1484,7 +1553,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-5m-amn-healthcare-privacy-violations-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fort-wayne-medical-education-program-data-breach-settlement",
@@ -1504,7 +1574,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:homebuyer-antitrust-class-action-settlement",
@@ -1524,7 +1595,8 @@
    "region": "",
    "category": "real estate",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:highland-health-systems-data-breach-settlement",
@@ -1544,7 +1616,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:on-q-financial-data-breach-settlement",
@@ -1564,7 +1637,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pork-price-fixing-class-action-settlement",
@@ -1589,7 +1663,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/117m-pork-price-fixing-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:acct-holdings-esop-erisa-class-action-settlement",
@@ -1609,7 +1684,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:finwise-bank-data-breach-settlement",
@@ -1634,7 +1710,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-8m-finwise-bank-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:rocket-tax-nyc-dcwp-restitution-settlement",
@@ -1654,7 +1731,8 @@
    "region": "",
    "category": "consumer protection",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:2-03m-amwell-livehealth-online-data-sharing-class-action-settlement",
@@ -1674,7 +1752,8 @@
    "region": "",
    "category": "",
    "summary": "American Well Corp., operator of LiveHealth Online, agreed to a $2.03 million class action settlement to resolve claims it violated privacy laws by disclosing medical information to third parties. The AmWell settlement benefits individuals who used the appointment booking tool on the LiveHealth Online website, iOS app or Android app between October 2024 and August 2025. Plaintiffs in the data sharing lawsuit claim Li",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:3-57m-lloyds-of-london-insurance-price-fixing-class-action-settlement",
@@ -1694,7 +1773,8 @@
    "region": "",
    "category": "",
    "summary": "Lloyd\u2019s agreed to pay $3.57 million as part of an ongoing class action settlement to resolve claims it violated federal racketeering laws by conspiring with other insurers to raise the price of insurance policies. The Lloyd\u2019s of London settlement benefits individuals and entities who purchased or renewed an insurance contract with Lloyd\u2019s syndicates 727, 1003, 2003, 2020 and 2791 between Jan. 1, 1997, and April 15, 2",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:8-31m-transunion-inaccurate-credit-report-class-action-settlement",
@@ -1714,7 +1794,8 @@
    "region": "",
    "category": "",
    "summary": "TransUnion agreed to pay $8.31 million as part of a class action settlement to resolve claims that it sold inaccurate consumer reports that contained bankruptcy remarks despite there being no public record of a bankruptcy filing. The TransUnion settlement benefits consumers who were sold a TransUnion consumer report that included a bankruptcy remark but did not include a reference to a bankruptcy record in the public",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bestway-above-ground-pools-class-action-settlement",
@@ -1739,7 +1820,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15m-bestway-above-ground-pool-safety-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bigsteelbox-abbotsford-flood-class-action-settlement",
@@ -1759,7 +1841,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:emblemhealth-senior-care-copay-class-action-settlement",
@@ -1779,7 +1862,8 @@
    "region": "NYC retirees only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:livehealth-online-privacy-class-action-settlement",
@@ -1799,7 +1883,8 @@
    "region": "",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lloyds-syndicate-insurance-class-action-settlement",
@@ -1819,7 +1904,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sun-country-pilot-military-leave-401k-class-action-settlement",
@@ -1839,7 +1925,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:transunion-bankruptcy-remark-fcra-class-action-settlement",
@@ -1859,7 +1946,8 @@
    "region": "",
    "category": "credit reporting",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:turkey-price-fixing-class-action-settlement",
@@ -1879,7 +1967,8 @@
    "region": "direct purchasers only (businesses)",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wm-technology-securities-class-action-settlement",
@@ -1899,7 +1988,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:alba-services-new-york-worker-restitution-settlement",
@@ -1919,7 +2009,8 @@
    "region": "NY residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dennys-new-york-unpaid-wages-settlement",
@@ -1939,7 +2030,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:90-washington-street-rent-overcharge-class-action-settlement",
@@ -1959,7 +2051,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:connectoncall-data-breach-settlement",
@@ -1984,7 +2077,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-95m-connectoncall-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fairchild-medical-center-pixel-tracking-class-action-settlement",
@@ -2004,7 +2098,8 @@
    "region": "CA residents",
    "category": "pixel tracking",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:modernizing-medicine-modmed-data-breach-settlement",
@@ -2029,7 +2124,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-99m-modernizing-medicine-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:specialtycare-training-repayment-agreement-class-action-settlement",
@@ -2049,7 +2145,8 @@
    "region": "",
    "category": "employment law",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:swire-coca-cola-washington-non-compete-class-action-settlement",
@@ -2069,7 +2166,8 @@
    "region": "WA workers only",
    "category": "employment",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:university-of-hawaii-data-breach-settlement",
@@ -2094,7 +2192,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-5m-university-of-hawaii-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:whirlpool-fridges-class-action-settlement",
@@ -2114,7 +2213,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:whirlpool-defective-refrigerator-class-action-settlement",
@@ -2134,7 +2234,8 @@
    "region": "",
    "category": "",
    "summary": "Whirlpool agreed to a class action settlement to resolve claims that certain refrigerators it manufactured are defective and have a \u201cwire harness issue\u201d that causes the ice maker, ice dispenser, water dispenser and/or control panel to fail. The class action settlement benefits consumers who purchased a new Whirlpool, Maytag, KitchenAid or JennAir refrigerator manufactured between 2018 and 2021. Consumers can check if",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:15m-levoit-air-purifier-class-action-settlement",
@@ -2154,7 +2255,8 @@
    "region": "",
    "category": "",
    "summary": "Vesync agreed to a $15 million class action settlement to resolve claims that it falsely advertised Levoit air purifiers as having \u201cTrue HEPA\u201d filters. The Levoit settlement benefits consumers who purchased a Levoit-branded Core or EverestAir air purifier and/or replacement filter with \u201cTrue HEPA,\u201d \u201cHEPA\u201d and/or \u201cH13\u201d language between Aug. 29, 2019, and Aug. 4, 2023. Consumers filed a class action lawsuit against Ves",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:furniture-mart-usa-data-breach-settlement",
@@ -2179,7 +2281,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/furniture-mart-usa-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:levoit-air-purifier-hepa-class-action-settlement",
@@ -2199,7 +2302,8 @@
    "region": "",
    "category": "false advertising",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:limetree-bay-refinery-class-action-settlement",
@@ -2219,7 +2323,8 @@
    "region": "",
    "category": "environmental",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:schnucks-rewards-points-sales-tax-class-action-settlement",
@@ -2244,7 +2349,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/schnucks-rewards-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:southern-graphics-data-breach-settlement",
@@ -2264,7 +2370,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:summit-medical-group-data-breach-settlement",
@@ -2289,7 +2396,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/summit-medical-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:truffettes-de-france-class-action-settlement",
@@ -2309,7 +2417,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:university-of-phoenix-pixel-privacy-class-action-settlement",
@@ -2329,7 +2438,8 @@
    "region": "",
    "category": "vppa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:yes-communities-data-breach-settlement",
@@ -2349,7 +2459,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:situsamc-data-breach-settlement",
@@ -2369,7 +2480,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dominos-san-francisco-health-care-fee-class-action-settlement",
@@ -2389,7 +2501,8 @@
    "region": "CA residents",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:10m-forbes-media-website-tracking-class-action-settlement",
@@ -2409,7 +2522,8 @@
    "region": "",
    "category": "",
    "summary": "Forbes Media LLC agreed to a $10 million class action settlement to resolve claims it violated California privacy laws by tracking users without their consent. The Forbes settlement benefits California residents who accessed websites owned or controlled by Forbes between Dec. 20, 2023, and June 11, 2026, and had their IP addresses and/or unique identifiers shared with third parties as a result of trackers present on ",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:200m-sun-taro-generic-drug-antitrust-class-action-settlement",
@@ -2429,7 +2543,8 @@
    "region": "",
    "category": "",
    "summary": "Sun Pharmaceutical Industries Inc. and Taro Pharmaceuticals U.S.A. Inc. have agreed to a $200 million class action settlement to resolve claims they participated in an alleged scheme involving the pricing of certain generic drugs. The generic medication settlement benefits consumers and third-party payers who indirectly purchased, paid for or provided reimbursement for certain generic prescription drugs between May 1",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:275m-sandoz-and-fougera-antitrust-class-action-settlement",
@@ -2449,7 +2564,8 @@
    "region": "",
    "category": "",
    "summary": "Sandoz Inc. and Fougera Pharmaceuticals Inc. have agreed to a $275 million class action settlement to resolve claims they engaged in a conspiracy to raise and fix the price of generic drugs. The generic drug settlement benefits consumers and third-party payers who purchased, paid for or provided reimbursement for generic drugs from Sandoz or Fougera between May 1, 2009, and Dec. 31, 2019. A full list of named generic",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:boone-health-patient-portal-privacy-settlement",
@@ -2469,7 +2585,8 @@
    "region": "MO residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:carrols-restaurant-group-stockholders-class-action-settlement",
@@ -2489,7 +2606,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:covenant-transport-washington-job-postings-class-action-settlement",
@@ -2509,7 +2627,8 @@
    "region": "WA job applicants",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cronos-group-securities-class-action-settlement",
@@ -2529,7 +2648,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:forbes-website-tracker-privacy-class-action-settlement",
@@ -2549,7 +2669,8 @@
    "region": "CA residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:generic-drugs-price-fixing-class-action-settlement",
@@ -2569,7 +2690,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:peco-foods-data-breach-settlement",
@@ -2589,7 +2711,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:safemoon-sfm-token-class-action-settlement",
@@ -2609,7 +2732,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:twin-cities-pain-clinic-data-breach-settlement",
@@ -2629,7 +2753,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:valley-oaks-health-data-breach-settlement",
@@ -2649,7 +2774,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:4-25m-wellstar-health-tracking-pixel-class-action-settlement",
@@ -2669,7 +2795,8 @@
    "region": "",
    "category": "",
    "summary": "Wellstar Health System has agreed to a $4.25 million class action settlement to resolve claims it used tracking technologies on its website that disclosed patient information to third parties, such as Meta and Google. The Wellstar settlement benefits individuals whose information was disclosed to a third party through tracking technologies on Wellstar\u2019s website and patient portal between Feb. 19, 2020, and July 22, 2",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:anthem-grandfathered-rx-prescription-drug-settlement",
@@ -2689,7 +2816,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:communications-data-group-data-breach-settlement",
@@ -2709,7 +2837,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:laguna-honda-hospital-patients-rights-class-action-settlement",
@@ -2729,7 +2858,8 @@
    "region": "CA residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ppl-cdpap-caregivers-settlement",
@@ -2749,7 +2879,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wellstar-health-system-pixel-tracking-privacy-class-action-settlement",
@@ -2769,7 +2900,8 @@
    "region": "",
    "category": "pixel tracking",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:zk-technology-bipa-class-action-settlement",
@@ -2789,7 +2921,8 @@
    "region": "IL residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:international-shoppes-data-breach-settlement",
@@ -2809,7 +2942,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:american-vision-partners-data-breach-settlement",
@@ -2834,7 +2968,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-75m-american-vision-partners-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:autobell-car-wash-data-breach-settlement",
@@ -2854,7 +2989,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:san-diego-water-rates-class-action-settlement",
@@ -2874,7 +3010,8 @@
    "region": "CA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:susan-b-allen-memorial-hospital-data-breach-settlement",
@@ -2894,7 +3031,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ftd-proflowers-delivery-fee-class-action-settlement",
@@ -2914,7 +3052,8 @@
    "region": "",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:gritstone-bio-securities-class-action-settlement",
@@ -2934,7 +3073,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:albany-college-of-pharmacy-data-breach-settlement",
@@ -2954,7 +3094,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:brevard-skin-cancer-center-data-breach-settlement",
@@ -2974,7 +3115,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cuso-financial-services-data-breach-settlement",
@@ -2994,7 +3136,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cvs-digital-privacy-class-action-settlement",
@@ -3019,7 +3162,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/20-5m-cvs-digital-privacy-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:california-casualty-data-breach-settlement",
@@ -3039,7 +3183,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:jefferson-county-health-center-data-breach-settlement",
@@ -3059,7 +3204,8 @@
    "region": "MO residents",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:onetouchpoint-data-breach-class-action-settlement",
@@ -3084,7 +3230,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/onetouchpoint-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:regional-urology-ochsner-lsu-data-breach-settlement",
@@ -3104,7 +3251,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wwe-tko-merger-stockholders-class-action-settlement",
@@ -3124,7 +3272,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:twist-bioscience-securities-class-action-settlement",
@@ -3144,7 +3293,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:northeast-grocery-401k-erisa-class-action-settlement",
@@ -3164,7 +3314,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sizzling-platter-washington-job-postings-class-action-settlement",
@@ -3184,7 +3335,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:teleflora-tcpa-text-message-class-action-settlement",
@@ -3204,7 +3356,8 @@
    "region": "",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cibc-renaissance-mutual-funds-trailing-commissions-settlement",
@@ -3224,7 +3377,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:holley-securities-class-action-settlement",
@@ -3244,7 +3398,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:carter-credit-union-data-breach-settlement",
@@ -3269,7 +3424,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/carter-credit-union-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mental-health-association-data-breach-settlement",
@@ -3289,7 +3445,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mortgage-investors-group-data-breach-settlement",
@@ -3309,7 +3466,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:4-5m-hearthside-food-solutions-child-labor-class-action-settlement",
@@ -3329,7 +3487,8 @@
    "region": "",
    "category": "",
    "summary": "Hearthside Food Solutions has agreed to a $4.5 million settlement with the Illinois Attorney General and Department of Labor to resolve allegations that it violated child labor laws. The Hearthside settlement benefits individuals who worked at a Hearthside Food Solutions facility in Illinois between March 1, 2020, and Dec. 4, 2024, who were under the age of 16 for some or all of the time they were working at the faci",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hearthside-illinois-child-labor-assurance",
@@ -3349,7 +3508,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mont-sainte-anne-gondola-class-action-settlement-quebec",
@@ -3369,7 +3529,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:progress-residential-florida-eviction-attorney-fees-class-action-settlement",
@@ -3389,7 +3550,8 @@
    "region": "FL residents",
    "category": "real estate",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lavista-walk-apartment-fire-class-action-settlement",
@@ -3409,7 +3571,8 @@
    "region": "Former residents of The Reserve at LaVista Walk, Atlanta GA",
    "category": "environmental",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sela-realty-florida-security-deposit-class-action-settlement",
@@ -3429,7 +3592,8 @@
    "region": "FL residents",
    "category": "real estate",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bank-of-america-unused-vacation-pay-class-action-settlement",
@@ -3449,7 +3613,8 @@
    "region": "",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:emerald-city-pizza-washington-job-postings-class-action-settlement",
@@ -3469,7 +3634,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:kia-optima-sportage-defective-window-regulator-class-action-settlement",
@@ -3489,7 +3655,8 @@
    "region": "",
    "category": "",
    "summary": "Kia has agreed to a class action settlement to resolve claims that certain Kia Optima and Sportage vehicles are equipped with defective window regulators. The Kia settlement benefits current and former owners and lessees of certain 2016-2017 Kia Optima and 2017 Kia Sportage vehicles. A full list of eligible vehicles is available on the settlement website. Plaintiffs in the class action lawsuit claim Kia vehicles are ",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kia-window-regulator-class-action-settlement",
@@ -3509,7 +3676,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:la-jolla-group-data-breach-settlement",
@@ -3529,7 +3697,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:labcorp-web-tracking-class-action-settlement",
@@ -3549,7 +3718,8 @@
    "region": "",
    "category": "",
    "summary": "Laboratory Corp. of America (Labcorp) agreed to a class action settlement to resolve claims it violated California and Pennsylvania wiretapping laws by tracking website visitors. The Labcorp settlement benefits all persons in California and Pennsylvania who conducted search queries on Labcorp\u2019s website from May 1, 2021, to April 1, 2026. The class action lawsuit alleged Labcorp violated California and Pennsylvania wi",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lily-transportation-washington-job-postings-class-action-settlement",
@@ -3569,7 +3739,8 @@
    "region": "",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:vasindas-around-the-clock-care-data-breach-settlement",
@@ -3589,7 +3760,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fastbucks-new-mexico-restitution-program",
@@ -3609,7 +3781,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lake-compounce-ticket-fee-class-action-settlement",
@@ -3629,7 +3802,8 @@
    "region": "",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lsc-planned-parenthood-lab-data-breach-settlement",
@@ -3649,7 +3823,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:raging-waters-processing-fee-class-action-settlement",
@@ -3669,7 +3844,8 @@
    "region": "",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:twitter-musk-stock-verdict-class-action",
@@ -3689,7 +3865,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:venetian-las-vegas-website-privacy-settlement",
@@ -3709,7 +3886,8 @@
    "region": "CA residents",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bnbuilders-esop-erisa-class-action-settlement",
@@ -3729,7 +3907,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:everbridge-securities-class-action-settlement",
@@ -3749,7 +3928,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fujifilm-diosynth-data-breach-settlement",
@@ -3769,7 +3949,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:neutrogena-skin360-bipa-settlement",
@@ -3794,7 +3975,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-7m-neutrogena-skin360-bipa-violation-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wellnow-urgent-care-wage-hour-class-action-settlement",
@@ -3814,7 +3996,8 @@
    "region": "",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cpap-medical-supplies-data-breach-settlement",
@@ -3834,7 +4017,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:nyc-strip-search-class-action-settlement",
@@ -3854,7 +4038,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dr-squatch-natural-class-action-settlement",
@@ -3879,7 +4064,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/9m-dr-squatch-soap-false-advertising-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:finastra-data-breach-settlement",
@@ -3904,7 +4090,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-12m-finastra-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:equifax-hard-inquiry-dispute-class-action-settlement",
@@ -3929,7 +4116,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/30m-equifax-hard-inquiry-dispute-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:navy-federal-unauthorized-personal-loan-class-action-settlement",
@@ -3954,7 +4142,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/navy-federal-credit-union-unauthorized-loans-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wayland-maricann-securities-class-action-settlement",
@@ -3974,7 +4163,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:healthport-datavant-pennsylvania-medical-records-fees-class-action-settlement",
@@ -3994,7 +4184,8 @@
    "region": "Pennsylvania record requests",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hire-velocity-data-breach-settlement",
@@ -4014,7 +4205,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:iod-datavant-pennsylvania-medical-records-fees-class-action-settlement",
@@ -4034,7 +4226,8 @@
    "region": "Pennsylvania record requests",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:jacks-family-restaurants-data-breach-settlement",
@@ -4054,7 +4247,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pulsz-social-casino-class-action-settlement",
@@ -4074,7 +4268,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:texas-retina-associates-data-breach-settlement",
@@ -4094,7 +4289,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:beef-purchasers-class-action",
@@ -4114,7 +4310,8 @@
    "region": "direct purchasers only (businesses)",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:309-5m-amazon-return-policy-class-action-settlement",
@@ -4134,7 +4331,8 @@
    "region": "",
    "category": "",
    "summary": "Amazon agreed to a $309.5 million class action settlement to resolve claims that it failed to properly refund consumers nationwide for products returned after being purchased through Amazon.com. The Amazon settlement benefits consumers who initiated a return to Amazon or requested a refund for a physical product purchased and, according to Amazon\u2019s records, received in the United States after being sold through Amazo",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:new-amazon-returns-class-action-settlement",
@@ -4154,7 +4352,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:geotek-data-breach-settlement",
@@ -4174,7 +4373,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:holt-group-data-breach-settlement",
@@ -4194,7 +4394,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mdlive-evernorth-pixel-tracking-privacy-class-action-settlement",
@@ -4219,7 +4420,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-5m-mdlive-data-privacy-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ontario-corrections-staffing-lockdowns-class-action-settlement",
@@ -4239,7 +4441,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pars-public-agency-retirement-services-data-breach-settlement",
@@ -4259,7 +4462,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:steel-warehouse-data-breach-settlement",
@@ -4279,7 +4483,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:asp-isotopes-securities-class-action-settlement",
@@ -4299,7 +4504,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:edwards-lifesciences-securities-class-action-settlement",
@@ -4319,7 +4525,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ihrs-institute-for-human-resources-data-breach-settlement",
@@ -4339,7 +4546,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:inotiv-data-breach-settlement",
@@ -4359,7 +4567,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:safe-fleet-clarience-data-breach-settlement",
@@ -4379,7 +4588,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:seattle-federal-way-schools-carruth-data-breach-settlement",
@@ -4399,7 +4609,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sps-technologies-abington-fire-class-action-settlement",
@@ -4419,7 +4630,8 @@
    "region": "PA residents, workers and businesses near the Abington plant",
    "category": "environmental",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:aramark-capital-one-arena-venue-fee-class-action-settlement",
@@ -4439,7 +4651,8 @@
    "region": "",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:belcan-washington-job-postings-class-action-settlement",
@@ -4459,7 +4672,8 @@
    "region": "WA job applicants",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:its-technologies-logistics-bipa-class-action-settlement",
@@ -4479,7 +4693,8 @@
    "region": "",
    "category": "privacy",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hut-8-securities-class-action-settlement",
@@ -4499,7 +4714,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pillsbury-data-breach-settlement",
@@ -4519,7 +4735,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:usaid-contractor-termination-class-action-lawsuit",
@@ -4539,7 +4756,8 @@
    "region": "",
    "category": "government",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:wayne-memorial-hospital-data-breach-settlement",
@@ -4564,7 +4782,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/wayne-memorial-hospital-data-breach-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:45m-new-york-red-light-camera-fee-class-action-settlement",
@@ -4584,7 +4803,8 @@
    "region": "",
    "category": "",
    "summary": "Suffolk County and the Suffolk County Traffic and Parking Violation Agency agreed to pay up to $45 million to resolve a class action lawsuit claiming they charged an unlawful $30 administrative fee for red-light camera violations in Suffolk County, New York. The Suffolk County settlement benefits all persons or entities who paid a $30 administrative fee to Suffolk County or the Suffolk County Traffic and Parking Viol",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:suffolk-county-red-light-camera-fee-class-action-settlement",
@@ -4604,7 +4824,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:harvard-morgue-donor-families-class-action-settlement",
@@ -4624,7 +4845,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:indegene-tcpa-junk-fax-class-action-settlement",
@@ -4644,7 +4866,8 @@
    "region": "",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kornit-digital-securities-class-action-settlement",
@@ -4664,7 +4887,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:mclean-mortgage-data-breach-settlement",
@@ -4684,7 +4908,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:becton-dickinson-sec-fair-fund",
@@ -4704,7 +4929,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:8-82m-state-farm-umpd-insurance-class-action-settlement",
@@ -4724,7 +4950,8 @@
    "region": "",
    "category": "",
    "summary": "State Farm Mutual Automobile Insurance Co. agreed to pay more than $8.8 million to resolve claims that it failed to fully pay Washington policyholders for the diminished value of their vehicles under their underinsured motorist property damage (UMPD) coverage. The State Farm settlement benefits Washington insureds of State Farm Mutual Automobile Insurance who received payment under their UMPD coverage for property da",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:camc-bariatric-hiatal-hernia-class-action-settlement",
@@ -4744,7 +4971,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kiromic-biopharma-securities-class-action-settlement",
@@ -4764,7 +4992,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:providence-health-washington-wage-hour-class-action-settlement",
@@ -4784,7 +5013,8 @@
    "region": "WA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:state-farm-washington-umpd-diminished-value-class-action-settlement",
@@ -4804,7 +5034,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:thinkware-dash-cam-class-action-settlement",
@@ -4824,7 +5055,8 @@
    "region": "",
    "category": "false advertising",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:webtoon-entertainment-securities-class-action-settlement",
@@ -4844,7 +5076,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kimco-staffing-data-breach-settlement",
@@ -4864,7 +5097,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:national-holdings-stockholder-class-action-settlement",
@@ -4884,7 +5118,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:toyota-air-bag-control-units-78-5m-class-action-settlement",
@@ -4904,7 +5139,8 @@
    "region": "",
    "category": "",
    "summary": "Update: The court granted this settlement final approval Nov. 28, 2023. An appeal to the settlement was filed on December 28, 2023. Claims will not be paid until the appeal is resolved. Let Top Class Actions know when you receive a check in the comments section below or on our Settlements & Payouts Facebook group . Toyota has agreed to a $78.5 million class action lawsuit settlement to resolve claims its vehicles wer",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:service-spot-parking-reservation-fees-california-class-action-settlement",
@@ -4924,7 +5160,8 @@
    "region": "CA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:marist-brothers-quebec-sexual-abuse-class-action-settlement",
@@ -4944,7 +5181,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:container-store-blind-accessibility-class-action-settlement",
@@ -4964,7 +5202,8 @@
    "region": "MA residents",
    "category": "consumer protection",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:apple-intelligence-siri-false-advertising-class-action-settlement",
@@ -4984,7 +5223,8 @@
    "region": "",
    "category": "false advertising",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:250m-apple-siri-false-advertising-class-action-settlement",
@@ -5004,7 +5244,8 @@
    "region": "",
    "category": "",
    "summary": "Apple Inc. agreed to a $250 million class action settlement to resolve claims that iPhone 15 and 16 series smartphones were not equipped with the promised Siri features. The iPhone settlement benefits consumers who purchased an iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16, iPhone 16e, iPhone 16 Plus, iPhone 16 Pro or iPhone 16 Pro Max between June 10, 2024, and March 29, 2025. According to the class action lawsuit, Ap",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:benworth-capital-data-breach-settlement",
@@ -5024,7 +5265,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ecsi-data-breach-settlement",
@@ -5044,7 +5286,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:etairos-health-data-breach-settlement",
@@ -5064,7 +5307,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:innovative-renal-care-data-breach-settlement",
@@ -5084,7 +5328,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kroger-savings-club-prescription-pricing-class-action-settlement",
@@ -5104,7 +5349,8 @@
    "region": "",
    "category": "pharmaceuticals",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:telmate-viapath-data-breach-settlement",
@@ -5124,7 +5370,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:electronics-for-imaging-efi-data-breach-settlement",
@@ -5144,7 +5391,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:trc-staffing-data-breach-settlement",
@@ -5164,7 +5412,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:jefferson-blount-st-clair-mental-health-authority-data-breach-settlement",
@@ -5184,7 +5433,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:antigo-construction-data-breach-settlement",
@@ -5204,7 +5454,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cbiz-data-breach-settlement",
@@ -5224,7 +5475,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:coast-dental-tcpa-text-message-class-action-settlement",
@@ -5244,7 +5496,8 @@
    "region": "",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:nyc-taxi-limousine-commission-license-suspension-class-action-settlement",
@@ -5264,7 +5517,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:arizona-labor-force-data-breach-settlement",
@@ -5284,7 +5538,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:equifax-credit-score-error-class-action-settlement",
@@ -5304,7 +5559,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kelly-benefits-data-breach-settlement",
@@ -5324,7 +5580,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:napco-securities-class-action-settlement",
@@ -5344,7 +5601,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:john-deere-right-to-repair-class-action-settlement",
@@ -5369,7 +5627,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/99m-john-deere-antitrust-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:clorox-pine-sol-recall",
@@ -5389,7 +5648,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:roseland-community-hospital-data-breach-settlement",
@@ -5409,7 +5669,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:amca-sonic-healthcare-data-breach-settlement",
@@ -5429,7 +5690,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:high-5-games-social-casino-class-action-settlement",
@@ -5449,7 +5711,8 @@
    "region": "WA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:riverside-resort-casino-data-breach-settlement",
@@ -5469,7 +5732,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:manitoba-childrens-special-allowance-class-action-settlement",
@@ -5489,7 +5753,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:co-diagnostics-securities-class-action-settlement",
@@ -5509,7 +5774,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ftac-ii-paysafe-stockholder-class-action-settlement",
@@ -5529,7 +5795,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:british-columbia-solitary-confinement-class-action-settlement",
@@ -5549,7 +5816,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:costa-del-mar-florida-sunglasses-class-action-settlement",
@@ -5569,7 +5837,8 @@
    "region": "FL residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:8m-progressive-pip-insurance-class-action-settlement",
@@ -5589,7 +5858,8 @@
    "region": "",
    "category": "",
    "summary": "Progressive County Mutual Insurance Company agreed to an $8 million class action settlement to resolve claims it failed to pay timely interest on medical bills submitted for personal injury protection (PIP) benefits. The Progressive settlement benefits individuals who submitted a covered medical bill under their PIP coverage for a Texas-based policy and Progressive paid and issued an explanation of benefits (EOB) for",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:progressive-texas-pip-late-payment-class-action-settlement",
@@ -5609,7 +5879,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dental-intelligence-localmed-privacy-class-action-settlement",
@@ -5629,7 +5900,8 @@
    "region": "",
    "category": "pixel tracking",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:359-9m-realpage-antitrust-class-action-settlement",
@@ -5649,7 +5921,8 @@
    "region": "",
    "category": "",
    "summary": "RealPage agreed to a $359.9 million class action settlement to resolve claims it violated federal and state antitrust laws by conspiring to fix and inflate the price of multifamily rental housing. The RealPage settlement benefits individuals and entities in the United States and its territories who paid rent on at least one multifamily residential real estate lease directly to any owner, manager and/or owner-operator",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:realpage-rental-software-antitrust-class-action-settlement",
@@ -5669,7 +5942,8 @@
    "region": "",
    "category": "antitrust",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:canada-cra-gckey-privacy-breach-settlement",
@@ -5689,7 +5963,8 @@
    "region": "Canada only",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:curran-progressive-colorado-total-loss-class-action-settlement",
@@ -5709,7 +5984,8 @@
    "region": "CO residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:burke-visa-mastercard-atm-fees-settlement",
@@ -5729,7 +6005,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:167-5m-visa-mastercard-non-bank-atm-class-action-settlement",
@@ -5749,7 +6026,8 @@
    "region": "",
    "category": "",
    "summary": "Visa and Mastercard agreed to pay a combined $167.5 million class action settlement to resolve claims that they violated federal and state antitrust laws by prohibiting independent ATM operators from charging differential ATM surcharges. The non-bank ATM settlement benefits individuals who were charged an access fee for a cash withdrawal at an independent ATM between Oct. 24, 2007, and Aug. 14, 2026, and were not ful",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:buyalerts-tcpa-text-message-class-action-settlement",
@@ -5769,7 +6047,8 @@
    "region": "",
    "category": "tcpa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:merrill-lynch-cash-sweep-class-action-settlement",
@@ -5789,7 +6068,8 @@
    "region": "",
    "category": "consumer protection",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:indian-boarding-homes-class-action-settlement",
@@ -5809,7 +6089,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:elanco-advantix-pet-flea-tick-antitrust-settlement-news",
@@ -5829,7 +6110,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:generic-drugs-state-ag-consumer-settlement",
@@ -5849,7 +6131,8 @@
    "region": "",
    "category": "pharmaceuticals",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:tenet-healthcare-pixel-tracking-class-action-settlement",
@@ -5869,7 +6152,8 @@
    "region": "",
    "category": "pixel tracking",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:nova-scotia-disability-waitlist-class-action-settlement",
@@ -5889,7 +6173,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:revance-stockholder-class-action-settlement",
@@ -5909,7 +6194,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cae-securities-class-action-settlement",
@@ -5929,7 +6215,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:beef-and-pork-wages-class-action-settlement",
@@ -5949,7 +6236,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:62-1m-hyundai-and-kia-airbag-class-action-settlement",
@@ -5969,7 +6257,8 @@
    "region": "",
    "category": "",
    "summary": "Hyundai and Kia have agreed to a $62.1 million class action lawsuit settlement to resolve claims that certain vehicles were equipped with defective airbag control units. The Hyundai and Kia airbag class action settlement benefits current and former owners and lessees of certain Hyundai Sonata, Kona and Veloster series and Kia optima and Sedona series as of April 14, 2025. The Hyundai and Kia airbag class action lawsu",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:9m-kia-hyundai-settlement-offers-cash-and-security-upgrades-to-owners",
@@ -5989,7 +6278,8 @@
    "region": "",
    "category": "",
    "summary": "Kia and Hyundai agreed to a $9 million multistate settlement to resolve claims that vehicles without engine immobilizers are at risk for theft. The Kia Hyundai settlement provides benefits to owners and lessees of certain 2011\u20132022 Kia and Hyundai vehicles who meet the following criteria: The vehicle was not factory-equipped with an engine immobilizer The vehicle received a software upgrade or had an upgrade appointm",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hyundai-kia-multistate-immobilizer-theft-settlement",
@@ -6009,7 +6299,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hyundai-kia-airbag-control-units-class-action-settlement",
@@ -6029,7 +6320,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:saint-john-kenneth-estabrooks-abuse-class-action-settlement",
@@ -6049,7 +6341,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:natera-genetic-screening-test-billing-class-action-settlement",
@@ -6069,7 +6362,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ile-a-la-crosse-school-class-action-settlement",
@@ -6089,7 +6383,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fiat-500-door-handles-class-action-settlement-quebec",
@@ -6109,7 +6404,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:manitoba-solitary-confinement-class-action-settlement",
@@ -6129,7 +6425,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ontario-training-schools-class-action-settlement",
@@ -6149,7 +6446,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:keurig-k-supreme-settlement",
@@ -6169,7 +6467,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:california-institution-abuse-lawsuit",
@@ -6189,7 +6488,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:tbj-drywall-and-taping-unpaid-salary-settlement",
@@ -6209,7 +6509,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:first-nations-child-and-family-services-class-action-settlement",
@@ -6229,7 +6530,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:federal-indian-hospitals-class-action-settlement",
@@ -6249,7 +6551,8 @@
    "region": "Canada only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:toyota-airbag-class-action",
@@ -6269,7 +6572,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:sanyo-solar-panel-class-action-settlement",
@@ -6294,7 +6598,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/sanyo-solar-panels-delamination-class-action-settlement/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:certainteed-horizon-shingles-class-action-settlement",
@@ -6314,7 +6619,8 @@
    "region": "",
    "category": "",
    "summary": "CertainTeed agreed to a class action lawsuit settlement to resolve claims that its Horizon-brand roofing shingles are defective and can cause property damage; the deadline to file a claim is March 2, 2030. The settlement benefits individuals or entities who own a building that had Horizon asphalt fiberglass roofing shingles manufactured by CertainTeed installed between 1995 and 2010. According to the class action law",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:consumer-fragrances-class-action-settlement",
@@ -6334,7 +6640,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:gilt-bond-antitrust-class-action-settlement",
@@ -6354,7 +6661,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:south-central-bank-class-action-settlement",
@@ -6374,7 +6682,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ncaa-tennis-prize-money-class-action-settlement",
@@ -6394,7 +6703,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:stanford-federal-credit-union-overdraft-nsf-fee-settlement",
@@ -6414,7 +6724,8 @@
    "region": "",
    "category": "overdraft fees",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:country-bank-savings-overdraft-nsf-fee-settlement",
@@ -6434,7 +6745,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:domestic-airlines-price-fixing-class-action-settlement",
@@ -6454,7 +6766,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hormel-seaboard-pork-class-action-settlement",
@@ -6474,7 +6787,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:google-play-store-700-million-antitrust-class-action-settlement",
@@ -6494,7 +6808,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:honda-recall-2025",
@@ -6514,7 +6829,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:afff-firefighting-foam-cancer-lawsuit",
@@ -6534,7 +6850,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:aion-management-virginia-apartment-fees-class-action-settlement",
@@ -6554,7 +6871,8 @@
    "region": "VA residents",
    "category": "consumer protection",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:academy-mortgage-data-breach-settlement",
@@ -6574,7 +6892,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:aerogrow-shareholder-class-action-settlement",
@@ -6594,7 +6913,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:aetna-lumbar-artificial-disc-replacement-class-action-settlement",
@@ -6614,7 +6934,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:alaska-airlines-military-leave-vacation-class-action-settlement",
@@ -6634,7 +6955,8 @@
    "region": "",
    "category": "employment law",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:amazon-pennsylvania-unpaid-wages-class-action-settlement",
@@ -6654,7 +6976,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:anadarko-securities-class-action-settlement",
@@ -6674,7 +6997,8 @@
    "region": "",
    "category": "securities",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:anthem-microprocessor-controlled-prosthesis-coverage-class-action-settlement",
@@ -6694,7 +7018,8 @@
    "region": "",
    "category": "",
    "summary": "Anthem agreed to a class action lawsuit settlement to resolve claims it wrongfully denied insurance coverage for microprocessor-controlled prostheses. The settlement benefits individuals covered by Anthem health insurance plans who were denied coverage for microprocessor-controlled knee or ankle prostheses as a result of Anthem\u2019s Former Medical Policy on Microprocessor Controlled Lower Limb Prosthesis, Policy No. OR-",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:blue-ridge-power-warn-act-class-action-settlement",
@@ -6714,7 +7039,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bowflex-dumbbell-recall",
@@ -6734,7 +7060,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cibc-nsf-fee-settlement-canada",
@@ -6754,7 +7081,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:bail-bond-insurers-price-fixing-class-action-settlement",
@@ -6774,7 +7102,8 @@
    "region": "CA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cash-app-borrow-military-lending-act-settlement",
@@ -6794,7 +7123,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:certainteed-organic-shingles-class-action-settlement",
@@ -6814,7 +7144,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:cognizant-401k-erisa-class-action-settlement",
@@ -6834,7 +7165,8 @@
    "region": "",
    "category": "erisa",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:credit-exterminators-earn-company-croa-class-action-settlement",
@@ -6854,7 +7186,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:devon-energy-oklahoma-gas-royalty-class-action-settlement",
@@ -6874,7 +7207,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dollar-tree-electric-balloon-pump-recall",
@@ -6894,7 +7228,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:dovenmuehle-mortgage-pay-to-pay-fee-settlement",
@@ -6914,7 +7249,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:drata-sdr-overtime-misclassification-class-action-settlement",
@@ -6934,7 +7270,8 @@
    "region": "",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:fashion-nova-discounted-price-voucher-settlement",
@@ -6954,7 +7291,8 @@
    "region": "",
    "category": "deceptive pricing",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:firstcash-military-lending-act-settlement",
@@ -6974,7 +7312,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:geico-clue-report-fcra-class-action-settlement",
@@ -6994,7 +7333,8 @@
    "region": "",
    "category": "credit reporting",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:guadalupe-credit-union-collection-lawsuits-class-action-settlement",
@@ -7014,7 +7354,8 @@
    "region": "NM residents",
    "category": "consumer protection",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:happy-baby-nurture-baby-food-heavy-metals-class-action-settlement",
@@ -7034,7 +7375,8 @@
    "region": "",
    "category": "false advertising",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:hunter-warfield-unlicensed-rental-collections-settlement",
@@ -7054,7 +7396,8 @@
    "region": "MD residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:illinois-institution-abuse-lawsuit",
@@ -7074,7 +7417,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:jkmax-heated-blanket-heating-pad-recall",
@@ -7094,7 +7438,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:jeep-steering-wheel-front-suspension-recall-class-action-settlement",
@@ -7114,7 +7459,8 @@
    "region": "",
    "category": "",
    "summary": "(Photo credit: Jonathan Weiss/Shutterstock) Update: The court granted this settlement final approval June 29, 2023. Let Top Class Actions know when you receive a check in the comments section below or on our Settlements & Payouts Facebook group . Fiat Chrysler Automobiles (FCA) agreed to a class action lawsuit settlement to resolve claims that the steering wheel and front suspension on its Jeep Wrangler and Gladiator",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:kaiser-permanente-out-of-network-mental-health-california-class-action-settlement",
@@ -7134,7 +7480,8 @@
    "region": "CA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:lifemd-data-privacy-investigation",
@@ -7154,7 +7501,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:louisville-ladder-attic-ladder-recall-class-action-lawsuit",
@@ -7174,7 +7522,8 @@
    "region": "recall remedy only; the class action has nothing to claim",
    "category": "product liability",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ftc-match-group-settlement",
@@ -7194,7 +7543,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:medical-scope-infection-lawsuit",
@@ -7214,7 +7564,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:melissa-doug-fire-truck-activity-board-recall",
@@ -7234,7 +7585,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:clorox-mistolin-lestoil-cleaner-recall",
@@ -7254,7 +7606,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:my-little-steamer-class-action-settlement",
@@ -7274,7 +7627,8 @@
    "region": "",
    "category": "",
    "summary": "Consumers who purchased a Joy/JM-branded My Little Steamer Go Mini or Deluxe that was subject to a recall may be eligible to benefit from a class action lawsuit settlement reached with Ingenious Designs and other defendants over alleged product safety concerns. The class includes anyone who purchased a Joy/JM-branded My Little Steamer between Jan. 1, 2002, and Dec. 31, 2020. Anyone who is a member of the Joy/JM-brand",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:nzxt-flex-pc-rental-class-action-settlement",
@@ -7294,7 +7648,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ocoopa-rechargeable-hand-warmer-recall",
@@ -7314,7 +7669,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:olinsky-associates-data-breach-settlement",
@@ -7334,7 +7690,8 @@
    "region": "",
    "category": "data breaches",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:otay-water-district-rates-class-action-settlement",
@@ -7354,7 +7711,8 @@
    "region": "CA residents",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "tca:pacer-record-fees-125m-class-action-settlement",
@@ -7374,7 +7732,8 @@
    "region": "",
    "category": "",
    "summary": "Updates: Some class members were notified Aug. 7, 2023, that they had been sent the incorrect settlement notice. Some were sent a notice intended for accounts that paid PACER fees for the first time between April 22, 2016, and May 31, 2018, when they should have received a notice for accounts that paid the fees between April 21, 2010, and April 21, 2016. Class members should check their email to see if they have rece",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:pensacola-energy-natural-gas-franchise-fee-settlement",
@@ -7394,7 +7753,8 @@
    "region": "Former customers only",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:tcpa-spam-text-messages-annoying",
@@ -7414,7 +7774,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:roblox-child-predator-lawsuit",
@@ -7434,7 +7795,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:rolling-stone-magazine-class-action-settlement",
@@ -7454,7 +7816,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:ryobi-40v-mower-fire-class-action-lawsuit",
@@ -7474,7 +7837,8 @@
    "region": "",
    "category": "product liability",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:social-media-addiction-lawsuit",
@@ -7494,7 +7858,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:social-security-class-action-lawsuit",
@@ -7514,7 +7879,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:springfield-police-student-officer-wage-class-action-settlement",
@@ -7534,7 +7900,8 @@
    "region": "MA residents",
    "category": "wage and hours",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:theragun-g4pro-charger-recall",
@@ -7554,7 +7921,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:trinity-operating-oklahoma-royalty-interest-class-action-settlement",
@@ -7574,7 +7942,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:employer-unpaid-wages-overtime-lawsuit",
@@ -7594,7 +7963,8 @@
    "region": "",
    "category": "",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:weber-grill-brush-recall",
@@ -7614,7 +7984,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:zicam-cold-remedy-nasal-swabs-recall",
@@ -7634,7 +8005,8 @@
    "region": "",
    "category": "recall",
    "summary": "",
-   "also": []
+   "also": [],
+   "first_seen": "2000-01-01"
   },
   {
    "id": "oca:zonolite-vermiculite-attic-insulation-class-action-settlement",
@@ -7659,7 +8031,8 @@
      "source": "Top Class Actions",
      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/zonolite-vermiculite-attic-insulation-trust/"
     }
-   ]
+   ],
+   "first_seen": "2000-01-01"
   }
  ]
 }

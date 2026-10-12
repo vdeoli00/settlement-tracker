@@ -248,6 +248,18 @@ def main():
         else:
             merged[t["id"]] = dict(t, also=[])
 
+    # first_seen powers the "New" badge. Items already present before this field existed get an
+    # old date so the first run doesn't flag everything as new.
+    prev_seen = {i["id"]: i.get("first_seen") for i in prev.get("items", [])}
+    had_field = any(prev_seen.values())
+    for i in merged.values():
+        if prev_seen.get(i["id"]):
+            i["first_seen"] = prev_seen[i["id"]]
+        elif i["id"] in prev_seen and not had_field:
+            i["first_seen"] = "2000-01-01"
+        else:
+            i["first_seen"] = TODAY.isoformat()
+
     items = sorted(merged.values(), key=lambda i: (i["deadline"] or "9999", i["title"]))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:
