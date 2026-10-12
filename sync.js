@@ -69,7 +69,17 @@
   const PROFILE_KEYS = ['kw', 'state', 'showNotice', 'showDocs', 'showAuto', 'showOther'];
   const profileOf = (st) => Object.fromEntries(PROFILE_KEYS.map((k) => [k, st[k]]));
 
+  // Header button: "Sign in" opens the account panel; once signed in it shows the account.
+  $('#headerAuth').classList.remove('hidden');
+  $('#headerAuth').addEventListener('click', () => {
+    $('#accountPanel').open = true;
+    $('#accountPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!session) setTimeout(() => $('#authEmail').focus(), 300);
+  });
+
   function renderAccount() {
+    $('#headerAuth').textContent = session ? 'Account' : 'Sign in';
+    if (!session) $('#accountPanel').open = true;
     show('#authOut', !session); show('#authIn', !!session);
     show('#relock', !!session && !vaultKey); show('#vaultOpen', !!session && !!vaultKey);
     $('#authWho').textContent = session ? 'Signed in as ' + session.user.email : '';

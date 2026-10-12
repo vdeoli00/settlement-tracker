@@ -40,7 +40,7 @@ h1 { font-size: 22px; margin: 0; }
 .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; margin-bottom: 12px; }
 details.panel > summary { cursor: pointer; font-weight: 600; }
 label { font-size: 13px; font-weight: 600; display: block; margin-bottom: 3px; }
-input[type=text], input[type=search], input[type=number], select { background: var(--bg); color: var(--text); border: 1px solid var(--border);
+input[type=text], input[type=password], input[type=search], input[type=number], select { background: var(--bg); color: var(--text); border: 1px solid var(--border);
   border-radius: 8px; padding: 8px; font: inherit; width: 100%; }
 .grid { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-top: 10px; }
 .checks { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; }
@@ -81,33 +81,13 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
 <div class="wrap">
   <div class="top">
     <h1>Settlement Tracker</h1>
-    <span class="muted small" id="fresh">Loading…</span>
+    <span class="muted small"><span id="fresh">Loading…</span>
+      <button class="btn primary hidden" id="headerAuth" style="margin-left:8px;padding:4px 12px">Sign in</button></span>
   </div>
   <div class="warn">Only file claims you actually qualify for. Claim forms are signed under penalty of perjury, even when no proof is required.
     Always confirm details on the official settlement site before filing.</div>
 
   <div class="stats" id="stats"></div>
-
-  <details class="panel" id="profilePanel">
-    <summary>My profile <span class="muted small" id="profileSummary"></span></summary>
-    <div class="grid">
-      <div>
-        <label for="kw">Brands, products, services, banks, apps, employers I've used (comma separated)</label>
-        <input type="text" id="kw" placeholder="e.g. Apple, Verizon, Chase, Netflix, Walmart, Google, Facebook, Ring">
-      </div>
-      <div>
-        <label for="state">My state</label>
-        <select id="state"><option value="">Any / not set</option></select>
-      </div>
-    </div>
-    <div class="checks">
-      <label><input type="checkbox" id="showNotice"> I got a notice with a claim ID (show "ID from notice" ones)</label>
-      <label><input type="checkbox" id="showDocs"> Show "documentation required"</label>
-      <label><input type="checkbox" id="showAuto"> Show automatic payments (nothing to file)</label>
-      <label><input type="checkbox" id="showOther"> Show other states / Canada</label>
-    </div>
-    <p class="muted small" style="margin-bottom:0" id="profileNote">Saved in this browser. Sign in below to sync it across your devices.</p>
-  </details>
 
   <details class="panel hidden" id="accountPanel">
     <summary>Account <span class="muted small" id="accountSummary"></span></summary>
@@ -142,6 +122,28 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
       </div>
     </div>
   </details>
+
+  <details class="panel" id="profilePanel">
+    <summary>My profile <span class="muted small" id="profileSummary"></span></summary>
+    <div class="grid">
+      <div>
+        <label for="kw">Brands, products, services, banks, apps, employers I've used (comma separated)</label>
+        <input type="text" id="kw" placeholder="e.g. Apple, Verizon, Chase, Netflix, Walmart, Google, Facebook, Ring">
+      </div>
+      <div>
+        <label for="state">My state</label>
+        <select id="state"><option value="">Any / not set</option></select>
+      </div>
+    </div>
+    <div class="checks">
+      <label><input type="checkbox" id="showNotice"> I got a notice with a claim ID (show "ID from notice" ones)</label>
+      <label><input type="checkbox" id="showDocs"> Show "documentation required"</label>
+      <label><input type="checkbox" id="showAuto"> Show automatic payments (nothing to file)</label>
+      <label><input type="checkbox" id="showOther"> Show other states / Canada</label>
+    </div>
+    <p class="muted small" style="margin-bottom:0" id="profileNote">Saved in this browser. Sign in below to sync it across your devices.</p>
+  </details>
+
 
   <div class="tabs" id="tabs">
     <button data-v="easy" class="on">No proof</button>
@@ -393,7 +395,7 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
 })();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.js"></script>
-<script src="config.js"></script>
-<script src="sync.js"></script>
+<script src="config.js?v=3"></script>
+<script src="sync.js?v=3"></script>
 </body>
 </html>
