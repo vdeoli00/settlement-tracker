@@ -17,8 +17,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Fetch settlements
@@ -32,7 +32,12 @@ jobs:
             echo "No changes"
           else
             git commit -m "data: refresh settlements"
-            git push
+            # Retry if main moved during the run; our freshly fetched data wins on conflict.
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && exit 0
+              sleep $((i * 5))
+            done
+            exit 1
           fi
 
   # Needs Settings -> Pages -> Source: "GitHub Actions" (one-time). Data updates above run either way.
@@ -46,11 +51,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main   # pick up the data commit made by the update job
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: .
       - id: deploy
