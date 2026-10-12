@@ -29,7 +29,10 @@ export function render(root, { data }) {
     <div class="page-head view-enter">
       <div><div class="eyebrow">${esc(fmtDate(new Date().toISOString(), { weekday: 'long', month: 'long', day: 'numeric' }))}</div>
         <h1>${esc(greeting())}${name ? ', ' + esc(name) : ''}</h1></div>
-      <a class="btn" href="#/browse">${icon('search', 'sm')}Find settlements</a>
+      <div class="row-gap">
+        <a class="chip" href="#/settings" title="Change your state in Settings">${icon('pin', 'sm')}${prefs.state ? esc(STATES[prefs.state]) + ' + nationwide' : 'Set your state'}</a>
+        <a class="btn" href="#/browse">${icon('search', 'sm')}Find settlements</a>
+      </div>
     </div>
 
     ${showOnboard ? onboarding(prefs) : ''}

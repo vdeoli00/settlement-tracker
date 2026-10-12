@@ -184,6 +184,43 @@ def parse_tca(xml_text):
     return items
 
 
+# ---------------- state restrictions ----------------
+STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
+          "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
+          "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana",
+          "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota",
+          "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada",
+          "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York", "NC": "North Carolina",
+          "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania",
+          "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas",
+          "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
+          "WI": "Wisconsin", "WY": "Wyoming"}
+WHO = r"(?:residents?|citizens|consumers|customers|drivers|members|employees|workers|applicants|policyholders|patients|students|tenants|homeowners|users|individuals|people|persons)"
+STATE_LAW = r"(?:wage|PAGA|labor|privacy|Consumer Privacy Act|Biometric|insurance|PIP|UMPD|car insurance|unclaimed)"
+
+
+def detect_region(title, summary):
+    """Best-effort: which US states a settlement is limited to, judged from its title and summary."""
+    text = f"{title}. {summary or ''}"
+    found = []
+    if re.search(r"\bBIPA\b|Illinois Biometric Information Privacy Act", text):
+        found.append("IL")
+    if re.search(r"\bNew York City\b", title):
+        found.append("NY")
+    for code, name in sorted(STATES.items(), key=lambda kv: -len(kv[1])):
+        n = re.escape(name)
+        if code == "VA":  # don't let "West Virginia" count as Virginia
+            n = r"(?<!West )Virginia"
+        if (re.search(rf"\b{WHO} (?:of|in|from) (?:the state of )?{n}\b", text)
+                or re.search(rf"\b(?:live|lived|living|reside|resided|residing|located|worked|work) in (?:the state of )?{n}\b", text)
+                or re.search(rf"\b{n} {WHO}\b", text)
+                or re.search(rf"\b{n}(?:'s|’s)? {STATE_LAW}\b", title)):
+            found.append(code)
+    found = list(dict.fromkeys(found))
+    # Several states usually means a list of examples, not a restriction.
+    return f"{', '.join(found)} residents" if 0 < len(found) <= 3 else ""
+
+
 # ---------------- merge ----------------
 STOP = {"the", "a", "an", "inc", "llc", "co", "corp", "class", "action", "settlement", "data", "breach"}
 
@@ -259,6 +296,12 @@ def main():
             i["first_seen"] = "2000-01-01"
         else:
             i["first_seen"] = TODAY.isoformat()
+
+    for i in merged.values():
+        if not i.get("region") or "residents" not in i["region"]:
+            r = detect_region(i["title"], i.get("summary", ""))
+            if r and not i.get("region"):
+                i["region"] = r
 
     items = sorted(merged.values(), key=lambda i: (i["deadline"] or "9999", i["title"]))
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

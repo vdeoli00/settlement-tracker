@@ -15,7 +15,7 @@ export const VAULT_FIELDS = [
 ];
 
 const listeners = new Set();
-const state = { configured: !!(cfg.supabaseUrl && cfg.supabaseKey), loading: false, session: null, sync: 'idle', syncAt: null, error: null, vaultUnlocked: false };
+const state = { configured: !!(cfg.supabaseUrl && cfg.supabaseKey), loading: false, session: null, sync: 'idle', syncAt: null, error: null, vaultUnlocked: false, recovery: false, isAdmin: false };
 let sb = null, row = null, vaultKey = null, vaultData = null, pushTimer = null;
 const emit = () => listeners.forEach((fn) => fn(state));
 
@@ -65,9 +65,10 @@ function loadClient() {
     const s = document.createElement('script');
     s.src = 'vendor/supabase.js'; s.async = true;
     s.onload = () => {
-      sb = window.supabase.createClient(cfg.supabaseUrl, cfg.supabaseKey, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
+      sb = window.supabase.createClient(cfg.supabaseUrl, cfg.supabaseKey, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } });
       sb.auth.onAuthStateChange((event, session) => {
         state.session = session;
+        if (event === 'PASSWORD_RECOVERY') state.recovery = true;
         if (!session) { row = null; vaultKey = null; vaultData = null; state.vaultUnlocked = false; state.sync = 'idle'; }
         emit();
       });
@@ -99,6 +100,28 @@ async function unlockWith(password) {
   await keyPut(state.session.user.id, key);
   emit();
   return true;
+}
+
+async function rekeyVault(newPassword, keepData) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const key = await deriveKey(newPassword, salt);
+  vaultData = keepData ? (vaultData || {}) : {};
+  row = Object.assign(row || {}, { vault_salt: b64(salt), vault: await seal(vaultData, key) });
+  vaultKey = key; state.vaultUnlocked = true;
+  await keyPut(state.session.user.id, key);
+}
+
+async function checkAdmin() {
+  const { data } = await sb.from('app_admins').select('user_id').eq('user_id', state.session.user.id).maybeSingle();
+  state.isAdmin = !!data;
+}
+
+function friendly(msg) {
+  if (/Database error saving new user/i.test(msg)) return "This email hasn't been invited yet. Ask the account owner to add it under Settings → Family & invites.";
+  if (/Invalid login credentials/i.test(msg)) return 'Wrong email or password.';
+  if (/User already registered/i.test(msg)) return 'That email already has an account. Sign in instead.';
+  if (/rate limit/i.test(msg)) return 'Too many attempts. Wait a few minutes and try again.';
+  return msg;
 }
 
 // ---------------- sync ----------------
@@ -146,13 +169,18 @@ export const account = {
     if (!state.configured) return;
     let hasToken = false;
     try { hasToken = !!localStorage.getItem(TOKEN_KEY); } catch { /* ignore */ }
-    if (!hasToken) return;
+    const authLink = /access_token=|[?&]code=|type=recovery|error_description=/.test(location.href);
+    if (!hasToken && !authLink) return;
     state.loading = true; emit();
     try {
       await loadClient();
       const { data } = await sb.auth.getSession();
       state.session = data.session;
-      if (state.session) { await pull(); await restoreVault(); }
+      if (authLink) {
+        if (/type=recovery/.test(location.href)) state.recovery = true;
+        history.replaceState(null, '', location.pathname + '#/');
+      }
+      if (state.session) { await pull(); await restoreVault(); checkAdmin().then(emit); }
     } catch (e) { state.error = e.message; }
     state.loading = false; emit();
   },
@@ -160,18 +188,75 @@ export const account = {
   async signIn(email, password) {
     await loadClient();
     const { data, error } = await sb.auth.signInWithPassword({ email, password });
-    if (error) throw new Error(error.message === 'Invalid login credentials' ? 'Wrong email or password.' : error.message);
+    if (error) throw new Error(friendly(error.message));
     state.session = data.session;
     await pull();
     await unlockWith(password);
     await push();
+    checkAdmin().then(emit);
+  },
+
+  async signUp(email, password) {
+    await loadClient();
+    const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: location.origin + location.pathname } });
+    if (error) throw new Error(friendly(error.message));
+    if (!data.session) throw new Error('Account created. Check your email to confirm it, then sign in.');
+    state.session = data.session;
+    await pull();
+    await unlockWith(password);
+    await push();
+    checkAdmin().then(emit);
+  },
+
+  async sendReset(email) {
+    await loadClient();
+    const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: location.origin + location.pathname });
+    if (error) throw new Error(friendly(error.message));
+  },
+
+  // Change password while signed in: claim info is re-encrypted so nothing is lost.
+  async changePassword(newPassword) {
+    const { error } = await sb.auth.updateUser({ password: newPassword });
+    if (error) throw new Error(friendly(error.message));
+    await rekeyVault(newPassword, state.vaultUnlocked);
+    await push(); emit();
+  },
+
+  // Finish a reset-password link: the old password is unknown, so old claim info can't be decrypted.
+  async finishRecovery(newPassword) {
+    const { error } = await sb.auth.updateUser({ password: newPassword });
+    if (error) throw new Error(friendly(error.message));
+    if (!row) await pull();
+    let kept = false;
+    const k = await keyGet(state.session.user.id);
+    if (k && row?.vault) { try { vaultData = await unseal(row.vault, k); kept = true; } catch { /* key gone */ } }
+    await rekeyVault(newPassword, kept);
+    state.recovery = false;
+    await push(); emit();
+    return kept;
+  },
+
+  family: {
+    async list() {
+      const { data, error } = await sb.from('allowed_emails').select('email, added_at').order('added_at', { ascending: false });
+      if (error) throw new Error(error.message);
+      return data;
+    },
+    async add(email) {
+      const { error } = await sb.from('allowed_emails').insert({ email: email.trim().toLowerCase() });
+      if (error) throw new Error(/duplicate/i.test(error.message) ? 'Already invited.' : error.message);
+    },
+    async remove(email) {
+      const { error } = await sb.from('allowed_emails').delete().eq('email', email);
+      if (error) throw new Error(error.message);
+    },
   },
 
   async signOut() {
     if (!sb) return;
     if (state.session) await keyDel(state.session.user.id);
     await sb.auth.signOut();
-    state.session = null; state.vaultUnlocked = false; vaultKey = null; vaultData = null; row = null; emit();
+    state.session = null; state.vaultUnlocked = false; state.isAdmin = false; vaultKey = null; vaultData = null; row = null; emit();
   },
 
   async unlock(password) { return unlockWith(password); },

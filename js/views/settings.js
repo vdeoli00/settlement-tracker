@@ -1,5 +1,5 @@
 // Settings: account, appearance, profile, filters, claim info vault, data, about.
-import { icon, esc, toast, $, $$, ago, downloadFile, openModal } from '../ui.js';
+import { icon, esc, toast, $, $$, ago, downloadFile, openModal, copyText } from '../ui.js';
 import { store, parseKeywords, mergeClaims } from '../store.js';
 import { STATES } from '../data.js';
 import { account, VAULT_FIELDS } from '../account.js';
@@ -8,7 +8,8 @@ import { applyTheme } from '../theme-apply.js';
 const SUGGESTIONS = ['Apple', 'Google', 'Amazon', 'Facebook', 'Verizon', 'AT&T', 'T-Mobile', 'Walmart', 'Target', 'Netflix', 'Spotify', 'Uber', 'PayPal', 'Chase', 'Comcast', 'Ticketmaster'];
 const BUILD = document.querySelector('meta[name="build"]')?.content || 'dev';
 // Kept outside render() so account-state re-renders during sign-in don't lose them.
-const auth = { busy: false, error: '', email: '' };
+const auth = { busy: false, error: '', email: '', mode: 'in' };
+let family = null; // cached invite list for admins
 
 export function render(root, { data }) {
   const p = store.prefs, a = account.state;
@@ -25,20 +26,37 @@ export function render(root, { data }) {
         <div class="row"><span class="avatar-lg">${esc(email[0]?.toUpperCase() || '?')}</span>
           <span class="r-main"><span class="r-title">${esc(email)}</span><span class="r-sub">${syncText(a)}</span></span>
           <button class="btn sm" data-act="sync" aria-label="Sync now">${icon('refresh', 'sm')}</button></div>
+        <button class="row" data-act="password"><span class="r-icon">${icon('key')}</span><span class="r-main"><span class="r-title">Change password</span><span class="r-sub">Your claim info is re-encrypted, nothing is lost</span></span>${icon('chevronRight', 'sm')}</button>
         <button class="row" data-act="signout"><span class="r-icon red">${icon('logout')}</span><span class="r-main"><span class="r-title" style="color:var(--danger)">Sign out</span><span class="r-sub">Removes this device's saved unlock key</span></span></button>
       </div>`
     : `
       <form class="surface auth-card" id="signin" style="margin:0;max-width:none" novalidate>
-        <div class="row-gap" style="margin-bottom:16px"><span class="r-icon green" style="width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-text)">${icon('shield')}</span>
-          <div><h3>Sign in to sync</h3><p class="muted" style="font-size:13.5px">Keep claims and claim info in sync across devices.</p></div></div>
+        <div class="row-gap" style="margin-bottom:16px"><span style="width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent-text)">${icon('shield')}</span>
+          <div><h3>${auth.mode === 'up' ? 'Create your account' : 'Sign in to sync'}</h3><p class="muted" style="font-size:13.5px">${auth.mode === 'up' ? 'Use the email the owner invited.' : 'Keep claims and claim info in sync across devices.'}</p></div></div>
+        <div class="segmented" style="width:100%;margin-bottom:14px" id="auth-seg">
+          <button type="button" aria-pressed="${auth.mode === 'in'}" data-mode="in">Sign in</button>
+          <button type="button" aria-pressed="${auth.mode === 'up'}" data-mode="up">Create account</button><span class="thumb"></span></div>
         <div class="stack">
           <div class="field"><label for="si-email">Email</label><input class="input" id="si-email" type="email" autocomplete="username" inputmode="email" required value="${esc(auth.email)}"></div>
-          <div class="field"><label for="si-pass">Password</label><input class="input" id="si-pass" type="password" autocomplete="current-password" required minlength="8"></div>
+          <div class="field"><label for="si-pass">Password</label><input class="input" id="si-pass" type="password" autocomplete="${auth.mode === 'up' ? 'new-password' : 'current-password'}" required minlength="8"></div>
+          ${auth.mode === 'up' ? '<div class="field"><label for="si-pass2">Confirm password</label><input class="input" id="si-pass2" type="password" autocomplete="new-password" required minlength="8"></div>' : ''}
           <p class="error-text ${auth.error ? '' : 'hidden'}" id="si-err" role="alert">${esc(auth.error)}</p>
-          <button class="btn lg primary block" type="submit" id="si-btn" ${auth.busy ? 'disabled' : ''}>${auth.busy ? '<span class="spinner"></span>Signing in…' : 'Sign in'}</button>
-          <p class="hint">Private app: new sign-ups are closed. Your password also encrypts your claim info on this device.</p>
+          <button class="btn lg primary block" type="submit" id="si-btn" ${auth.busy ? 'disabled' : ''}>${auth.busy ? `<span class="spinner"></span>${auth.mode === 'up' ? 'Creating account…' : 'Signing in…'}` : auth.mode === 'up' ? 'Create account' : 'Sign in'}</button>
+          ${auth.mode === 'in' ? '<button type="button" class="btn ghost sm" data-act="forgot" style="justify-self:center">Forgot password?</button>' : ''}
+          <p class="hint">${auth.mode === 'up' ? 'Accounts are invite-only. Each person’s claims and info are private to them.' : 'Your password also encrypts your claim info.'}</p>
         </div>
       </form>`}
+
+    ${a.session && a.isAdmin ? `
+    <div class="group-label">Family &amp; invites</div>
+    <div class="list" id="family">
+      <div class="row" style="display:grid;gap:10px">
+        <span class="r-sub" style="white-space:normal">Add someone's email, then send them the link. They tap <b>Create account</b> using that email. Everyone's data is private to them.</span>
+        <form class="toolbar-row" id="fam-form" novalidate><input class="input" id="fam-email" type="email" inputmode="email" placeholder="family@example.com" autocomplete="off"><button class="btn primary" type="submit">${icon('plus', 'sm')}Invite</button></form>
+      </div>
+      <div id="fam-list">${familyRows()}</div>
+      <button class="row" data-act="share"><span class="r-icon blue">${icon('copy')}</span><span class="r-main"><span class="r-title">Copy invite message</span><span class="r-sub">Includes the link and instructions</span></span></button>
+    </div>` : ''}
 
     <div class="group-label">Appearance</div>
     <div class="list"><div class="row"><span class="r-icon">${icon('palette')}</span><span class="r-main"><span class="r-title">Theme</span></span>
@@ -95,7 +113,21 @@ export function render(root, { data }) {
     </div>`;
 
   placeThumb($('#theme-seg', root));
+  placeThumb($('#auth-seg', root));
+  if (a.session && a.isAdmin && family == null) loadFamily(root, data);
   wire(root, data);
+}
+
+function familyRows() {
+  if (family == null) return '<div class="row"><span class="r-sub">Loading…</span></div>';
+  if (!family.length) return '<div class="row"><span class="r-sub">No one invited yet.</span></div>';
+  return family.map((f) => `<div class="row"><span class="avatar-lg" style="width:36px;height:36px;font-size:14px">${esc(f.email[0].toUpperCase())}</span>
+    <span class="r-main"><span class="r-title">${esc(f.email)}</span><span class="r-sub">Invited ${esc(ago(f.added_at))}</span></span>
+    <button class="btn ghost sm" data-uninvite="${esc(f.email)}" aria-label="Remove invite for ${esc(f.email)}">${icon('x', 'sm')}</button></div>`).join('');
+}
+async function loadFamily(root, data) {
+  try { family = await account.family.list(); } catch (e) { family = []; toast('Could not load invites: ' + e.message, { icon: 'alert' }); }
+  const el = $('#fam-list', root); if (el) el.innerHTML = familyRows();
 }
 
 function toggle(key, title, sub, ic, p) {
@@ -129,14 +161,33 @@ function wire(root, data) {
   $$('[data-pref]', root).forEach((el) => el.addEventListener('change', () => store.setPref(el.dataset.pref, el.checked)));
 
   root.onclick = async (e) => {
-    const t = e.target.closest('[data-act], [data-rm], [data-kw], [data-theme-set]'); if (!t) return;
+    const t = e.target.closest('[data-act], [data-rm], [data-kw], [data-theme-set], [data-mode], [data-uninvite]'); if (!t) return;
+    if (t.dataset.mode) { auth.mode = t.dataset.mode; auth.error = ''; auth.email = $('#si-email', root)?.value || auth.email; render(root, { data }); return; }
+    if (t.dataset.uninvite) {
+      try { await account.family.remove(t.dataset.uninvite); family = family.filter((f) => f.email !== t.dataset.uninvite); $('#fam-list', root).innerHTML = familyRows(); toast('Invite removed', { icon: 'x' }); }
+      catch (x) { toast(x.message, { icon: 'alert' }); }
+      return;
+    }
     if (t.dataset.rm) { store.setPref('kw', store.prefs.kw.filter((k) => k !== t.dataset.rm)); return; }
     if (t.dataset.kw) { store.setPref('kw', [...store.prefs.kw, t.dataset.kw]); store.setPrefs({ onboarded: true }); return; }
     if (t.dataset.themeSet) { store.setPref('theme', t.dataset.themeSet); applyTheme(t.dataset.themeSet, true); return; }
     const act = t.dataset.act;
     if (act === 'kw-add') addKw();
     if (act === 'sync') { await account.syncNow(); toast('Synced'); }
-    if (act === 'signout') { await account.signOut(); toast('Signed out', { icon: 'logout' }); }
+    if (act === 'signout') { await account.signOut(); family = null; toast('Signed out', { icon: 'logout' }); }
+    if (act === 'password') changePassword();
+    if (act === 'forgot') {
+      const email = $('#si-email', root).value.trim();
+      if (!/^\S+@\S+\.\S+$/.test(email)) { auth.error = 'Enter your email above first.'; render(root, { data }); return; }
+      try { await account.sendReset(email); toast('Password reset email sent', { icon: 'mail', duration: 5000 }); }
+      catch (x) { auth.error = x.message; render(root, { data }); }
+    }
+    if (act === 'share') {
+      const url = location.origin + location.pathname;
+      const msg = `I set you up on Settled, an app that finds class action settlements you can claim and tracks payouts.\n\n1. Open ${url}\n2. Go to Settings → Create account\n3. Use the email I invited and pick a password\n\nTip: in Safari tap Share → Add to Home Screen.`;
+      if (navigator.share) { try { await navigator.share({ title: 'Settled', text: msg }); return; } catch { /* cancelled */ } }
+      if (await copyText(msg)) toast('Invite message copied');
+    }
     if (act === 'backup') {
       downloadFile(`settled-backup-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify({ app: 'settled', version: 2, ...store.snapshot() }, null, 2), 'application/json');
       toast('Backup downloaded', { icon: 'download' });
@@ -160,11 +211,25 @@ function wire(root, data) {
     e.preventDefault();
     const email = $('#si-email', root).value.trim(), pass = $('#si-pass', root).value;
     auth.email = email;
-    if (!/^\S+@\S+\.\S+$/.test(email) || pass.length < 8) { auth.error = 'Enter your email and password (8+ characters).'; render(root, { data }); return; }
+    if (!/^\S+@\S+\.\S+$/.test(email) || pass.length < 8) { auth.error = 'Enter your email and a password of 8+ characters.'; render(root, { data }); return; }
+    if (auth.mode === 'up' && pass !== $('#si-pass2', root).value) { auth.error = "Passwords don't match."; render(root, { data }); return; }
     auth.busy = true; auth.error = ''; render(root, { data });
-    try { await account.signIn(email, pass); auth.busy = false; toast('Signed in', { icon: 'shield' }); }
+    try {
+      if (auth.mode === 'up') { await account.signUp(email, pass); toast('Welcome to Settled', { icon: 'sparkles' }); }
+      else { await account.signIn(email, pass); toast('Signed in', { icon: 'shield' }); }
+      auth.busy = false; auth.mode = 'in';
+    }
     catch (x) { auth.busy = false; auth.error = x.message; }
     if (document.body.contains(root)) render(root, { data });
+  });
+
+  const fam = $('#fam-form', root);
+  if (fam) fam.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const inp = $('#fam-email', root), email = inp.value.trim().toLowerCase();
+    if (!/^\S+@\S+\.\S+$/.test(email)) { toast('Enter a valid email', { icon: 'alert' }); return; }
+    try { await account.family.add(email); family = [{ email, added_at: new Date().toISOString() }, ...(family || [])]; $('#fam-list', root).innerHTML = familyRows(); inp.value = ''; toast(`Invited ${email}`, { icon: 'mail', action: 'Copy message', onAction: () => root.querySelector('[data-act="share"]')?.click() }); }
+    catch (x) { toast(x.message, { icon: 'alert' }); }
   });
 
   const unlock = $('#unlock', root);
@@ -180,6 +245,33 @@ function wire(root, data) {
     const out = {}; VAULT_FIELDS.forEach(([k]) => { out[k] = vault.elements[k].value.trim(); });
     try { await account.vault.save(out); toast('Claim info saved', { icon: 'shield' }); } catch (x) { toast(x.message, { icon: 'alert' }); }
   });
+}
+
+export function passwordModal({ title, body, submit, onSubmit }) {
+  const m = openModal(`<div class="m-icon">${icon('key', 'lg')}</div><h2>${esc(title)}</h2><p class="muted">${esc(body)}</p>
+    <form class="stack" style="margin-top:16px" novalidate>
+      <div class="field"><label for="np1">New password</label><input class="input" id="np1" type="password" autocomplete="new-password" minlength="8" autofocus></div>
+      <div class="field"><label for="np2">Confirm new password</label><input class="input" id="np2" type="password" autocomplete="new-password" minlength="8"></div>
+      <p class="error-text hidden" id="np-err"></p>
+      <div class="m-actions"><button class="btn lg primary" type="submit">${esc(submit)}</button><button class="btn lg ghost" type="button" data-cancel>Cancel</button></div>
+    </form>`, { label: title });
+  const err = m.el.querySelector('#np-err');
+  m.el.querySelector('[data-cancel]').addEventListener('click', () => m.close());
+  m.el.querySelector('form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const a = m.el.querySelector('#np1').value, b = m.el.querySelector('#np2').value;
+    const fail = (t) => { err.textContent = t; err.classList.remove('hidden'); };
+    if (a.length < 8) return fail('Use at least 8 characters.');
+    if (a !== b) return fail("Passwords don't match.");
+    const btn = m.el.querySelector('button[type="submit"]'); btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>Saving…';
+    try { await onSubmit(a); m.close(); } catch (x) { btn.disabled = false; btn.textContent = submit; fail(x.message); }
+  });
+  return m;
+}
+
+function changePassword() {
+  passwordModal({ title: 'Change password', body: 'Your saved claim info is re-encrypted with the new password.', submit: 'Change password',
+    async onSubmit(pw) { await account.changePassword(pw); toast('Password changed', { icon: 'key' }); } });
 }
 
 function confirmReset() {

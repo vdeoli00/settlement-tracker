@@ -44,7 +44,9 @@ function derive(it) {
 function regionCodes(r) {
   if (!r) return [];
   if (/canada/i.test(r)) return ['CANADA'];
-  return Object.keys(STATES).filter((c) => new RegExp('\\b' + c + '\\b').test(r) || new RegExp(STATES[c], 'i').test(r));
+  const codes = Object.keys(STATES).filter((c) => new RegExp('\\b' + c + '\\b').test(r) || new RegExp((c === 'VA' ? '(?<!West )' : '') + STATES[c], 'i').test(r));
+  if (/\bNYC\b/.test(r) && !codes.includes('NY')) codes.push('NY');
+  return codes;
 }
 
 export async function loadData({ fresh = false } = {}) {

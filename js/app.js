@@ -9,6 +9,7 @@ import * as home from './views/home.js';
 import * as browse from './views/browse.js';
 import * as claims from './views/claims.js';
 import * as settings from './views/settings.js';
+import { passwordModal } from './views/settings.js';
 import { openDetail, checkPendingFiling } from './views/detail.js';
 
 const ROUTES = { '': home, browse, claims, settings };
@@ -190,7 +191,15 @@ async function boot() {
   addEventListener('focus', () => checkPendingFiling(lookup));
 
   store.on(() => { applyTheme(store.prefs.theme); queueRender(); });
-  account.on(() => queueRender());
+  let recoveryShown = false;
+  account.on((st) => {
+    queueRender();
+    if (st.recovery && st.session && !recoveryShown) {
+      recoveryShown = true;
+      passwordModal({ title: 'Set a new password', body: 'Choose a new password for your account. Claim info saved before the reset may need to be re-entered.', submit: 'Save password',
+        async onSubmit(pw) { const kept = await account.finishRecovery(pw); toast(kept ? 'Password updated' : 'Password updated. Re-enter your claim info in Settings.', { icon: 'key', duration: 5000 }); } });
+    }
+  });
   pullToRefresh();
   onHash();
 
