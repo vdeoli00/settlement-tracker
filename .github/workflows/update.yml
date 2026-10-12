@@ -23,6 +23,12 @@ jobs:
           python-version: "3.12"
       - name: Fetch settlements
         run: python scripts/update.py
+      - name: Keep Supabase free project awake
+        continue-on-error: true
+        run: |
+          URL=$(sed -n "s/.*supabaseUrl: '\([^']*\)'.*/\1/p" config.js)
+          KEY=$(sed -n "s/.*supabaseKey: '\([^']*\)'.*/\1/p" config.js)
+          curl -s -o /dev/null -w "supabase ping: %{http_code}\n" "$URL/rest/v1/user_data?select=user_id&limit=1" -H "apikey: $KEY"
       - name: Commit data if changed
         run: |
           git config user.name "settlement-bot"

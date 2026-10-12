@@ -70,6 +70,8 @@ input[type=text], input[type=search], input[type=number], select { background: v
 .btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
 .actions select { width: auto; padding: 6px; }
 .actions input[type=number] { width: 110px; padding: 6px; }
+.hidden { display: none !important; }
+.vgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin-top: 8px; }
 .empty { text-align: center; padding: 30px; color: var(--muted); }
 mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding: 0 2px; }
 @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
@@ -104,7 +106,44 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
       <label><input type="checkbox" id="showAuto"> Show automatic payments (nothing to file)</label>
       <label><input type="checkbox" id="showOther"> Show other states / Canada</label>
     </div>
-    <p class="muted small" style="margin-bottom:0">Saved only in this browser. Nothing you enter is uploaded anywhere.</p>
+    <p class="muted small" style="margin-bottom:0" id="profileNote">Saved in this browser. Sign in below to sync it across your devices.</p>
+  </details>
+
+  <details class="panel hidden" id="accountPanel">
+    <summary>Account &amp; claim info <span class="muted small" id="accountSummary"></span></summary>
+    <div id="authOut" class="hidden" style="margin-top:10px">
+      <label for="authEmail">Sign in with your email (we send you a link, no password)</label>
+      <div class="bar" style="margin:0">
+        <input type="text" id="authEmail" inputmode="email" autocomplete="email" placeholder="you@example.com">
+        <button class="btn primary" id="authSend">Email me a link</button>
+      </div>
+    </div>
+    <div id="authIn" class="hidden" style="margin-top:10px">
+      <span id="authWho"></span> · <span class="muted small" id="syncState"></span>
+      <button class="btn" id="authOutBtn" style="margin-left:6px">Sign out</button>
+    </div>
+    <p class="muted small" id="authMsg"></p>
+
+    <h3 style="font-size:15px;margin:14px 0 4px">Claim info vault</h3>
+    <p class="muted small" style="margin-top:0">Name, address and payment details for filling claim forms. Encrypted on this device with your passphrase before it is saved or synced; nobody else, including the database, can read it. Forget the passphrase and it cannot be recovered.</p>
+    <div id="vaultNew" class="hidden">
+      <div class="grid"><div><label for="vpNew1">Choose a passphrase (10+ characters)</label><input type="password" id="vpNew1" autocomplete="new-password"></div>
+      <div><label for="vpNew2">Repeat it</label><input type="password" id="vpNew2" autocomplete="new-password"></div></div>
+      <div class="actions"><button class="btn primary" id="vaultCreate">Create vault</button></div>
+    </div>
+    <div id="vaultLocked" class="hidden">
+      <div class="bar" style="margin:0"><input type="password" id="vpUnlock" placeholder="Passphrase" autocomplete="current-password">
+      <button class="btn primary" id="vaultUnlock">Unlock</button></div>
+    </div>
+    <div id="vaultOpen" class="hidden">
+      <div class="vgrid" id="vaultFields"></div>
+      <div class="actions">
+        <button class="btn primary" id="vaultSave">Save</button>
+        <button class="btn" id="vaultLock">Lock</button>
+        <span class="muted small" id="vaultMsg"></span>
+      </div>
+    </div>
+    <p class="muted small" id="vaultNote" style="margin-bottom:0"></p>
   </details>
 
   <div class="tabs" id="tabs">
@@ -158,6 +197,11 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
       if (it) { s.title = it.title; s.url = it.url; }
     });
     try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* in-memory only */ }
+    window.dispatchEvent(new CustomEvent('tracker:saved'));
+  }
+  function syncProfileUI() {
+    $('#kw').value = store.kw || ''; $('#state').value = store.state || '';
+    ['showNotice', 'showDocs', 'showAuto', 'showOther'].forEach((k) => { $('#' + k).checked = !!store[k]; });
   }
 
   // ---------- profile ----------
@@ -171,6 +215,16 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
   $('#kw').addEventListener('input', (e) => { store.kw = e.target.value; save(); render(); });
   stSel.addEventListener('change', (e) => { store.state = e.target.value; save(); render(); });
   if (!store.kw) $('#profilePanel').open = true;
+  // Hook for sync.js: replace local state with merged remote state.
+  window.tracker = {
+    store,
+    apply(next) {
+      Object.keys(store).forEach((k) => delete store[k]);
+      Object.assign(store, next);
+      try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* in-memory only */ }
+      syncProfileUI(); render();
+    },
+  };
 
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('button'); if (!b) return;
@@ -310,11 +364,11 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
     const id = card.dataset.id;
     if (e.target.dataset.act === 'status') {
       const s = e.target.value;
-      if (s) store.status[id] = Object.assign(store.status[id] || {}, { s, at: new Date().toISOString().slice(0, 10) });
-      else delete store.status[id];
+      if (s) store.status[id] = Object.assign(store.status[id] || {}, { s, at: new Date().toISOString().slice(0, 10), ts: Date.now() });
+      else if (store.status[id]) store.status[id] = { s: '', ts: Date.now() };
       save(); render();
     }
-    if (e.target.dataset.act === 'amt') { store.status[id].amt = e.target.value; save(); render(); }
+    if (e.target.dataset.act === 'amt') { store.status[id].amt = e.target.value; store.status[id].ts = Date.now(); save(); render(); }
   });
   $('#list').addEventListener('click', (e) => {
     if (e.target.dataset.act !== 'ics') return;
@@ -341,5 +395,8 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
 
 })();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.js"></script>
+<script src="config.js"></script>
+<script src="sync.js"></script>
 </body>
 </html>

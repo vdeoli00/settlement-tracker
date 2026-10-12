@@ -18,9 +18,13 @@ If a source fails or changes format, the last good data for that source is kept 
 
 Run locally: `python3 scripts/update.py && python3 -m http.server` then open http://localhost:8000.
 
-## Privacy
+## Accounts, sync and privacy
 
-Your profile (keywords, state) and claim statuses are stored only in your browser's localStorage. Nothing personal is committed to this repo.
+- Signed out, your profile and claim statuses live only in your browser's localStorage.
+- Signed in (email magic link via Supabase), they sync to a `user_data` row that row-level security limits to your account.
+- The claim-info vault (name, address, payment handles) is encrypted in the browser with AES-GCM using a key derived from your passphrase (PBKDF2, 310k iterations). Only ciphertext is stored or synced. A lost passphrase cannot be recovered.
+- `config.js` holds the Supabase URL and publishable key, which are designed to be public.
+- The update job pings Supabase every 6 hours so the free project is not paused.
 
 ## Notes
 
