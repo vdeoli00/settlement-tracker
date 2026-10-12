@@ -21,8 +21,8 @@ Run locally: `python3 scripts/update.py && python3 -m http.server` then open htt
 ## Accounts, sync and privacy
 
 - Signed out, your profile and claim statuses live only in your browser's localStorage.
-- Signed in (email magic link via Supabase), they sync to a `user_data` row that row-level security limits to your account.
-- The claim-info vault (name, address, payment handles) is encrypted in the browser with AES-GCM using a key derived from your passphrase (PBKDF2, 310k iterations). Only ciphertext is stored or synced. A lost passphrase cannot be recovered.
+- Signed in (email + password via Supabase), they sync to a `user_data` row that row-level security limits to your account.
+- Claim info (name, address, payment handles) is encrypted in the browser with AES-GCM using a key derived from your login password (PBKDF2, 310k iterations) and cached per device as a non-exportable key. Only ciphertext is stored. A password reset makes old claim info unreadable; re-enter it.
 - `config.js` holds the Supabase URL and publishable key, which are designed to be public.
 - The update job pings Supabase every 6 hours so the free project is not paused.
 

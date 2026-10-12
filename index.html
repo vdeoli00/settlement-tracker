@@ -110,40 +110,37 @@ mark { background: var(--amber-bg); color: inherit; border-radius: 3px; padding:
   </details>
 
   <details class="panel hidden" id="accountPanel">
-    <summary>Account &amp; claim info <span class="muted small" id="accountSummary"></span></summary>
+    <summary>Account <span class="muted small" id="accountSummary"></span></summary>
     <div id="authOut" class="hidden" style="margin-top:10px">
-      <label for="authEmail">Sign in with your email (we send you a link, no password)</label>
-      <div class="bar" style="margin:0">
-        <input type="text" id="authEmail" inputmode="email" autocomplete="email" placeholder="you@example.com">
-        <button class="btn primary" id="authSend">Email me a link</button>
+      <div class="grid">
+        <div><label for="authEmail">Email</label><input type="text" id="authEmail" inputmode="email" autocomplete="username"></div>
+        <div><label for="authPass">Password</label><input type="password" id="authPass" autocomplete="current-password"></div>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="authLogin">Sign in</button>
+        <button class="btn" id="authSignup">Create account</button>
       </div>
     </div>
     <div id="authIn" class="hidden" style="margin-top:10px">
       <span id="authWho"></span> · <span class="muted small" id="syncState"></span>
       <button class="btn" id="authOutBtn" style="margin-left:6px">Sign out</button>
     </div>
+    <div id="relock" class="hidden" style="margin-top:10px">
+      <label for="relockPass">Enter your password to show your claim info on this device</label>
+      <div class="bar" style="margin:0"><input type="password" id="relockPass" autocomplete="current-password">
+      <button class="btn primary" id="relockBtn">Unlock</button></div>
+    </div>
     <p class="muted small" id="authMsg"></p>
 
-    <h3 style="font-size:15px;margin:14px 0 4px">Claim info vault</h3>
-    <p class="muted small" style="margin-top:0">Name, address and payment details for filling claim forms. Encrypted on this device with your passphrase before it is saved or synced; nobody else, including the database, can read it. Forget the passphrase and it cannot be recovered.</p>
-    <div id="vaultNew" class="hidden">
-      <div class="grid"><div><label for="vpNew1">Choose a passphrase (10+ characters)</label><input type="password" id="vpNew1" autocomplete="new-password"></div>
-      <div><label for="vpNew2">Repeat it</label><input type="password" id="vpNew2" autocomplete="new-password"></div></div>
-      <div class="actions"><button class="btn primary" id="vaultCreate">Create vault</button></div>
-    </div>
-    <div id="vaultLocked" class="hidden">
-      <div class="bar" style="margin:0"><input type="password" id="vpUnlock" placeholder="Passphrase" autocomplete="current-password">
-      <button class="btn primary" id="vaultUnlock">Unlock</button></div>
-    </div>
     <div id="vaultOpen" class="hidden">
+      <h3 style="font-size:15px;margin:14px 0 4px">My claim info</h3>
+      <p class="muted small" style="margin-top:0">Used to fill claim forms. Encrypted with your password before it leaves this device.</p>
       <div class="vgrid" id="vaultFields"></div>
       <div class="actions">
         <button class="btn primary" id="vaultSave">Save</button>
-        <button class="btn" id="vaultLock">Lock</button>
         <span class="muted small" id="vaultMsg"></span>
       </div>
     </div>
-    <p class="muted small" id="vaultNote" style="margin-bottom:0"></p>
   </details>
 
   <div class="tabs" id="tabs">
