@@ -1,13 +1,14 @@
 {
- "updated": "2026-10-13T06:53:10+00:00",
+ "updated": "2026-10-13T19:21:16+00:00",
  "sources": {
   "OpenClassActions": {
-   "ok": true,
-   "count": 356
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden",
+   "count": 327
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 76
+   "count": 77
   }
  },
  "items": [
@@ -3150,6 +3151,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:6m-teleflora-do-not-call-registry-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$6M Teleflora Do Not Call Registry class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/6m-teleflora-do-not-call-registry-class-action-settlement/",
+   "claim_url": "https://www.tfsettlement.com/submit-claim",
+   "deadline": "2026-11-17",
+   "deadline_text": "11/17/2026",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 251.0,
+   "payout_text": "An estimated $251",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Teleflora agreed to a $6 million class action settlement to resolve claims it violated the federal Telephone Consumer Protection Act (TCPA) by sending unsolicited telemarketing text messages. The Teleflora settlement benefits individuals who did not provide their phone number to Teleflora and who received more than one promotional text message within a 12-month period from Teleflora since May 9, 2021, despite their p",
+   "also": [],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "oca:northeast-grocery-401k-erisa-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Northeast Grocery $225K 401(k) ERISA Settlement \u2014 Automatic Payment",
@@ -5120,6 +5142,27 @@
    "summary": "Apple Inc. agreed to a $250 million class action settlement to resolve claims that iPhone 15 and 16 series smartphones were not equipped with the promised Siri features. The iPhone settlement benefits consumers who purchased an iPhone 15 Pro, iPhone 15 Pro Max, iPhone 16, iPhone 16e, iPhone 16 Plus, iPhone 16 Pro or iPhone 16 Pro Max between June 10, 2024, and March 29, 2025. According to the class action lawsuit, Ap",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "tca:6-5m-educational-computer-systems-data-breach-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$6.5M Educational Computer Systems data breach class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/6-5m-educational-computer-systems-data-breach-class-action-settlement/",
+   "claim_url": "https://www.datasettlementecsi.com/submit-claim",
+   "deadline": "2026-12-21",
+   "deadline_text": "12/21/2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": true,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Up to $5,000 for documented out-of-pocket losses or a cash payment of approximately $100",
+   "proof_text": "Proof of purchase: Credit card or bank statements, emails, invoices, receipts or telephone records. \u201cSelf-prepared documents,\u201d such as handwritten receipts, are not sufficient to receive reimbursement, and claims based on such documents will be rejected by the settlement administrator.",
+   "region": "",
+   "category": "",
+   "summary": "Educational Computer Systems Inc. (ECSI) has agreed to a $6.5 million class action settlement to resolve claims it failed to protect consumers from a data breach. The Educational Computer Systems settlement benefits individuals whose personal information was potentially accessed in the ECSI data breach between Oct. 29, 2023, and Feb. 12, 2024. According to the data breach class action lawsuit, ECSI failed to protect ",
+   "also": [],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "oca:benworth-capital-data-breach-settlement",
