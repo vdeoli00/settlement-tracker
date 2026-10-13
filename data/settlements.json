@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-13T00:40:10+00:00",
+ "updated": "2026-10-13T06:53:10+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 354
+   "count": 356
   },
   "Top Class Actions": {
    "ok": true,
@@ -4104,6 +4104,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:oregon-tax-foreclosure-surplus-proceeds-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Oregon Tax Foreclosure Surplus Settlements \u2014 Six Counties",
+   "url": "https://openclassactions.com/settlements/real-estate/oregon-tax-foreclosure-surplus-proceeds-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-30",
+   "deadline_text": "November 30, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Six Counties",
+   "proof_text": "Documentation required \u00b7 Oregon properties only",
+   "region": "Oregon properties only",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "oca:pulsz-social-casino-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Pulsz Settlement \u2014 Free Gold Coins or 23% Cash in Six States",
@@ -5608,6 +5629,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:seatgeek-nevada-ticket-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "SeatGeek $7.75M Nevada Ticket Fee Settlement \u2014 Pro Rata Cash",
+   "url": "https://openclassactions.com/settlements/deceptive-pricing/seatgeek-nevada-ticket-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-05",
+   "deadline_text": "January 5, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Pro Rata Cash",
+   "proof_text": "ID/code from notice required \u00b7 Nevada events only",
+   "region": "Nevada events only",
+   "category": "deceptive pricing",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "oca:co-diagnostics-securities-class-action-settlement",
