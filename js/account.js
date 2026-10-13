@@ -118,7 +118,7 @@ async function checkAdmin() {
 
 function friendly(msg) {
   if (/Database error saving new user|is not invited/i.test(msg)) return "This email hasn't been invited yet. Ask the account owner to add it under Settings → Family & invites.";
-  if (/Invalid login credentials/i.test(msg)) return 'Wrong email or password.';
+  if (/Invalid login credentials/i.test(msg)) return 'Wrong email or password. New here? Tap "Create account" above to make your account first.';
   if (/User already registered/i.test(msg)) return 'That email already has an account. Sign in instead.';
   if (/rate limit/i.test(msg)) return 'Too many attempts. Wait a few minutes and try again.';
   return msg;
