@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-14T17:20:10+00:00",
+ "updated": "2026-10-14T21:47:43+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 346
+   "count": 348
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 77
   }
  },
  "items": [
@@ -1986,6 +1986,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:rhode-island-bioenergy-johnston-odor-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Rhode Island Bioenergy $850K Odor Settlement (Johnston, RI)",
+   "url": "https://openclassactions.com/settlements/environmental/rhode-island-bioenergy-johnston-odor-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-03",
+   "deadline_text": "November 3, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 Johnston, RI-area homeowners and renters \u00b7 Opt-out/objection deadline Oct. 19, 2026",
+   "region": "",
+   "category": "environmental",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "oca:schnucks-rewards-points-sales-tax-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Schnucks Rewards Points Sales Tax Settlement \u2014 A Flat $7 per Valid Claim",
@@ -2078,6 +2099,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "tca:8-75m-university-of-phoenix-website-tracking-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$8.75M University of Phoenix website tracking class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/8-75m-university-of-phoenix-website-tracking-class-action-settlement/",
+   "claim_url": "https://uoppixelsettlement.com/form/claim",
+   "deadline": "2026-11-05",
+   "deadline_text": "11/05/2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 25.0,
+   "payout_text": "An estimated $25",
+   "proof_text": "Proof of purchase: Claimants must provide a unique login ID and PIN that they received via email to submit a claim.",
+   "region": "",
+   "category": "",
+   "summary": "The University of Phoenix has agreed to pay $8.75 million to resolve a class action lawsuit claiming it violated federal and Illinois privacy laws by sharing student information with third parties. The University of Phoenix settlement benefits individuals who were enrolled at the University of Phoenix between April 1, 2023, and Oct. 6, 2026, or who were enrolled at the University of Phoenix in Illinois during the sam",
+   "also": [],
+   "first_seen": "2026-10-14"
   },
   {
    "id": "oca:university-of-phoenix-pixel-privacy-class-action-settlement",
@@ -5264,6 +5306,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:5m-kelly-associates-insurance-group-data-breach-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$5M Kelly & Associates Insurance Group data breach class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/5m-kelly-associates-insurance-group-data-breach-class-action-settlement/",
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/kellybenefitsdatabreachlitigation_claimform/new?form-version=1&amp;fr-wizard-page=section-1",
+   "deadline": "2026-12-28",
+   "deadline_text": "12/28/2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": true,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Up to $5,000 for documented monetary losses, $50 in pro rata cash payments and a $100 California statutory payment",
+   "proof_text": "Proof of purchase: Claimants must provide documentation of their losses, such as credit card or bank statements, invoices, telephone records, screenshots and receipts.",
+   "region": "",
+   "category": "",
+   "summary": "Kelly & Associates Insurance Group agreed to a $5 million class action settlement to resolve claims it failed to prevent a 2024 data breach that compromised sensitive consumer information. The Kelly Benefits settlement covers individuals whose private information was compromised in the Kelly & Associates Insurance Group data breach between Dec. 12 and 17, 2024. According to the data breach class action lawsuit, Kelly",
+   "also": [],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "oca:arizona-labor-force-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Arizona Labor Force Data Breach Settlement \u2014 About $25 With No Proof",
@@ -5346,6 +5409,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:goodrx-privacy-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "GoodRx $32M Privacy Settlement \u2014 No Proof Needed",
+   "url": "https://openclassactions.com/settlements/privacy/goodrx-privacy-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-29",
+   "deadline_text": "December 29, 2026",
+   "opt_out": false,
+   "proof": "none",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "No Proof Needed",
+   "proof_text": "No proof required \u00b7 U.S. users of any GoodRx website, app or service before April 20, 2024 \u00b7 Final approval hearing Feb. 11, 2027",
+   "region": "",
+   "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-14"
   },
   {
    "id": "oca:john-deere-right-to-repair-class-action-settlement",
