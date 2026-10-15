@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T11:41:33+00:00",
+ "updated": "2026-10-15T17:09:02+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 77
+   "count": 78
   }
  },
  "items": [
@@ -5325,6 +5325,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "tca:100m-equifax-fcra-violations-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$100M Equifax FCRA violations class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/100m-equifax-fcra-violations-class-action-settlement/",
+   "claim_url": "https://www.veritaconnect.com/EquifaxFairCreditReportingSettlement/Claimant",
+   "deadline": "2026-12-28",
+   "deadline_text": "12/28/2026",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 280.0,
+   "payout_text": "Between $95 and $280 (estimated)",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Equifax has agreed to a $100 million class action settlement to resolve claims it provided inaccurate credit information about millions of Americans applying for loans, insurance or services from other businesses that use credit information. The Equifax settlement covers U.S. residents whose credit scores or credit attributes, as identified in the online modeling system (OMS) analysis, differed from what they would h",
+   "also": [],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "oca:nyc-taxi-limousine-commission-license-suspension-class-action-settlement",
