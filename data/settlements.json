@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-15T04:51:12+00:00",
+ "updated": "2026-10-15T11:41:33+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 350
+   "count": 352
   },
   "Top Class Actions": {
    "ok": true,
@@ -3213,6 +3213,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:concord-management-florida-security-deposit-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Concord Management Florida Security Deposit Settlement \u2014 $1.85M, Paid Automatically",
+   "url": "https://openclassactions.com/settlements/real-estate/concord-management-florida-security-deposit-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-20",
+   "deadline_text": "November 20, 2026 (Opt-Out / Object)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$1.85M, Paid Automatically",
+   "proof_text": "Hearing Dec 3, 2026 \u00b7 Automatic payment \u2014 no claim form \u00b7 Former tenants of Concord-managed Florida properties",
+   "region": "",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-15"
+  },
+  {
    "id": "oca:mont-sainte-anne-gondola-class-action-settlement-quebec",
    "source": "OpenClassActions",
    "title": "Mont-Sainte-Anne Gondola Settlement (Quebec) \u2014 $5.1M CAD",
@@ -5668,6 +5689,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:washington-gastroenterology-data-breach-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Washington Gastroenterology Data Breach Settlement \u2014 $75 or Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/washington-gastroenterology-data-breach-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-10",
+   "deadline_text": "January 10, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "$75 or Up to $4,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-15"
+  },
+  {
    "id": "oca:british-columbia-solitary-confinement-class-action-settlement",
    "source": "OpenClassActions",
    "title": "B.C. Solitary Confinement Settlement \u2014 Up to $91,000 CAD",
@@ -5897,6 +5939,27 @@
    "summary": "Visa and Mastercard agreed to pay a combined $167.5 million class action settlement to resolve claims that they violated federal and state antitrust laws by prohibiting independent ATM operators from charging differential ATM surcharges. The non-bank ATM settlement benefits individuals who were charged an access fee for a cash withdrawal at an independent ATM between Oct. 24, 2007, and Aug. 14, 2026, and were not ful",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:carpenters-western-washington-pension-vix-erisa-settlement",
+   "source": "OpenClassActions",
+   "title": "Carpenters of Western Washington $9.25M Pension Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/erisa/carpenters-western-washington-pension-vix-erisa-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-10",
+   "deadline_text": "February 10, 2027 (Rollover Form, on current schedule)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Object by January 27, 2027 \u00b7 Hearing Feb 17, 2027 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "oca:buyalerts-tcpa-text-message-class-action-settlement",
