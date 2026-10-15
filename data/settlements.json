@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-14T21:47:43+00:00",
+ "updated": "2026-10-15T04:51:12+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 348
+   "count": 350
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,27 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:dairy-farmers-of-america-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Dairy Farmers of America (DFA) Data Breach Settlement \u2014 $55 Cash or Up to $4,500 + Credit Monitoring (Claim Form Required for All Benefits)",
-   "url": "https://openclassactions.com/settlements/data-breaches/dairy-farmers-of-america-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-14",
-   "deadline_text": "October 14, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 4500.0,
-   "payout_text": "$55 Cash or Up to $4,500 + Credit Monitoring (Claim Form Required for All Benefits)",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:flo-health-app-privacy-settlement",
    "source": "OpenClassActions",
@@ -4356,6 +4335,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:starbucks-cobra-notice-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Starbucks $325K COBRA Notice Settlement \u2014 Claim by Mail",
+   "url": "https://openclassactions.com/settlements/erisa/starbucks-cobra-notice-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-02",
+   "deadline_text": "December 2, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Claim by Mail",
+   "proof_text": "ID/code from notice required \u00b7 Claim form mailed with the notice; no online form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-15"
+  },
+  {
    "id": "oca:sps-technologies-abington-fire-class-action-settlement",
    "source": "OpenClassActions",
    "title": "SPS Technologies $5M Abington Fire Settlement \u2014 Up to $5,000 for Documented Losses",
@@ -4569,6 +4569,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-14"
+  },
+  {
+   "id": "oca:frontier-communications-401k-verizon-stock-erisa-settlement",
+   "source": "OpenClassActions",
+   "title": "Frontier 401(k) $14.05M Verizon Stock ERISA Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/erisa/frontier-communications-401k-verizon-stock-erisa-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-08",
+   "deadline_text": "Rollover Form / object by December 8, 2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Hearing Jan 7, 2027 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "oca:suffolk-county-red-light-camera-fee-class-action-settlement",
