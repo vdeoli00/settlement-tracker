@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T04:41:25+00:00",
+ "updated": "2026-10-16T11:35:03+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 78
+   "count": 76
   }
  },
  "items": [
@@ -2752,6 +2752,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:folsom-insurance-tcpa-prerecorded-calls-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Folsom Insurance Robocall Settlement \u2014 An Estimated $125\u2013$200",
+   "url": "https://openclassactions.com/settlements/tcpa/folsom-insurance-tcpa-prerecorded-calls-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-16",
+   "deadline_text": "November 16, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 200.0,
+   "payout_text": "An Estimated $125\u2013$200",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "tcpa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "oca:jefferson-county-health-center-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Jefferson County Health Center Data Breach Settlement \u2014 $150 or Up to $300",
@@ -3180,6 +3201,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:menasha-packaging-california-wage-paga-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Menasha Packaging $1.73M California Wage Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/paga/menasha-packaging-california-wage-paga-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-21",
+   "deadline_text": "November 21, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "paga",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "oca:lavista-walk-apartment-fire-class-action-settlement",
@@ -4241,6 +4283,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:ohio-bmv-disabled-veteran-military-license-plate-refund-settlement",
+   "source": "OpenClassActions",
+   "title": "Ohio BMV Military License Plate Settlement \u2014 Full Fee Refunds",
+   "url": "https://openclassactions.com/settlements/consumer-protection/ohio-bmv-disabled-veteran-military-license-plate-refund-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-02",
+   "deadline_text": "December 2, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Full Fee Refunds",
+   "proof_text": "Documentation required \u00b7 Ohio plate buyers",
+   "region": "",
+   "category": "consumer protection",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "oca:safe-fleet-clarience-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Safe Fleet Data Breach Settlement \u2014 $50 or Up to $2,500",
@@ -4496,6 +4559,27 @@
    "summary": "Suffolk County and the Suffolk County Traffic and Parking Violation Agency agreed to pay up to $45 million to resolve a class action lawsuit claiming they charged an unlawful $30 administrative fee for red-light camera violations in Suffolk County, New York. The Suffolk County settlement benefits all persons or entities who paid a $30 administrative fee to Suffolk County or the Suffolk County Traffic and Parking Viol",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:baptist-health-drew-county-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Baptist Health Drew County Data Breach Settlement \u2014 Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/baptist-health-drew-county-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-08",
+   "deadline_text": "December 8, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "Up to $4,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "oca:brockton-neighborhood-health-center-data-breach-settlement",
@@ -5488,6 +5572,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:atlas-crest-archer-aviation-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$15M Atlas Crest (Archer Aviation) Stockholder Settlement (ACHR)",
+   "url": "https://openclassactions.com/settlements/securities/atlas-crest-archer-aviation-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-04",
+   "deadline_text": "January 4, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Claim form + brokerage records required \u00b7 Atlas Crest Class A holders who did not redeem by Sept. 10, 2021 \u00b7 Settlement hearing Dec. 3, 2026",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "oca:amca-sonic-healthcare-data-breach-settlement",
