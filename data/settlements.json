@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-15T21:30:56+00:00",
+ "updated": "2026-10-16T04:41:25+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 352
+   "count": 355
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,121 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:flo-health-app-privacy-settlement",
-   "source": "OpenClassActions",
-   "title": "$59.5M Flo Period Tracker Privacy Settlement \u2014 No Proof, Claim by Oct. 15",
-   "url": "https://openclassactions.com/settlements/flo-health-app-privacy-settlement.php",
-   "claim_url": "https://periodtrackerdataprivacylitigation.com/file-a-claim",
-   "deadline": "2026-10-15",
-   "deadline_text": "October 15, 2026",
-   "opt_out": false,
-   "proof": "none",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "No Proof, Claim by Oct. 15",
-   "proof_text": "No proof required",
-   "region": "",
-   "category": "",
-   "summary": "Flo Health, Google and Flurry agreed to a combined $59.5 million class action settlement to resolve claims that the reproductive health app shared private menstruation and pregnancy data with third parties without user consent. The Flo period tracker settlement benefits consumers who used the app between Nov. 1, 2016, and Feb. 28, 2019, and entered menstruation and/or pregnancy information during that time, including",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/59-5m-flo-data-sharing-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:canadian-armed-forces-racial-discrimination-settlement",
-   "source": "OpenClassActions",
-   "title": "Canadian Armed Forces Racism Settlement \u2014 $5,000 to $35,000 CAD",
-   "url": "https://openclassactions.com/settlements/canadian-armed-forces-racial-discrimination-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-15",
-   "deadline_text": "October 15, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 35000.0,
-   "payout_text": "$5,000 to $35,000 CAD",
-   "proof_text": "Documentation required \u00b7 Canadian Armed Forces members",
-   "region": "",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:docketwise-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Docketwise Data Breach Settlement \u2014 $50 With No Proof, or Up to $5,000 Documented",
-   "url": "https://openclassactions.com/settlements/data-breaches/docketwise-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-15",
-   "deadline_text": "October 15, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": true,
-   "no_proof_amount": 50.0,
-   "payout_max": 5000.0,
-   "payout_text": "$50 With No Proof, or Up to $5,000 Documented",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:rockley-photonics-securities-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Rockley Photonics $10M Securities Settlement (RKLY)",
-   "url": "https://openclassactions.com/settlements/securities/rockley-photonics-securities-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-15",
-   "deadline_text": "October 15, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Documentation required",
-   "region": "",
-   "category": "securities",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:tift-regional-health-system-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Tift Regional Health System & Southwell Data Breach Settlement \u2014 ~$75 Cash or Up to $5,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/tift-regional-health-system-data-breach-settlement.php",
-   "claim_url": "https://tiftdatasettlement.com/form/claim",
-   "deadline": "2026-10-15",
-   "deadline_text": "October 15, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "~$75 Cash or Up to $5,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "Tift Regional Health System Inc. and Southwell Inc. agreed to a $1.2 million class action settlement to resolve claims that they failed to prevent a 2022 data breach that compromised patient information. The Tift Regional Health System settlement benefits individuals whose private information may have been compromised in the August 2022 Tift Regional Health System data breach. Tift Regional Health System, a Georgia h",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-2m-tift-regional-health-system-data-breach-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:eagle-pharmaceuticals-securities-class-action-settlement",
    "source": "OpenClassActions",
@@ -3213,6 +3098,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:charlotte-motor-speedway-landfill-odor-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Charlotte Motor Speedway Landfill $675K Odor Settlement (Concord, N.C.)",
+   "url": "https://openclassactions.com/settlements/environmental/charlotte-motor-speedway-landfill-odor-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-20",
+   "deadline_text": "November 20, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 NC residents",
+   "region": "NC residents",
+   "category": "environmental",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "oca:concord-management-florida-security-deposit-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Concord Management Florida Security Deposit Settlement \u2014 $1.85M, Paid Automatically",
@@ -3652,6 +3558,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:exabeam-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Exabeam $7M Stockholder Settlement \u2014 Paid Automatically",
+   "url": "https://openclassactions.com/settlements/securities/exabeam-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-25",
+   "deadline_text": "November 25, 2026 (Object)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Paid Automatically",
+   "proof_text": "Hearing Dec 9, 2026 \u00b7 Automatic payment \u2014 no claim form \u00b7 Former Exabeam common stockholders",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "oca:fujifilm-diosynth-data-breach-settlement",
@@ -5981,6 +5908,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "oca:adams-toyota-resistall-enviroguard-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Adams Toyota ResistAll/EnviroGuard Settlement \u2014 Up to $4.25M",
+   "url": "https://openclassactions.com/settlements/automotive/adams-toyota-resistall-enviroguard-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-11",
+   "deadline_text": "February 11, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Up to $4.25M",
+   "proof_text": "Documentation required \u00b7 Adams Toyota (Missouri) customers",
+   "region": "",
+   "category": "automotive",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "oca:buyalerts-tcpa-text-message-class-action-settlement",
