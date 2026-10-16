@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-16T16:46:13+00:00",
+ "updated": "2026-10-16T21:20:44+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 355
+   "count": 356
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 76
+   "count": 77
   }
  },
  "items": [
@@ -4813,6 +4813,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:pandora-jewelry-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Pandora Washington Job Postings Settlement \u2014 $1.99M Fund, Automatic Payment",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/pandora-jewelry-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-14",
+   "deadline_text": "December 14, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$1.99M Fund, Automatic Payment",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 WA residents",
+   "region": "WA residents",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "oca:providence-health-washington-wage-hour-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Providence $17M Washington Wage Settlement \u2014 Automatic Payments",
@@ -5174,7 +5195,7 @@
    "source": "OpenClassActions",
    "title": "Kroger $17M Prescription Drug Pricing Settlement",
    "url": "https://openclassactions.com/settlements/pharmaceuticals/kroger-savings-club-prescription-pricing-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.krogersavingsclubsettlement.com/submit-claim",
    "deadline": "2026-12-21",
    "deadline_text": "December 21, 2026",
    "opt_out": false,
@@ -5186,8 +5207,13 @@
    "proof_text": "Documentation required",
    "region": "",
    "category": "pharmaceuticals",
-   "summary": "",
-   "also": [],
+   "summary": "Kroger agreed to a $17 million class action settlement to resolve claims it charged unfair prices for prescription drugs. The Kroger settlement benefits consumers who paid for one or more prescription drugs from Kroger using insurance at any point between Dec. 9, 2018, and Aug. 23, 2026. Plaintiffs in the class action lawsuit accused Kroger of overcharging for prescription drugs by misreporting its \u201cusual and customa",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/17m-kroger-prescription-prices-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
