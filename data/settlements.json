@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-16T21:20:44+00:00",
+ "updated": "2026-10-17T04:38:35+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 356
+   "count": 360
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,48 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:eagle-pharmaceuticals-securities-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "$9.5M Eagle Pharmaceuticals Securities Settlement (EGRX)",
-   "url": "https://openclassactions.com/settlements/securities/eagle-pharmaceuticals-securities-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-16",
-   "deadline_text": "October 16, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Documentation required",
-   "region": "",
-   "category": "securities",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:silk-beverage-class-action-settlement-canada",
-   "source": "OpenClassActions",
-   "title": "Silk & Great Value Plant-Based Beverage Recall Settlement (Canada)",
-   "url": "https://openclassactions.com/settlements/silk-beverage-class-action-settlement-canada.php",
-   "claim_url": null,
-   "deadline": "2026-10-16",
-   "deadline_text": "October 16, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Documentation required \u00b7 Canada only",
-   "region": "Canada only",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:seagate-securities-class-action-settlement",
    "source": "OpenClassActions",
@@ -5023,6 +4981,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:ardent-health-kronos-outage-flsa-wage-settlement",
+   "source": "OpenClassActions",
+   "title": "Ardent Health $2.9M Kronos Outage Wage Settlement",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/ardent-health-kronos-outage-flsa-wage-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-18",
+   "deadline_text": "December 18, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-17"
+  },
+  {
    "id": "oca:container-store-blind-accessibility-class-action-settlement",
    "source": "OpenClassActions",
    "title": "The Container Store $780K Accessibility Settlement \u2014 $75 Per Purchase",
@@ -5532,6 +5511,27 @@
    "first_seen": "2026-10-14"
   },
   {
+   "id": "oca:marqeta-securities-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$13M Marqeta Securities Settlement (MQ)",
+   "url": "https://openclassactions.com/settlements/securities/marqeta-securities-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-31",
+   "deadline_text": "December 31, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 Marqeta stock/call buyers and put writers Feb. 28\u2013Nov. 4, 2024 \u00b7 Final approval hearing Jan. 12, 2027",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-17"
+  },
+  {
    "id": "oca:john-deere-right-to-repair-class-action-settlement",
    "source": "OpenClassActions",
    "title": "$99M John Deere Right-to-Repair Settlement",
@@ -5640,6 +5640,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:mexican-government-bonds-antitrust-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$86.4M Mexican Government Bonds Antitrust Settlement",
+   "url": "https://openclassactions.com/settlements/antitrust/mexican-government-bonds-antitrust-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-04",
+   "deadline_text": "January 4, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 Exclusions and objections due Oct. 29, 2026",
+   "region": "",
+   "category": "antitrust",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "oca:high-5-games-social-casino-class-action-settlement",
@@ -5976,6 +5997,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:wyatt-detention-facility-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Wyatt Detention Facility Data Breach Settlement \u2014 Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/wyatt-detention-facility-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-05",
+   "deadline_text": "February 5, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "oca:burke-visa-mastercard-atm-fees-settlement",
