@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-17T04:38:35+00:00",
+ "updated": "2026-10-17T10:54:54+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 360
+   "count": 359
   },
   "Top Class Actions": {
    "ok": true,
@@ -7094,6 +7094,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:bright-lending-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Bright Lending $15M Settlement \u2014 Automatic Payments and Debt Cancellation",
+   "url": "https://openclassactions.com/settlements/bright-lending-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No claim form required",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payments and Debt Cancellation",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 excludes NV and UT residents \u00b7 borrowers with Bright Lending loans from October 1, 2020 \u00b7 payment election, opt-out and objection deadline December 21, 2026",
+   "region": "excludes NV and UT residents",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "oca:cibc-nsf-fee-settlement-canada",
