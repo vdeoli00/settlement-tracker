@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-17T20:43:17+00:00",
+ "updated": "2026-10-18T04:44:10+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 359
+   "count": 361
   },
   "Top Class Actions": {
    "ok": true,
@@ -2556,6 +2556,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:compucom-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "CompuCom $1M Washington Job Postings Settlement \u2014 Est. $266.67, Automatic",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/compucom-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-13",
+   "deadline_text": "No claim deadline (opt-out/objection Nov 13, 2026)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 266.67,
+   "payout_text": "Est. $266.67, Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 WA residents",
+   "region": "WA residents",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-18"
   },
   {
    "id": "oca:ftd-proflowers-delivery-fee-class-action-settlement",
@@ -6884,6 +6905,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:3m-scotch-thermal-laminator-recall",
+   "source": "OpenClassActions",
+   "title": "3M Scotch Thermal Laminator Recall \u2014 Full Refund",
+   "url": "https://openclassactions.com/recalls/3m-scotch-thermal-laminator-recall.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No fixed deadline stated",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Full Refund",
+   "proof_text": "Photo of the laminator with its power cord cut required; no receipt mentioned \u00b7 Model TL1302Z, Amazon buyers, June 2024\u2013September 2026",
+   "region": "",
+   "category": "recall",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-18"
   },
   {
    "id": "oca:aion-management-virginia-apartment-fees-class-action-settlement",
