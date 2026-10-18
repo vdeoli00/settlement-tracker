@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T15:57:51+00:00",
+ "updated": "2026-10-18T20:52:44+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -6041,6 +6041,27 @@
    "first_seen": "2026-10-17"
   },
   {
+   "id": "oca:ncaa-tennis-prize-money-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$2M NCAA Tennis Prize Money Settlement",
+   "url": "https://openclassactions.com/settlements/ncaa-tennis-prize-money-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-08",
+   "deadline_text": "February 8, 2027 (subject to court extension)",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "NCAA ID and documentation required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2000-01-01"
+  },
+  {
    "id": "oca:burke-visa-mastercard-atm-fees-settlement",
    "source": "OpenClassActions",
    "title": "$167.5M Visa & Mastercard Nonbank ATM Fee Settlement",
@@ -6753,27 +6774,6 @@
    "payout_max": null,
    "payout_text": "",
    "proof_text": "Automatic payment \u2014 no claim form",
-   "region": "",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:ncaa-tennis-prize-money-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "$2M NCAA Tennis Prize Money Settlement",
-   "url": "https://openclassactions.com/settlements/ncaa-tennis-prize-money-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": null,
-   "deadline_text": "Claim window open \u2014 filing deadline not yet posted",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Opt out or object by September 28, 2026 \u00b7 Documentation required",
    "region": "",
    "category": "",
    "summary": "",
