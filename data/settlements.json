@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-18T20:52:44+00:00",
+ "updated": "2026-10-19T04:52:27+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 361
+   "count": 362
   },
   "Top Class Actions": {
    "ok": true,
@@ -3923,17 +3923,17 @@
   {
    "id": "oca:oregon-tax-foreclosure-surplus-proceeds-class-action-settlement",
    "source": "OpenClassActions",
-   "title": "Oregon Tax Foreclosure Surplus Settlements \u2014 Six Counties",
+   "title": "Oregon Tax Foreclosure Surplus Settlements \u2014 Seven Counties",
    "url": "https://openclassactions.com/settlements/real-estate/oregon-tax-foreclosure-surplus-proceeds-class-action-settlement.php",
    "claim_url": null,
    "deadline": "2026-11-30",
-   "deadline_text": "November 30, 2026",
+   "deadline_text": "November 30, 2026 (Lane County: February 22, 2027)",
    "opt_out": false,
    "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
-   "payout_text": "Six Counties",
+   "payout_text": "Seven Counties",
    "proof_text": "Documentation required \u00b7 Oregon properties only",
    "region": "Oregon properties only",
    "category": "real estate",
@@ -5934,6 +5934,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:mavis-discount-tire-pennsylvania-ag-restitution-settlement",
+   "source": "OpenClassActions",
+   "title": "Mavis Tire Pennsylvania Settlement \u2014 $190K Restitution for Unneeded Repairs",
+   "url": "https://openclassactions.com/settlements/automotive/mavis-discount-tire-pennsylvania-ag-restitution-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-26",
+   "deadline_text": "January 26, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$190K Restitution for Unneeded Repairs",
+   "proof_text": "Documentation required \u00b7 PA residents",
+   "region": "PA residents",
+   "category": "automotive",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-19"
   },
   {
    "id": "tca:359-9m-realpage-antitrust-class-action-settlement",
