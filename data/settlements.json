@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-19T13:34:37+00:00",
+ "updated": "2026-10-19T22:28:01+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 363
+   "count": 365
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 77
+   "count": 79
   }
  },
  "items": [
@@ -1295,7 +1295,7 @@
    "proof_text": "No proof required",
    "region": "",
    "category": "product defects",
-   "summary": "Bestway has agreed to a $15 million class action settlement to resolve claims that its above-ground pools are defective and pose a drowning hazard. The Bestway settlement benefits consumers who purchased a Bestway-branded pool that is 48 inches or taller (including Power Steel and Steel Pro models) with compression straps located outside of the support poles, sold between 2008 and 2024. According to the class action ",
+   "summary": "Bestway has agreed to a $15 million class action settlement to resolve claims that its above-ground pools are defective and pose a drowning hazard. The Bestway settlement benefits consumers who purchased a Bestway-branded pool that is 48 inches or taller (including Power Steel and Steel Pro models) with compression straps located outside of the support poles, sold between 2008 and 2024 . According to the class action",
    "also": [
     {
      "source": "Top Class Actions",
@@ -2364,6 +2364,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:inovalon-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Inovalon $44M Stockholder Settlement \u2014 Paid Automatically",
+   "url": "https://openclassactions.com/settlements/securities/inovalon-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-10",
+   "deadline_text": "Object by November 10, 2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Paid Automatically",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-19"
+  },
+  {
    "id": "oca:laguna-honda-hospital-patients-rights-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Laguna Honda Hospital $5.75M Settlement \u2014 Paid Automatically",
@@ -2756,7 +2777,7 @@
    "source": "OpenClassActions",
    "title": "Jefferson County Health Center Data Breach Settlement \u2014 $150 or Up to $300",
    "url": "https://openclassactions.com/settlements/data-breaches/jefferson-county-health-center-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/jeffersoncounty_claimform/new?form-version=1",
    "deadline": "2026-11-16",
    "deadline_text": "November 16, 2026",
    "opt_out": false,
@@ -2768,8 +2789,13 @@
    "proof_text": "ID/code from notice required \u00b7 MO residents",
    "region": "MO residents",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Jefferson County Health Center agreed to a $2.25 million class action settlement to resolve claims it failed to prevent a 2022 data breach that compromised patient information. The Jefferson County Health Department settlement benefits Missouri residents who utilized the Jefferson County Health Center\u2019s services and whose protected health information was compromised in the data breach discovered on Nov. 15, 2022. The",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-25m-jefferson-county-health-center-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -3537,6 +3563,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:atlas-energy-solutions-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Atlas Energy $17M Stockholder Settlement \u2014 Paid Automatically",
+   "url": "https://openclassactions.com/settlements/securities/atlas-energy-solutions-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-25",
+   "deadline_text": "Object by November 25, 2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Paid Automatically",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-19"
   },
   {
    "id": "oca:bnbuilders-esop-erisa-class-action-settlement",
@@ -5829,6 +5876,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "tca:21-75m-costa-del-mar-sunglasses-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$21.75M Costa Del Mar sunglasses class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/21-75m-costa-del-mar-sunglasses-class-action-settlement/",
+   "claim_url": "https://costasunglasslitigation.com/Home/SubmitClaim",
+   "deadline": "2027-01-11",
+   "deadline_text": "01/11/2027",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: Repair Class members do not need to submit a claim form to receive a cash payment. Purchase Class members must submit proof of purchase, such as a receipt, work order, credit card statement or other documentation, for more than five qualifying purchases.",
+   "region": "FL residents",
+   "category": "",
+   "summary": "Costa Del Mar agreed to a $21.75 million class action settlement to resolve claims it charged unfair fees to repair sunglasses despite promising to do so for a \u201cnominal fee.\u201d The Costa Del Mar settlement covers Florida residents who purchased non-prescription, non-promotional Costa sunglasses for personal use and fall into one of two groups: (1) the Purchase Class, which includes those who purchased sunglasses betwee",
+   "also": [],
+   "first_seen": "2026-10-19"
   },
   {
    "id": "oca:british-columbia-solitary-confinement-class-action-settlement",
