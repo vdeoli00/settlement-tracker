@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-19T04:52:27+00:00",
+ "updated": "2026-10-19T13:34:37+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 362
+   "count": 363
   },
   "Top Class Actions": {
    "ok": true,
@@ -5871,6 +5871,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:swinerton-401k-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Swinerton $497,500 401(k) Fee Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/erisa/swinerton-401k-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-14",
+   "deadline_text": "Object by January 14, 2027",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Hearing Feb 25, 2027 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-19"
   },
   {
    "id": "tca:8m-progressive-pip-insurance-class-action-settlement",
