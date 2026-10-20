@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-20T17:18:13+00:00",
+ "updated": "2026-10-20T21:42:53+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 365
+   "count": 367
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 73
+   "count": 75
   }
  },
  "items": [
@@ -3445,6 +3445,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:4-28m-bank-of-america-vacation-pay-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$4.28M Bank of America vacation pay class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-28m-bank-of-america-vacation-pay-class-action-settlement/",
+   "claim_url": null,
+   "deadline": "2026-11-27",
+   "deadline_text": "11/27/2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "",
+   "region": "CA residents",
+   "category": "",
+   "summary": "Bank of America has agreed to a $4.28 million class action settlement to resolve claims it failed to pay out vacation time to employees in California, Illinois and New York. The Bank of America settlement benefits individuals who were formerly employed by Bank of America in California, Illinois and/or New York who had a positive vacation balance at the time of separation from employment and who did not receive any pa",
+   "also": [],
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "oca:dr-squatch-natural-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Dr. Squatch $9M \"Natural\" Labeling Settlement \u2014 $0.50 per Product, Up to $12.50",
@@ -3495,6 +3516,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:fontaine-modification-wage-overtime-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Fontaine Modification $1.6M Wage and Overtime Settlement",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/fontaine-modification-wage-overtime-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-27",
+   "deadline_text": "November 27, 2026",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Virginia workers paid automatically \u00b7 Workers outside Virginia must file a consent form (CPT ID and Passcode to file online)",
+   "region": "",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-20"
   },
   {
    "id": "oca:equifax-hard-inquiry-dispute-class-action-settlement",
@@ -4125,7 +4167,7 @@
    "source": "OpenClassActions",
    "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement \u2014 Equal Share, No Receipt",
    "url": "https://openclassactions.com/settlements/deceptive-pricing/aramark-capital-one-arena-venue-fee-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://venuefeesettlement.pnclassaction.com",
    "deadline": "2026-12-04",
    "deadline_text": "December 4, 2026",
    "opt_out": false,
@@ -4137,8 +4179,13 @@
    "proof_text": "ID/code from notice required \u00b7 Purchases at Capital One Arena (Washington, D.C.)",
    "region": "",
    "category": "deceptive pricing",
-   "summary": "",
-   "also": [],
+   "summary": "Aramark agreed to a $4.5 million class action settlement to resolve claims it charged an undisclosed venue fee at the Capital One Arena in Washington, D.C. The Aramark Capital One Arena settlement benefits individuals who made a purchase from Aramark at Capital One Arena and paid a venue fee between Oct. 1, 2024, and Dec. 31, 2025. According to the class action lawsuit, Aramark charged an undisclosed 3% venue fee on ",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-5m-aramark-capital-one-arena-venue-fee-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -7254,6 +7301,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:city-of-raleigh-capital-facilities-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "City of Raleigh $26.2M Capital Facilities Fee Settlement",
+   "url": "https://openclassactions.com/settlements/real-estate/city-of-raleigh-capital-facilities-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No claim form required",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 anyone who paid Raleigh water or sewer capital facilities fees from January 12, 2016 to June 30, 2018 \u00b7 estimated about 105% of fees paid \u00b7 opt-out and objection postmark deadline November 23, 2026",
+   "region": "",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "oca:cognizant-401k-erisa-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Cognizant $2.8M 401(k) ERISA Settlement",
@@ -7462,6 +7530,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:guitar-center-wage-and-hour-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Guitar Center $2.4M Wage and Hour Class Action Settlement",
+   "url": "https://openclassactions.com/settlements/guitar-center-wage-and-hour-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Automatic payment \u2014 no claim form",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Final approval hearing continued to January 19, 2027",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-20"
   },
   {
    "id": "oca:happy-baby-nurture-baby-food-heavy-metals-class-action-settlement",
@@ -7924,6 +8013,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:smith-nephew-401k-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Smith & Nephew $350K 401(k) ERISA Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/employment/erisa/smith-nephew-401k-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Automatic payment \u2014 no claim form",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Settlement and fee orders entered September 21, 2026",
+   "region": "",
+   "category": "employment",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-20"
   },
   {
    "id": "oca:social-security-class-action-lawsuit",
