@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-21T04:59:12+00:00",
+ "updated": "2026-10-21T12:01:19+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 370
+   "count": 367
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 73
   }
  },
  "items": [
@@ -3018,6 +3018,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:overland-missouri-special-deterrent-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "City of Overland, Missouri Special Deterrent Fee Settlement \u2014 $80 per Claim",
+   "url": "https://openclassactions.com/settlements/consumer-protection/overland-missouri-special-deterrent-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-24",
+   "deadline_text": "November 24, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 80.0,
+   "payout_text": "$80 per Claim",
+   "proof_text": "ID/code from notice required \u00b7 MO residents",
+   "region": "MO residents",
+   "category": "consumer protection",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-21"
   },
   {
    "id": "oca:fastbucks-new-mexico-restitution-program",
