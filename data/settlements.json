@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-22T12:03:54+00:00",
+ "updated": "2026-10-22T17:18:29+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 369
+   "count": 371
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 76
   }
  },
  "items": [
@@ -600,27 +600,6 @@
      "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/117m-pork-price-fixing-class-action-settlement/"
     }
    ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:acct-holdings-esop-erisa-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "ACCT Holdings ESOP $8.75M ERISA Settlement \u2014 No Claim Form, No Opt-Out",
-   "url": "https://openclassactions.com/settlements/erisa/acct-holdings-esop-erisa-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-29",
-   "deadline_text": "Object by October 29, 2026",
-   "opt_out": false,
-   "proof": "automatic",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "No Claim Form, No Opt-Out",
-   "proof_text": "Automatic payment \u2014 no claim form",
-   "region": "",
-   "category": "erisa",
-   "summary": "",
-   "also": [],
    "first_seen": "2000-01-01"
   },
   {
@@ -2915,6 +2894,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:michigan-tax-foreclosure-surplus-proceeds-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Michigan Tax Foreclosure Surplus Settlement \u2014 28 Counties, About 125% of Surplus",
+   "url": "https://openclassactions.com/settlements/real-estate/michigan-tax-foreclosure-surplus-proceeds-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-23",
+   "deadline_text": "November 23, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "28 Counties, About 125% of Surplus",
+   "proof_text": "Documentation required \u00b7 MI properties only",
+   "region": "MI properties only",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "oca:vasindas-around-the-clock-care-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Vasindas' Around the Clock Care Data Breach Settlement \u2014 $70 Cash or Up to $2,500 Documented",
@@ -3078,6 +3078,27 @@
    "proof_text": "No proof required \u00b7 CA residents",
    "region": "CA residents",
    "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:acct-holdings-esop-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "ACCT Holdings ESOP $8.75M ERISA Settlement \u2014 No Claim Form, No Opt-Out",
+   "url": "https://openclassactions.com/settlements/erisa/acct-holdings-esop-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-25",
+   "deadline_text": "Object by November 25, 2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "No Claim Form, No Opt-Out",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
@@ -5915,6 +5936,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:warner-music-group-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Warner Music Group $1.25M Data Breach Settlement \u2014 Est. $50, $100 in California",
+   "url": "https://openclassactions.com/settlements/data-breaches/warner-music-group-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-22",
+   "deadline_text": "January 22, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 100.0,
+   "payout_text": "Est. $50, $100 in California",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "oca:dental-intelligence-localmed-privacy-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Dental Intelligence $5.75M LocalMed Privacy Settlement \u2014 Pro Rata Cash",
@@ -6306,7 +6348,7 @@
    "no_proof_amount": null,
    "payout_max": 16.0,
    "payout_text": "$16 + Privacy Monitoring",
-   "proof_text": "Login ID from notice likely required \u00b7 online claim form not open yet; paper form available \u00b7 Tenet Healthcare website and patient portal users, January 2017\u2013September 2023",
+   "proof_text": "Login ID and PIN from notice required to file online \u00b7 online claim form open; paper form by mail (postmarked by March 15, 2027) \u00b7 Opt out or object by December 21, 2026 \u00b7 Tenet Healthcare website and patient portal users, January 2017\u2013September 2023",
    "region": "",
    "category": "pixel tracking",
    "summary": "",
@@ -7595,8 +7637,13 @@
    "proof_text": "Automatic payment \u2014 no claim form \u00b7 AZ residents \u00b7 borrowers whose vehicles Hughes repossessed May 18, 2019 \u2013 August 4, 2023 \u00b7 opt-out, objection and deficiency-election deadline November 20, 2026; final approval hearing December 7, 2026",
    "region": "AZ residents",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Hughes Federal Credit Union (HFCU) has agreed to a $7 million class action settlement to resolve claims it violated Arizona law by failing to provide proper notices to vehicle repossession borrowers. The Hughes Federal Credit Union settlement benefits individuals who financed the purchase of a motor vehicle through Hughes Federal Credit Union, whose vehicle was repossessed by HFCU and who had an Arizona address at th",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/7m-hughes-federal-credit-union-repossession-notification-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-14"
   },
   {
