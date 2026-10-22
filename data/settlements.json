@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-22T05:01:10+00:00",
+ "updated": "2026-10-22T12:03:54+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 371
+   "count": 369
   },
   "Top Class Actions": {
    "ok": true,
@@ -5430,6 +5430,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:healthport-datavant-insurance-underwriting-medical-records-fees-settlement",
+   "source": "OpenClassActions",
+   "title": "HealthPort/Datavant Insurance Underwriting Records Fee Settlement \u2014 67.5% of Alleged Overcharges",
+   "url": "https://openclassactions.com/settlements/healthport-datavant-insurance-underwriting-medical-records-fees-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-31",
+   "deadline_text": "December 31, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "67.5% of Alleged Overcharges",
+   "proof_text": "ID/code from notice required \u00b7 Pennsylvania records requested for life/health insurance applications, Dec. 17, 2009\u2013July 23, 2026 \u00b7 Fairness hearing Dec. 1, 2026",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-22"
   },
   {
    "id": "oca:roseland-community-hospital-data-breach-settlement",
