@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T17:16:13+00:00",
+ "updated": "2026-10-23T21:30:20+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 366
+   "count": 370
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 76
   }
  },
  "items": [
@@ -3839,14 +3839,40 @@
    "proof": "notice_id",
    "no_proof_option": false,
    "no_proof_amount": null,
-   "payout_max": null,
+   "payout_max": 74.0,
    "payout_text": "Claim by Mail",
    "proof_text": "ID/code from notice required \u00b7 Claim form mailed with the notice; no online form",
    "region": "",
    "category": "erisa",
+   "summary": "Starbucks has agreed to a $325,000 class action settlement to resolve claims that it failed to provide adequate Consolidated Omnibus Budget Reconciliation Act (COBRA) notices to former employees. The Starbucks class action settlement benefits participants and beneficiaries in the Starbucks Welfare Benefits Plan, including its Health and Vision Plans, in the United States who were sent a COBRA notice between July 21, ",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/325k-starbucks-cobra-notice-class-action-settlement/"
+    }
+   ],
+   "first_seen": "2026-10-15"
+  },
+  {
+   "id": "oca:fertility-centers-of-illinois-pixel-tracking-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Fertility Centers of Illinois $375K Website Tracking Settlement \u2014 Est. $30 to $60",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/fertility-centers-of-illinois-pixel-tracking-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-03",
+   "deadline_text": "December 3, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 60.0,
+   "payout_text": "Est. $30 to $60",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "pixel tracking",
    "summary": "",
    "also": [],
-   "first_seen": "2026-10-15"
+   "first_seen": "2026-10-23"
   },
   {
    "id": "oca:jackson-county-missouri-property-tax-reassessment-class-action-settlement",
@@ -4282,6 +4308,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:brighthouse-life-insurance-universal-life-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Brighthouse Life Insurance $9.25M Settlement \u2014 Automatic Payments",
+   "url": "https://openclassactions.com/settlements/brighthouse-life-insurance-universal-life-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-11",
+   "deadline_text": "December 11, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payments",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-23"
   },
   {
    "id": "oca:becton-dickinson-sec-fair-fund",
@@ -5246,18 +5293,18 @@
   {
    "id": "oca:goodrx-privacy-class-action-settlement",
    "source": "OpenClassActions",
-   "title": "GoodRx $32M Privacy Settlement \u2014 Claims Open by Oct. 30",
+   "title": "GoodRx $32M Privacy Settlement",
    "url": "https://openclassactions.com/settlements/privacy/goodrx-privacy-class-action-settlement.php",
    "claim_url": null,
    "deadline": "2026-12-29",
    "deadline_text": "December 29, 2026",
    "opt_out": false,
-   "proof": "docs",
+   "proof": "none",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
-   "payout_text": "Claims Open by Oct. 30",
-   "proof_text": "Proof requirements to be confirmed \u00b7 online claim form opens when notice goes out, expected the week of Oct. 19 and required by Oct. 30, 2026; claims filed while the site was in testing were rejected \u00b7 U.S. users of any GoodRx website, app or service before April 20, 2024 \u00b7 Final approval hearing Feb. 11, 2027",
+   "payout_text": "",
+   "proof_text": "No proof required",
    "region": "",
    "category": "privacy",
    "summary": "",
@@ -5625,6 +5672,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-21"
+  },
+  {
+   "id": "oca:hertz-ev-securities-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Hertz $10M EV Securities Settlement (HTZ) \u2014 About $0.07 a Share",
+   "url": "https://openclassactions.com/settlements/securities/hertz-ev-securities-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-08",
+   "deadline_text": "January 8, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 0.07,
+   "payout_text": "About $0.07 a Share",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-23"
   },
   {
    "id": "oca:washington-gastroenterology-data-breach-class-action-settlement",
@@ -8160,6 +8228,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:ivueit-vue-workers-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "iVueit Gig Worker Settlement \u2014 California Vuers Paid Automatically",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/ivueit-vue-workers-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No claim form required",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "California Vuers Paid Automatically",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 CA residents \u00b7 opt out within 45 days of notice (not yet sent) \u00b7 final approval hearing March 16, 2027",
+   "region": "CA residents",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-23"
   }
  ]
 }
