@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-23T11:49:06+00:00",
+ "updated": "2026-10-23T17:16:13+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 365
+   "count": 366
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 74
+   "count": 75
   }
  },
  "items": [
@@ -2176,6 +2176,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:savannah-ready-mix-concrete-price-fixing-settlement",
+   "source": "OpenClassActions",
+   "title": "Savannah Ready-Mix Concrete Price-Fixing Settlements \u2014 $19M+",
+   "url": "https://openclassactions.com/settlements/antitrust/savannah-ready-mix-concrete-price-fixing-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-16",
+   "deadline_text": "November 16, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$19M+",
+   "proof_text": "ID/code from notice required \u00b7 GA & SC purchases only",
+   "region": "GA & SC purchases only",
+   "category": "antitrust",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-23"
+  },
+  {
    "id": "oca:wwe-tko-merger-stockholders-class-action-settlement",
    "source": "OpenClassActions",
    "title": "WWE $147.5M Merger Stockholder Settlement \u2014 About $2.74 a Share, Paid Automatically",
@@ -4282,6 +4303,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "tca:850k-thinkware-dashcam-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$850K Thinkware dashcam class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/850k-thinkware-dashcam-class-action-settlement/",
+   "claim_url": "https://twcamerasettlement.pnclassaction.com",
+   "deadline": "2026-12-14",
+   "deadline_text": "12/14/2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: Purchase information, such as model, quantity, purchase location, purchase date and serial number",
+   "region": "",
+   "category": "",
+   "summary": "Thinkware agreed to an $850,000 class action settlement to resolve claims that it falsely advertised its dash cameras as having a \u201cSuper Night Vision\u201d function. The Thinkware dashcam class action settlement benefits consumers who purchased a Thinkware F200PRO, X700, DC-M2-FG-IR, DC-M2-FG and F70PRO dash camera between Jan. 25, 2019, and Aug. 31, 2024. According to a class action lawsuit, Thinkware falsely advertised ",
+   "also": [],
+   "first_seen": "2026-10-23"
   },
   {
    "id": "oca:brookside-alabama-towing-ticketing-class-action-settlement",
