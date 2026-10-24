@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:46:37+00:00",
+ "updated": "2026-10-24T11:14:30+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 76
+   "count": 75
   }
  },
  "items": [
@@ -4688,6 +4688,27 @@
    "first_seen": "2026-10-17"
   },
   {
+   "id": "oca:fairmont-federal-credit-union-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Fairmont Federal Credit Union Data Breach Settlement \u2014 $150 or Up to $7,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/fairmont-federal-credit-union-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-18",
+   "deadline_text": "December 18, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 7500.0,
+   "payout_text": "$150 or Up to $7,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "oca:container-store-blind-accessibility-class-action-settlement",
    "source": "OpenClassActions",
    "title": "The Container Store $780K Accessibility Settlement \u2014 $75 Per Purchase",
@@ -5751,6 +5772,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:hampton-regional-medical-center-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Hampton Regional Medical Center Data Breach Settlement \u2014 Est. $20 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/hampton-regional-medical-center-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-11",
+   "deadline_text": "January 11, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Est. $20 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
   },
   {
    "id": "oca:marex-group-securities-class-action-settlement",
