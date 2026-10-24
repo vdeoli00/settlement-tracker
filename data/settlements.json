@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-23T21:30:20+00:00",
+ "updated": "2026-10-24T04:46:37+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 370
+   "count": 374
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,74 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:cosco-fire-protection-washington-job-postings-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Cosco Fire Protection Washington Job Postings Settlement \u2014 Est. $1,264.46, Automatic Payment",
-   "url": "https://openclassactions.com/settlements/wage-and-hours/cosco-fire-protection-washington-job-postings-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-23",
-   "deadline_text": "October 23, 2026 (Opt-Out)",
-   "opt_out": true,
-   "proof": "automatic",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 1264.46,
-   "payout_text": "Est. $1,264.46, Automatic Payment",
-   "proof_text": "Automatic payment \u2014 no claim form \u00b7 WA residents",
-   "region": "WA residents",
-   "category": "wage and hours",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:equinox-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Equinox Data Breach Settlement \u2014 Up to $5,000 or ~$100 Cash + Credit Monitoring",
-   "url": "https://openclassactions.com/settlements/privacy/equinox-data-breach-settlement.php",
-   "claim_url": "https://www.equinoxincsettlement.com/submit-claim",
-   "deadline": "2026-10-23",
-   "deadline_text": "October 23, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "Up to $5,000 or ~$100 Cash + Credit Monitoring",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "privacy",
-   "summary": "Equinox has agreed to a $685,000 class action settlement to resolve claims that a 2024 data breach compromised consumer information. The Equinox settlement benefits individuals who received a data breach notice from Equinox informing them that their information may have been compromised in a data breach on April 29, 2024. The data breach class action lawsuit resolved by this settlement alleged Equinox failed to prote",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/685000-equinox-data-breach-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:pineda-inn-tip-credit-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Pineda Inn Bar & Grill Tip Credit Settlement \u2014 $2 Per Hour",
-   "url": "https://openclassactions.com/settlements/wage-and-hours/pineda-inn-tip-credit-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-23",
-   "deadline_text": "October 23, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 2.0,
-   "payout_text": "$2 Per Hour",
-   "proof_text": "ID/code from notice required \u00b7 FL \u00b7 Former Pineda Inn Bar & Grill tipped staff, April 2021\u2013August 2023",
-   "region": "",
-   "category": "wage and hours",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "tca:350000-ted-foundation-vppa-class-action-settlement",
    "source": "Top Class Actions",
@@ -4069,6 +4001,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:usc-arcadia-hospital-pixel-tracking-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "USC Arcadia Hospital $200K Pixel Settlement \u2014 Cash for Email Sign-Ups",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/usc-arcadia-hospital-pixel-tracking-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-07",
+   "deadline_text": "December 7, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Cash for Email Sign-Ups",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "pixel tracking",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "oca:wayne-memorial-hospital-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Wayne Memorial Hospital Data Breach Settlement \u2014 An Estimated $25 or Up to $5,000 Documented",
@@ -4476,6 +4429,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:quadrant-technologies-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Quadrant Technologies Washington Job Postings Settlement \u2014 Est. $17.93",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/quadrant-technologies-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-14",
+   "deadline_text": "December 14, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 17.93,
+   "payout_text": "Est. $17.93",
+   "proof_text": "ID/code from notice required \u00b7 WA job applicants",
+   "region": "WA job applicants",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
   },
   {
    "id": "oca:state-farm-washington-umpd-diminished-value-class-action-settlement",
@@ -5800,6 +5774,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:blue-ridge-rural-water-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Blue Ridge Rural Water Data Breach Settlement \u2014 $50 or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/blue-ridge-rural-water-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-14",
+   "deadline_text": "January 14, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "$50 or Up to $2,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "oca:swinerton-401k-erisa-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Swinerton $497,500 401(k) Fee Settlement \u2014 Automatic Payment",
@@ -5819,6 +5814,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-19"
+  },
+  {
+   "id": "oca:ford-transit-trail-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Ford Transit Trail Settlement \u2014 $6,000 per Van",
+   "url": "https://openclassactions.com/settlements/automotive/ford-transit-trail-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-15",
+   "deadline_text": "January 15, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 6000.0,
+   "payout_text": "$6,000 per Van",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "automotive",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-24"
   },
   {
    "id": "oca:vida-y-salud-health-systems-data-breach-settlement",
