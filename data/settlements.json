@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-26T13:16:47+00:00",
+ "updated": "2026-10-26T22:45:20+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 374
+   "count": 376
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 77
   }
  },
  "items": [
@@ -4094,7 +4094,7 @@
    "source": "OpenClassActions",
    "title": "Baptist Health Drew County Data Breach Settlement \u2014 Up to $4,000",
    "url": "https://openclassactions.com/settlements/data-breaches/baptist-health-drew-county-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://bhsettlement.com/form/claim",
    "deadline": "2026-12-08",
    "deadline_text": "December 8, 2026",
    "opt_out": false,
@@ -4106,8 +4106,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Baptist Health agreed to a class action settlement to resolve claims that a 2024 data breach compromised patient information. The Baptist Health class action settlement benefits individuals whose private information was potentially compromised in the 2024 Baptist Health data breach. According to a class action lawsuit, the Baptist Health data breach allegedly compromised patient names, addresses, birth dates, treatme",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/baptist-health-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-16"
   },
   {
@@ -4812,6 +4817,27 @@
    "summary": "Educational Computer Systems Inc. (ECSI) has agreed to a $6.5 million class action settlement to resolve claims it failed to protect consumers from a data breach. The Educational Computer Systems settlement benefits individuals whose personal information was potentially accessed in the ECSI data breach between Oct. 29, 2023, and Feb. 12, 2024. According to the data breach class action lawsuit, ECSI failed to protect ",
    "also": [],
    "first_seen": "2026-10-13"
+  },
+  {
+   "id": "oca:asure-software-bipa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Asure Software BIPA Settlement \u2014 Est. $950 to $2,800",
+   "url": "https://openclassactions.com/settlements/privacy/asure-software-bipa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-21",
+   "deadline_text": "December 21, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2800.0,
+   "payout_text": "Est. $950 to $2,800",
+   "proof_text": "ID/code from notice required \u00b7 IL workers",
+   "region": "IL residents",
+   "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "oca:auxilio-mutuo-data-breach-settlement",
@@ -5564,6 +5590,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:7-75m-seatgeek-ticket-fee-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$7.75M SeatGeek ticket fee class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/7-75m-seatgeek-ticket-fee-class-action-settlement/",
+   "claim_url": "https://seatgeekticketfeessettlement.com/form/claim",
+   "deadline": "2027-01-05",
+   "deadline_text": "01/05/2027",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "SeatGeek has agreed to a $7.75 million class action settlement to resolve claims it failed to disclose fees on ticket purchases in Nevada. The SeatGeek settlement benefits individuals who purchased electronic tickets to events in Nevada from SeatGeek\u2019s website or mobile app between Nov. 7, 2020, and May 12, 2025, and who were charged fees. The class action lawsuit claims SeatGeek failed to disclose the total cost of ",
+   "also": [],
+   "first_seen": "2026-10-26"
+  },
+  {
    "id": "oca:manitoba-childrens-special-allowance-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Manitoba Children\u2019s Special Allowance Settlement \u2014 $445.2M CAD",
@@ -6066,6 +6113,27 @@
    "summary": "RealPage agreed to a $359.9 million class action settlement to resolve claims it violated federal and state antitrust laws by conspiring to fix and inflate the price of multifamily rental housing. The RealPage settlement benefits individuals and entities in the United States and its territories who paid rent on at least one multifamily residential real estate lease directly to any owner, manager and/or owner-operator",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:allstate-arizona-depreciation-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Allstate Arizona Depreciation Settlement \u2014 50% Back Plus Interest",
+   "url": "https://openclassactions.com/settlements/allstate-arizona-depreciation-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-29",
+   "deadline_text": "January 29, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "50% Back Plus Interest",
+   "proof_text": "ID/code from notice required \u00b7 AZ residents",
+   "region": "AZ residents",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "oca:realpage-rental-software-antitrust-class-action-settlement",
