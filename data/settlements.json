@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T04:57:48+00:00",
+ "updated": "2026-10-26T13:16:47+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7144,27 +7144,6 @@
    "first_seen": "2000-01-01"
   },
   {
-   "id": "oca:aetna-lumbar-artificial-disc-replacement-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Aetna Lumbar Artificial Disc Replacement (L-ADR) Coverage Class Action Settlement",
-   "url": "https://openclassactions.com/settlements/aetna-lumbar-artificial-disc-replacement-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": null,
-   "deadline_text": "Within 90 Days of Final Approval (See Claim Form)",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Documentation required",
-   "region": "",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
    "id": "oca:alaska-airlines-military-leave-vacation-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Alaska Airlines $500K Pilot Military Leave Settlement \u2014 Automatic Payment",
@@ -7524,7 +7503,7 @@
   {
    "id": "oca:drata-sdr-overtime-misclassification-class-action-settlement",
    "source": "OpenClassActions",
-   "title": "Drata $1.3M SDR Overtime Settlement \u2014 Automatic Payment",
+   "title": "Drata $1.37M SDR Overtime Settlement \u2014 Automatic Payment",
    "url": "https://openclassactions.com/settlements/wage-and-hours/drata-sdr-overtime-misclassification-class-action-settlement.php",
    "claim_url": null,
    "deadline": null,
@@ -7604,6 +7583,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:grainger-401k-forfeiture-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Grainger $2.85M 401(k) Forfeiture Settlement",
+   "url": "https://openclassactions.com/settlements/erisa/grainger-401k-forfeiture-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Pending \u2014 awaiting preliminary approval",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "oca:guadalupe-credit-union-collection-lawsuits-class-action-settlement",
