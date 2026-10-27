@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-27T05:15:20+00:00",
+ "updated": "2026-10-27T12:24:29+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 379
+   "count": 376
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 77
+   "count": 74
   }
  },
  "items": [
@@ -5793,6 +5793,27 @@
    "summary": "Progressive County Mutual Insurance Company agreed to an $8 million class action settlement to resolve claims it failed to pay timely interest on medical bills submitted for personal injury protection (PIP) benefits. The Progressive settlement benefits individuals who submitted a covered medical bill under their PIP coverage for a Texas-based policy and Progressive paid and issued an explanation of benefits (EOB) for",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:beautyhealth-securities-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "BeautyHealth $18M Securities Settlement (SKIN) \u2014 About $0.35 a Share",
+   "url": "https://openclassactions.com/settlements/securities/beautyhealth-securities-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-19",
+   "deadline_text": "January 19, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 0.35,
+   "payout_text": "About $0.35 a Share",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-27"
   },
   {
    "id": "oca:davita-ransomware-data-breach-settlement",
