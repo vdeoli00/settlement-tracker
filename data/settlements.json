@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-27T12:24:29+00:00",
+ "updated": "2026-10-27T22:23:41+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 376
+   "count": 378
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 74
+   "count": 75
   }
  },
  "items": [
@@ -3959,6 +3959,27 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "oca:stv-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "STV Washington Job Postings Settlement \u2014 Est. $1,592.71",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/stv-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-08",
+   "deadline_text": "December 8, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 1592.71,
+   "payout_text": "Est. $1,592.71",
+   "proof_text": "ID/code from notice required \u00b7 WA job applicants",
+   "region": "WA job applicants",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-27"
+  },
+  {
    "id": "oca:suffolk-county-red-light-camera-fee-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Suffolk County Red Light Camera Settlement \u2014 Up to $36 for Each $30 Administrative Fee",
@@ -4085,8 +4106,13 @@
    "proof_text": "Automatic payment \u2014 no claim form",
    "region": "",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Brighthouse Life Insurance Co. agreed to a $9.25 million class action settlement to resolve claims it failed to reduce the cost of insurance (COI) rates despite improved mortality expectations and reduced expenses. The Brighthouse Insurance settlement benefits current and former owners of universal life insurance policies with product codes ULX or ULXP and the following policy numbers: TUL91, TUL, ULX, TUL85, ULXP, T",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/9-25m-brighthouse-life-insurance-breach-of-contract-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-23"
   },
   {
@@ -4345,6 +4371,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-20"
+  },
+  {
+   "id": "oca:al-piemonte-nissan-tcpa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Al Piemonte Nissan TCPA Settlement: $100 Voucher or $20 Cash",
+   "url": "https://openclassactions.com/settlements/tcpa/al-piemonte-nissan-tcpa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-15",
+   "deadline_text": "December 15, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 100.0,
+   "payout_text": "",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "tcpa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-27"
   },
   {
    "id": "oca:kimco-staffing-data-breach-settlement",
