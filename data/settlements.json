@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-28T13:10:58+00:00",
+ "updated": "2026-10-28T22:41:11+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 380
+   "count": 381
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 73
+   "count": 75
   }
  },
  "items": [
@@ -5138,7 +5138,7 @@
    "source": "OpenClassActions",
    "title": "GoodRx $32M Privacy Settlement",
    "url": "https://openclassactions.com/settlements/privacy/goodrx-privacy-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://goodrxprivacysettlement.com/file-not-noticed",
    "deadline": "2026-12-29",
    "deadline_text": "December 29, 2026",
    "opt_out": false,
@@ -5150,8 +5150,13 @@
    "proof_text": "No proof required",
    "region": "",
    "category": "privacy",
-   "summary": "",
-   "also": [],
+   "summary": "GoodRx and Criteo agreed to a $32 million class action settlement to resolve claims that GoodRx shared sensitive health information with third parties. The GoodRx settlement benefits individuals who used a GoodRx website, app or service any time prior to April 20, 2024. According to a class action lawsuit, GoodRx shared sensitive health information about patient prescription medications and health conditions with thi",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/32m-goodrx-data-privacy-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-14"
   },
   {
@@ -5934,12 +5939,33 @@
    "no_proof_amount": null,
    "payout_max": null,
    "payout_text": "Pro Rata Cash",
-   "proof_text": "ID/code from notice expected \u2014 claim form not yet published; notices go out by October 27, 2026",
+   "proof_text": "ID/code from notice required",
    "region": "",
    "category": "pixel tracking",
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:doctors-imaging-group-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Doctors Imaging Group Data Breach Settlement \u2014 Up to $2,500 Plus Monitoring",
+   "url": "https://openclassactions.com/settlements/data-breaches/doctors-imaging-group-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-26",
+   "deadline_text": "January 26, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "Up to $2,500 Plus Monitoring",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-28"
   },
   {
    "id": "oca:mavis-discount-tire-pennsylvania-ag-restitution-settlement",
@@ -6003,6 +6029,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-26"
+  },
+  {
+   "id": "tca:allstate-property-insurance-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "Allstate property insurance class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/allstate-property-insurance-class-action-settlement/",
+   "claim_url": "https://www.hernandezdepreciationsettlement.com/submit-claim",
+   "deadline": "2027-01-29",
+   "deadline_text": "01/29/2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: Policy number, claim number, date of loss, amount of ACV payment and the name of the policyholder",
+   "region": "",
+   "category": "",
+   "summary": "Allstate agreed to a class action settlement to resolve claims it withheld nonmaterial depreciation from property insurance claims. The Allstate settlement benefits Allstate property insurance policyholders who made a structural loss claim for property in Arizona between April 25, 2017, and Oct. 1, 2026, where Allstate issued payment based on an Xactimate estimate that resulted in an actual cash value payment from wh",
+   "also": [],
+   "first_seen": "2026-10-28"
   },
   {
    "id": "oca:realpage-rental-software-antitrust-class-action-settlement",
@@ -7230,19 +7277,19 @@
   {
    "id": "oca:cibc-nsf-fee-settlement-canada",
    "source": "OpenClassActions",
-   "title": "CIBC $10M NSF Fee Settlement (Canada) \u2014 Automatic Payments If Approved",
+   "title": "CIBC $10M NSF Fee Settlement (Canada) \u2014 Approved, Automatic Payments",
    "url": "https://openclassactions.com/settlements/cibc-nsf-fee-settlement-canada.php",
    "claim_url": null,
    "deadline": null,
-   "deadline_text": "Pending \u2014 Hearing Oct 19, 2026",
+   "deadline_text": "Approved \u2014 Payments Pending",
    "opt_out": false,
    "proof": "automatic",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
-   "payout_text": "Automatic Payments If Approved",
-   "proof_text": "Automatic payment \u2014 no claim form",
-   "region": "",
+   "payout_text": "Approved, Automatic Payments",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 Canada only",
+   "region": "Canada only",
    "category": "",
    "summary": "",
    "also": [],
