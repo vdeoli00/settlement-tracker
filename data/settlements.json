@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-28T22:41:11+00:00",
+ "updated": "2026-10-29T05:58:23+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 381
+   "count": 384
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,48 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:highland-health-systems-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Highland Health Systems Data Breach Settlement \u2014 ~$85 or Up to $5,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/highland-health-systems-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-28",
-   "deadline_text": "October 28, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "~$85 or Up to $5,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:on-q-financial-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "On Q Financial Data Breach Settlement \u2014 About $50 or Up to $5,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/on-q-financial-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-28",
-   "deadline_text": "October 28, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "About $50 or Up to $5,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:pork-price-fixing-class-action-settlement",
    "source": "OpenClassActions",
@@ -4452,6 +4410,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:brandt-equities-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Brandt Equities Data Breach Settlement \u2014 Up to $3,500 Plus Lost Time",
+   "url": "https://openclassactions.com/settlements/data-breaches/brandt-equities-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-17",
+   "deadline_text": "December 17, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3500.0,
+   "payout_text": "Up to $3,500 Plus Lost Time",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "oca:marist-brothers-quebec-sexual-abuse-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Marist Brothers Quebec Abuse Settlement \u2014 $24.95M CAD",
@@ -4791,6 +4770,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:prime-healthcare-pixel-privacy-settlement",
+   "source": "OpenClassActions",
+   "title": "Prime Healthcare Pixel Privacy Settlement \u2014 $20 for Patient Portal Users",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/prime-healthcare-pixel-privacy-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-21",
+   "deadline_text": "December 21, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 20.0,
+   "payout_text": "$20 for Patient Portal Users",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "pixel tracking",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:telmate-viapath-data-breach-settlement",
@@ -5903,6 +5903,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:columbia-university-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Columbia University $16.1M Data Breach Settlement \u2014 Up to $8,500 or Cash",
+   "url": "https://openclassactions.com/settlements/data-breaches/columbia-university-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-21",
+   "deadline_text": "January 21, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 8500.0,
+   "payout_text": "Up to $8,500 or Cash",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:warner-music-group-data-breach-settlement",
