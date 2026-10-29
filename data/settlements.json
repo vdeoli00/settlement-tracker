@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T05:58:23+00:00",
+ "updated": "2026-10-29T13:17:48+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 384
+   "count": 387
   },
   "Top Class Actions": {
    "ok": true,
@@ -743,6 +743,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:illinois-united-builders-polo-masonry-overtime-settlement",
+   "source": "OpenClassActions",
+   "title": "United Builders & Polo Masonry Illinois AG Overtime Settlement \u2014 $555K",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/illinois-united-builders-polo-masonry-overtime-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-03",
+   "deadline_text": "November 3, 2026 (late claims)",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$555K",
+   "proof_text": "Claimant ID from notice required \u00b7 Only the 91 workers named in the consent decree",
+   "region": "Only the 91 workers named in the consent decree",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:summit-medical-group-data-breach-settlement",
@@ -3980,6 +4001,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:bank-of-america-efta-dispute-denial-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Bank of America $2M Debit Card & ATM Dispute Settlement",
+   "url": "https://openclassactions.com/settlements/bank-of-america-efta-dispute-denial-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-11",
+   "deadline_text": "December 11, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "oca:brighthouse-life-insurance-universal-life-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Brighthouse Life Insurance $9.25M Settlement \u2014 Automatic Payments",
@@ -4004,6 +4046,27 @@
     }
    ],
    "first_seen": "2026-10-23"
+  },
+  {
+   "id": "oca:ebara-technologies-california-wage-paga-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Ebara Technologies $1.2M California Wage Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/paga/ebara-technologies-california-wage-paga-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-11",
+   "deadline_text": "December 11, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 California hourly employees",
+   "region": "",
+   "category": "paga",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:becton-dickinson-sec-fair-fund",
@@ -5312,6 +5375,27 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "oca:supernova-offerpad-spac-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$3M Supernova (Offerpad) Stockholder Settlement",
+   "url": "https://openclassactions.com/settlements/securities/supernova-offerpad-spac-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-04",
+   "deadline_text": "January 4, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "oca:amca-sonic-healthcare-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "$6.44M AMCA Sonic Healthcare Data Breach Settlement \u2014 $50 or Up to $5,000",
@@ -6092,6 +6176,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:lion-electric-northern-genesis-spac-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Lion Electric $4M SPAC Stockholder Settlement (NGA)",
+   "url": "https://openclassactions.com/settlements/securities/lion-electric-northern-genesis-spac-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-30",
+   "deadline_text": "January 30, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:canada-cra-gckey-privacy-breach-settlement",
