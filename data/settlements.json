@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-29T13:17:48+00:00",
+ "updated": "2026-10-29T22:51:02+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 387
+   "count": 388
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 76
   }
  },
  "items": [
@@ -1590,8 +1590,13 @@
    "proof_text": "Hearing Jan 22, 2027 \u00b7 Automatic payment \u2014 no claim form \u00b7 WA residents",
    "region": "WA residents",
    "category": "wage and hours",
-   "summary": "",
-   "also": [],
+   "summary": "Jimmy John\u2019s has agreed to pay $975,000 to resolve claims it violated Washington law by failing to disclose wage scales and salary ranges in job listings. The Jimmy John\u2019s settlement benefits individuals who applied for a job opening in Washington with Sandwich SC LLC (doing business as Jimmy John\u2019s) between Jan. 1, 2023, and Aug. 24, 2026, in response to a job posting that did not properly disclose the wage scale or",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/975k-jimmy-johns-job-postings-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-20"
   },
   {
@@ -6094,6 +6099,27 @@
    "first_seen": "2026-10-19"
   },
   {
+   "id": "oca:academy-mortgage-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Academy Mortgage $1.995M Data Breach Settlement \u2014 Cash Plus Up to $3,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/academy-mortgage-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-27",
+   "deadline_text": "January 27, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3000.0,
+   "payout_text": "Cash Plus Up to $3,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2000-01-01"
+  },
+  {
    "id": "tca:359-9m-realpage-antitrust-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$359.9M RealPage antitrust class action settlement",
@@ -7212,27 +7238,6 @@
    "first_seen": "2000-01-01"
   },
   {
-   "id": "oca:academy-mortgage-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Academy Mortgage $1.995M Data Breach Settlement \u2014 Cash Plus Up to $3,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/academy-mortgage-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": null,
-   "deadline_text": "Pending \u2014 claims open by October 29, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 3000.0,
-   "payout_text": "Cash Plus Up to $3,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
    "id": "oca:aerogrow-shareholder-class-action-settlement",
    "source": "OpenClassActions",
    "title": "AeroGrow $15.98M Shareholder Settlement \u2014 Paid Automatically",
@@ -7546,6 +7551,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:dreo-dr-hsh015-space-heater-recall",
+   "source": "OpenClassActions",
+   "title": "DREO Space Heater Recall \u2014 338,800 Heaters, Free Replacement",
+   "url": "https://openclassactions.com/recalls/dreo-dr-hsh015-space-heater-recall.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No fixed deadline stated",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "338,800 Heaters, Free Replacement",
+   "proof_text": "Photo of the heater with its power cord cut required; no receipt mentioned \u00b7 Model DR-HSH015 made April 2025\u2013January 2026, sold at Costco and online",
+   "region": "",
+   "category": "recall",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "oca:devon-energy-oklahoma-gas-royalty-class-action-settlement",
