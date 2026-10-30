@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T22:51:02+00:00",
+ "updated": "2026-10-30T05:59:18+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 388
+   "count": 392
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,79 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:pork-price-fixing-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "$117M Pork Price-Fixing Class Action Settlement",
-   "url": "https://openclassactions.com/settlements/pork-price-fixing-class-action-settlement.php",
-   "claim_url": "https://www.overchargedforpork.com/Home/SubmitClaim",
-   "deadline": "2026-10-29",
-   "deadline_text": "October 29, 2026",
-   "opt_out": false,
-   "proof": "none",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "No proof required",
-   "region": "",
-   "category": "",
-   "summary": "Pork producers agreed to pay more than $117 million in a class action settlement to resolve claims they conspired together to raise the price of pork products. The pork settlement benefits consumers who purchased raw pork bacon or one or more of the following types of raw pork (fresh or frozen) made from bellies, loins, shoulder, ribs or pork chops from Agri Stats, Clemens, Hormel, JBS, Seaboard, Smithfield, Triumph,",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/117m-pork-price-fixing-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:finwise-bank-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "FinWise Bank Data Breach Settlement \u2014 Up to $5,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/finwise-bank-data-breach-settlement.php",
-   "claim_url": "https://www.finwisedatasettlement.com/Login",
-   "deadline": "2026-10-29",
-   "deadline_text": "October 29, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "Up to $5,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "FinWise Bank, FinWise Bancorp and American First Finance agreed to a $2.8 million class action settlement to resolve claims they failed to prevent a 2024 data breach that compromised sensitive consumer information. The FinWise Bank settlement benefits individuals whose private information was affected by the FinWise Bank data breach on or around May 31, 2024, including those who received a notice of the data breach. ",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-8m-finwise-bank-data-breach-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:rocket-tax-nyc-dcwp-restitution-settlement",
-   "source": "OpenClassActions",
-   "title": "Rocket Tax NYC Restitution \u2014 Refunds of Undisclosed Tax Prep Fees",
-   "url": "https://openclassactions.com/settlements/consumer-protection/rocket-tax-nyc-dcwp-restitution-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-29",
-   "deadline_text": "October 29, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "Refunds of Undisclosed Tax Prep Fees",
-   "proof_text": "Documentation required \u00b7 Rocket Tax (Brooklyn) customers",
-   "region": "",
-   "category": "consumer protection",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "tca:2-03m-amwell-livehealth-online-data-sharing-class-action-settlement",
    "source": "Top Class Actions",
@@ -2780,6 +2707,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:ben-e-keith-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Ben E. Keith Data Breach Settlement \u2014 $35 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/ben-e-keith-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-26",
+   "deadline_text": "November 26, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "$35 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-30"
+  },
+  {
    "id": "oca:cpap-medical-supplies-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "CPAP Medical Supplies Data Breach Settlement \u2014 Up to $5,000 Documented Plus Medical Monitoring",
@@ -5202,6 +5150,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:valnet-content-creator-misclassification-paga-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Valnet $2M Content Creator Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/paga/valnet-content-creator-misclassification-paga-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "paga",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-30"
+  },
+  {
    "id": "oca:goodrx-privacy-class-action-settlement",
    "source": "OpenClassActions",
    "title": "GoodRx $32M Privacy Settlement",
@@ -5294,6 +5263,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:bauer-built-tire-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Bauer Built Tire Data Breach Settlement \u2014 $45 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/bauer-built-tire-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-31",
+   "deadline_text": "December 31, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "$45 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-30"
   },
   {
    "id": "oca:clorox-pine-sol-recall",
@@ -6454,6 +6444,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:vanilla-gift-card-california-restitution-settlement",
+   "source": "OpenClassActions",
+   "title": "Vanilla Gift Card California Settlement \u2014 $15 No Receipt, or Full Loss",
+   "url": "https://openclassactions.com/settlements/consumer-protection/vanilla-gift-card-california-restitution-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-19",
+   "deadline_text": "February 19, 2027",
+   "opt_out": false,
+   "proof": "none",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 15.0,
+   "payout_text": "$15 No Receipt, or Full Loss",
+   "proof_text": "No proof required \u00b7 CA residents with a card bought in California",
+   "region": "CA residents with a card bought in California",
+   "category": "consumer protection",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-30"
   },
   {
    "id": "oca:indian-boarding-homes-class-action-settlement",
