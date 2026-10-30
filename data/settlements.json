@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-30T05:59:18+00:00",
+ "updated": "2026-10-30T13:09:18+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 392
+   "count": 390
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 76
+   "count": 74
   }
  },
  "items": [
@@ -6110,6 +6110,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:merchant-of-tennis-us-merchants-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Merchant of Tennis (US Merchants) $685K Data Breach Settlement \u2014 Est. $45 or $15",
+   "url": "https://openclassactions.com/settlements/data-breaches/merchant-of-tennis-us-merchants-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-27",
+   "deadline_text": "January 27, 2027",
+   "opt_out": false,
+   "proof": "none",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 45.0,
+   "payout_text": "Est. $45 or $15",
+   "proof_text": "No proof required for the cash payment or monitoring \u00b7 documentation required for losses",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-10-30"
+  },
+  {
    "id": "tca:359-9m-realpage-antitrust-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$359.9M RealPage antitrust class action settlement",
@@ -6454,12 +6475,12 @@
    "deadline": "2027-02-19",
    "deadline_text": "February 19, 2027",
    "opt_out": false,
-   "proof": "none",
+   "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": 15.0,
    "payout_text": "$15 No Receipt, or Full Loss",
-   "proof_text": "No proof required \u00b7 CA residents with a card bought in California",
+   "proof_text": "Documentation required \u00b7 CA residents with a card bought in California",
    "region": "CA residents with a card bought in California",
    "category": "consumer protection",
    "summary": "",
