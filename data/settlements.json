@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T13:09:18+00:00",
+ "updated": "2026-10-30T22:27:56+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 74
+   "count": 76
   }
  },
  "items": [
@@ -319,12 +319,12 @@
    "deadline": "2026-11-02",
    "deadline_text": "November 2, 2026",
    "opt_out": false,
-   "proof": "none",
+   "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
    "payout_text": "",
-   "proof_text": "No proof required \u00b7 90 Washington Street (NYC) tenants",
+   "proof_text": "Tenancy details required \u00b7 90 Washington Street (NYC) tenants",
    "region": "",
    "category": "",
    "summary": "",
@@ -345,7 +345,7 @@
    "no_proof_amount": null,
    "payout_max": 5000.0,
    "payout_text": "Up to $75 With ID Required, or Up to $5,000 Documented",
-   "proof_text": "No proof required",
+   "proof_text": "Notice ID or sworn claim required",
    "region": "",
    "category": "data breaches",
    "summary": "ConnectOnCall and Phreesia agreed to a $4.95 million class action settlement to resolve claims that a 2024 data breach compromised sensitive consumer information. The ConnectOnCall settlement benefits individuals whose information may have been impacted in the ConnectOnCall and Phreesia data breach that occurred between Feb. 16 and May 12, 2024. The ConnectOnCall data breach settlement resolves claims that ConnectOnC",
@@ -2521,12 +2521,12 @@
    "deadline": "2026-11-24",
    "deadline_text": "November 24, 2026",
    "opt_out": false,
-   "proof": "none",
+   "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
    "payout_text": "$1.6M for California Visitors",
-   "proof_text": "No proof required \u00b7 CA residents",
+   "proof_text": "Notice ID may be required \u00b7 CA residents",
    "region": "CA residents",
    "category": "privacy",
    "summary": "",
@@ -4043,6 +4043,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:2-7m-zumba-privacy-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$2.7M Zumba privacy class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-7m-zumba-privacy-class-action-settlement/",
+   "claim_url": null,
+   "deadline": "2026-12-14",
+   "deadline_text": "12/14/2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 229.33,
+   "payout_text": "$229.33 per share; class members may receive multiple shares",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Zumba has agreed to a $2.7 million class action settlement to resolve claims it violated the federal Video Privacy Protection Act (VPPA) by sharing purchase information with third parties. The Zumba class action settlement benefits individuals who purchased the ZB1 OD version from the Zumba website between Oct. 22, 2022, and Oct. 22, 2024, and whose first and last names appeared on order confirmation pages shared wit",
+   "also": [],
+   "first_seen": "2026-10-30"
+  },
+  {
    "id": "tca:850k-thinkware-dashcam-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$850K Thinkware dashcam class action settlement",
@@ -5201,7 +5222,7 @@
    "source": "OpenClassActions",
    "title": "Covenant Health $2M Data Breach Settlement \u2014 Est. $75 or Up to $5,000",
    "url": "https://openclassactions.com/settlements/data-breaches/covenant-health-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.covenanthealthdatasettlement.com/efiling/fr/tform/covenanthealth_claimform/new?form-version=1",
    "deadline": "2026-12-30",
    "deadline_text": "December 30, 2026",
    "opt_out": false,
@@ -5213,8 +5234,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Covenant Health agreed to a $2 million class action settlement to resolve claims that it failed to prevent a 2025 data breach that compromised sensitive patient information. The Covenant Health settlement benefits individuals whose private information was compromised in the Covenant Health data breach on May 18, 2025, and who received a notice of the data breach. Plaintiffs in the class action lawsuit accused Covenan",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2m-covenant-health-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-20"
   },
   {
@@ -5609,12 +5635,12 @@
    "deadline": "2027-01-07",
    "deadline_text": "January 7, 2027",
    "opt_out": false,
-   "proof": "none",
+   "proof": "notice_id",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": 5000.0,
    "payout_text": "$100 or Up to $5,000",
-   "proof_text": "No proof required for the estimated $100 option \u00b7 documentation required for losses up to $5,000",
+   "proof_text": "Claim ID and PIN from notice required to file online \u00b7 documentation required for losses up to $5,000",
    "region": "",
    "category": "data breaches",
    "summary": "",
@@ -6118,12 +6144,12 @@
    "deadline": "2027-01-27",
    "deadline_text": "January 27, 2027",
    "opt_out": false,
-   "proof": "none",
+   "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": 45.0,
    "payout_text": "Est. $45 or $15",
-   "proof_text": "No proof required for the cash payment or monitoring \u00b7 documentation required for losses",
+   "proof_text": "Notice ID or sworn claim required \u00b7 documentation required for losses",
    "region": "",
    "category": "data breaches",
    "summary": "",
