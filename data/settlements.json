@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:42:50+00:00",
+ "updated": "2026-11-01T06:22:33+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -11,48 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:alba-services-new-york-worker-restitution-settlement",
-   "source": "OpenClassActions",
-   "title": "Alba Services NY Attorney General Worker Restitution \u2014 $1.4M Fund",
-   "url": "https://openclassactions.com/settlements/wage-and-hours/alba-services-new-york-worker-restitution-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-31",
-   "deadline_text": "October 31, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "$1.4M Fund",
-   "proof_text": "ID/code from notice required \u00b7 NY residents",
-   "region": "NY residents",
-   "category": "wage and hours",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:dennys-new-york-unpaid-wages-settlement",
-   "source": "OpenClassActions",
-   "title": "Denny\u2019s New York $440K Unpaid Wages Settlement",
-   "url": "https://openclassactions.com/settlements/dennys-new-york-unpaid-wages-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-10-31",
-   "deadline_text": "October 31, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "ID/code from notice required \u00b7 Eligible New York franchise workers",
-   "region": "",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:90-washington-street-rent-overcharge-class-action-settlement",
    "source": "OpenClassActions",
