@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T13:38:52+00:00",
+ "updated": "2026-11-01T22:10:04+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 383
+   "count": 384
   },
   "Top Class Actions": {
    "ok": true,
@@ -3847,6 +3847,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:camden-county-nj-vacant-property-registration-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Camden County, NJ Vacant Property Fee Settlement \u2014 $200 or 60% Refund",
+   "url": "https://openclassactions.com/settlements/real-estate/camden-county-nj-vacant-property-registration-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-14",
+   "deadline_text": "December 14, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 200.0,
+   "payout_text": "$200 or 60% Refund",
+   "proof_text": "ID/code from notice required \u00b7 Camden County, NJ fee payers (Runnemede, Bellmawr, Barrington, Gloucester Twp., Voorhees)",
+   "region": "",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-01"
   },
   {
    "id": "oca:kiromic-biopharma-securities-class-action-settlement",
