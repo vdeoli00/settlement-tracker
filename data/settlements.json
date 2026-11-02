@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-02T06:23:46+00:00",
+ "updated": "2026-11-02T21:46:36+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 389
+   "count": 392
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 72
+   "count": 74
   }
  },
  "items": [
@@ -4085,6 +4085,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "tca:3m-simplilearn-vppa-violation-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$3M Simplilearn VPPA violation class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3m-simplilearn-vppa-violation-class-action-settlement/",
+   "claim_url": "https://veritaconnect.com/SimplilearnPrivacySettlement/Claimant",
+   "deadline": "2026-12-15",
+   "deadline_text": "12/15/2026",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Simplilearn agreed to a $3 million class action settlement to resolve claims it violated the federal Video Privacy Protection Act (VPPA) by sharing user data with third parties without consent. The Simplilearn settlement benefits individuals who accessed or used the Simplilearn platform in the United States between Feb. 26, 2023, and Sept. 16, 2026. This includes anyone who visited, browsed, viewed or otherwise inter",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "oca:al-piemonte-nissan-tcpa-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Al Piemonte Nissan TCPA Settlement: $100 Voucher or $20 Cash",
@@ -4278,7 +4299,7 @@
    "source": "OpenClassActions",
    "title": "Fairmont Federal Credit Union Data Breach Settlement \u2014 $150 or Up to $7,500",
    "url": "https://openclassactions.com/settlements/data-breaches/fairmont-federal-credit-union-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.ksacms.com/efiling/fr/tform/ffcudatasettlement_claimform/new?form-version=1",
    "deadline": "2026-12-18",
    "deadline_text": "December 18, 2026",
    "opt_out": false,
@@ -4290,8 +4311,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Fairmont Federal Credit Union agreed to pay more than $1.7 million as part of a class action settlement to resolve claims it failed to prevent a 2023 data breach. The Fairmont Federal Credit Union settlement benefits individuals whose private information was potentially impacted in the Fairmont Federal Credit Union data breach between Sept. 30 and Oct. 18, 2023. According to the class action lawsuit, Fairmont Federal",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-78m-fairmont-federal-credit-union-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-24"
   },
   {
@@ -5585,6 +5611,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:woodloch-pines-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Woodloch Pines Data Breach Settlement \u2014 $60 or Up to $3,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/woodloch-pines-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-13",
+   "deadline_text": "January 13, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3500.0,
+   "payout_text": "$60 or Up to $3,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "oca:blue-ridge-rural-water-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Blue Ridge Rural Water Data Breach Settlement \u2014 $50 or Up to $2,500",
@@ -5921,6 +5968,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:bc-credit-union-overdraft-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "BC Credit Union Overdraft Fee Settlement (Canada) \u2014 Refunds Plus Interest",
+   "url": "https://openclassactions.com/settlements/overdraft-fees/bc-credit-union-overdraft-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-27",
+   "deadline_text": "January 27, 2027",
+   "opt_out": false,
+   "proof": "none",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Refunds Plus Interest",
+   "proof_text": "No proof required \u00b7 Canada only",
+   "region": "Canada only",
+   "category": "overdraft fees",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "oca:merchant-of-tennis-us-merchants-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Merchant of Tennis (US Merchants) $685K Data Breach Settlement \u2014 Est. $45 or $15",
@@ -5940,6 +6008,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-30"
+  },
+  {
+   "id": "oca:lakeside-pediatric-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Lakeside Pediatric Data Breach Settlement \u2014 Cash or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/lakeside-pediatric-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-28",
+   "deadline_text": "January 28, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "Cash or Up to $2,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
   },
   {
    "id": "tca:359-9m-realpage-antitrust-class-action-settlement",
