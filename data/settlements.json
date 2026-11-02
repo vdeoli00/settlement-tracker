@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T22:10:04+00:00",
+ "updated": "2026-11-02T06:23:46+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 384
+   "count": 389
   },
   "Top Class Actions": {
    "ok": true,
@@ -1158,6 +1158,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-18"
+  },
+  {
+   "id": "oca:essex-property-trust-california-security-deposit-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Essex Property Trust $19.25M Security Deposit Settlement \u2014 Claims Not Open Yet",
+   "url": "https://openclassactions.com/settlements/real-estate/essex-property-trust-california-security-deposit-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-13",
+   "deadline_text": "Not set yet (preliminary approval hearing Nov. 13, 2026)",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Claims Not Open Yet",
+   "proof_text": "Documentation required \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
   },
   {
    "id": "oca:ftd-proflowers-delivery-fee-class-action-settlement",
@@ -4961,6 +4982,27 @@
    "first_seen": "2026-10-14"
   },
   {
+   "id": "oca:sirva-relocation-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Sirva Relocation Data Breach Settlement \u2014 $50 Cash or Up to $4,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/sirva-relocation-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-29",
+   "deadline_text": "December 29, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4500.0,
+   "payout_text": "$50 Cash or Up to $4,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "oca:covenant-health-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Covenant Health $2M Data Breach Settlement \u2014 Est. $75 or Up to $5,000",
@@ -6005,6 +6047,48 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "oca:rapid-investments-axiom-bank-release-card-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Jail Release Card Settlement \u2014 $15 Plus Three Times Your Card Fees (Rapid & Axiom, $4.2M)",
+   "url": "https://openclassactions.com/settlements/rapid-investments-axiom-bank-release-card-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-31",
+   "deadline_text": "January 31, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 15.0,
+   "payout_text": "$15 Plus Three Times Your Card Fees (Rapid & Axiom, $4.2M)",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "oca:yuma-regional-medical-center-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Yuma Regional Medical Center Data Breach Settlement \u2014 Cash and Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/yuma-regional-medical-center-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-01",
+   "deadline_text": "February 1, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "Cash and Up to $4,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "oca:canada-cra-gckey-privacy-breach-settlement",
    "source": "OpenClassActions",
    "title": "Canada CRA & GCKey Breach Settlement \u2014 Up to $5,200 CAD",
@@ -6255,6 +6339,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-30"
+  },
+  {
+   "id": "oca:apple-gift-card-class-action-settlement-canada",
+   "source": "OpenClassActions",
+   "title": "Apple Gift Card Scam Settlement (Canada) \u2014 $1.25 Million CAD",
+   "url": "https://openclassactions.com/settlements/apple-gift-card-class-action-settlement-canada.php",
+   "claim_url": null,
+   "deadline": "2027-02-20",
+   "deadline_text": "February 20, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$1.25 Million CAD",
+   "proof_text": "Documentation required \u00b7 Canada only",
+   "region": "Canada only",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-02"
   },
   {
    "id": "oca:indian-boarding-homes-class-action-settlement",
