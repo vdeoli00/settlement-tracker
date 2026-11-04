@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-04T06:40:04+00:00",
+ "updated": "2026-11-04T19:53:11+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 392
+   "count": 387
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 70
+   "count": 68
   }
  },
  "items": [
@@ -2728,6 +2728,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:nordstrom-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Nordstrom $834K Washington Job Postings Settlement \u2014 Est. $1,154, Automatic Payment",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/nordstrom-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-02",
+   "deadline_text": "December 2, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 1154.0,
+   "payout_text": "Est. $1,154, Automatic Payment",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 Washington applicants to Nordstrom job postings without pay ranges, Jan. 1, 2023 \u2013 July 26, 2025",
+   "region": "Washington applicants to Nordstrom job postings without pay ranges, Jan. 1, 2023 \u2013 July 26, 2025",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-04"
+  },
+  {
    "id": "oca:ohio-bmv-disabled-veteran-military-license-plate-refund-settlement",
    "source": "OpenClassActions",
    "title": "Ohio BMV Military License Plate Settlement \u2014 Full Fee Refunds",
@@ -5166,6 +5187,27 @@
    "first_seen": "2026-10-21"
   },
   {
+   "id": "oca:red-coats-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Red Coats Data Breach Settlement \u2014 Up to $100 for Lost Time or $5,000 Documented",
+   "url": "https://openclassactions.com/settlements/data-breaches/red-coats-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-07",
+   "deadline_text": "January 7, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Up to $100 for Lost Time or $5,000 Documented",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-04"
+  },
+  {
    "id": "oca:hertz-ev-securities-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Hertz $10M EV Securities Settlement (HTZ) \u2014 About $0.07 a Share",
@@ -7187,8 +7229,13 @@
    "proof_text": "Automatic payment \u2014 no claim form \u00b7 excludes NV and UT residents \u00b7 borrowers with Bright Lending loans from October 1, 2020 \u00b7 payment election, opt-out and objection deadline December 21, 2026",
    "region": "excludes NV and UT residents",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Bright Lending agreed to a $15 million class action settlement to resolve claims it issued loans with interest rates that violated Illinois and other state usury laws. The Bright Lending settlement benefits two classes of borrowers, namely a monetary relief class and a debt relief class. The monetary relief class is made up of U.S. residents who entered into at least one loan agreement with Bright Lending between Oct",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15m-bright-lending-unlawful-loans-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-17"
   },
   {
