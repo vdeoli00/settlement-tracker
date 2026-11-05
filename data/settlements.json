@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-04T19:53:11+00:00",
+ "updated": "2026-11-05T06:58:59+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 387
+   "count": 393
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,53 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:summit-medical-group-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "Summit Medical Group Data Breach Settlement \u2014 Up to $2,545 Plus Medical Monitoring",
-   "url": "https://openclassactions.com/settlements/data-breaches/summit-medical-group-data-breach-settlement.php",
-   "claim_url": "https://summitmedicaldatasettlement.com/form/claim",
-   "deadline": "2026-11-04",
-   "deadline_text": "November 4, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 2545.0,
-   "payout_text": "Up to $2,545 Plus Medical Monitoring",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "Summit Medical Group agreed to a class action settlement to resolve claims that it failed to prevent a 2024 data breach that compromised sensitive patient information. The Summit Medical settlement benefits individuals whose private information was potentially compromised in the September 2024 Summit Medical data breach. Plaintiffs in the class action lawsuit accused Summit Medical of failing to implement cybersecuri",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/summit-medical-data-breach-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:truffettes-de-france-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Truffettes de France Settlement (Canada) \u2014 $3 CAD per Product",
-   "url": "https://openclassactions.com/settlements/truffettes-de-france-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-04",
-   "deadline_text": "November 4, 2026",
-   "opt_out": false,
-   "proof": "none",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 3.0,
-   "payout_text": "$3 CAD per Product",
-   "proof_text": "No proof required \u00b7 Canada only",
-   "region": "Canada only",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:university-of-phoenix-pixel-privacy-class-action-settlement",
    "source": "OpenClassActions",
@@ -4689,6 +4642,27 @@
    "first_seen": "2026-11-04"
   },
   {
+   "id": "oca:sherr-puttmann-akins-lamb-spal-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "SPAL Law Firm Data Breach Settlement \u2014 $50 Cash or Up to $900",
+   "url": "https://openclassactions.com/settlements/data-breaches/sherr-puttmann-akins-lamb-spal-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 900.0,
+   "payout_text": "$50 Cash or Up to $900",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
+  },
+  {
    "id": "oca:valnet-content-creator-misclassification-paga-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Valnet $2M Content Creator Settlement \u2014 Automatic",
@@ -4912,6 +4886,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:avondale-apartments-denver-habitability-elevator-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Avondale Apartments $2M Denver Tenant Settlement \u2014 Automatic Payments",
+   "url": "https://openclassactions.com/settlements/real-estate/avondale-apartments-denver-habitability-elevator-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-02",
+   "deadline_text": "January 2, 2027 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payments",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 Disability subclass claim form due Jan. 2, 2027 \u00b7 Avondale Apartments tenants, Denver, June 6, 2022\u2013Nov. 3, 2026",
+   "region": "",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
   },
   {
    "id": "oca:atlas-crest-archer-aviation-stockholder-class-action-settlement",
@@ -5948,6 +5943,27 @@
    "first_seen": "2026-11-02"
   },
   {
+   "id": "oca:bigfork-valley-hospital-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Bigfork Valley Hospital Data Breach Settlement \u2014 Up to $2,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/bigfork-valley-hospital-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-01",
+   "deadline_text": "February 1, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2000.0,
+   "payout_text": "Up to $2,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
+  },
+  {
    "id": "oca:yuma-regional-medical-center-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Yuma Regional Medical Center Data Breach Settlement \u2014 Cash and Up to $4,000",
@@ -6515,6 +6531,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:glenn-beck-cruise-thru-history-refund-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Glenn Beck Cruise Thru History $800K Refund Settlement",
+   "url": "https://openclassactions.com/settlements/glenn-beck-cruise-thru-history-refund-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-04-01",
+   "deadline_text": "April 1, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
+  },
+  {
    "id": "oca:hyundai-kia-airbag-control-units-class-action-settlement",
    "source": "OpenClassActions",
    "title": "$62.1M Hyundai & Kia Airbag Control Units Settlement",
@@ -6597,6 +6634,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:ciox-health-maryland-medical-records-fees-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "CIOX $4.5M Maryland Medical Records Fee Settlement \u2014 Est. $45.76 per Invoice",
+   "url": "https://openclassactions.com/settlements/ciox-health-maryland-medical-records-fees-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-05-22",
+   "deadline_text": "May 22, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 45.76,
+   "payout_text": "Est. $45.76 per Invoice",
+   "proof_text": "ID/code from notice required \u00b7 Maryland medical records requests, Oct. 1, 2016\u2013July 11, 2025 \u00b7 Law firms, copying services and insurers claim by Dec. 4, 2026",
+   "region": "Maryland medical records requests, Oct. 1, 2016\u2013July 11, 2025",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
   },
   {
    "id": "oca:ile-a-la-crosse-school-class-action-settlement",
@@ -7190,6 +7248,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:bodum-french-press-glass-carafe-recall",
+   "source": "OpenClassActions",
+   "title": "Bodum French Press Recall \u2014 5.9 Million Recalled, Free Spoon and Warning Label",
+   "url": "https://openclassactions.com/recalls/bodum-french-press-glass-carafe-recall.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No fixed deadline stated",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "5.9 Million Recalled, Free Spoon and Warning Label",
+   "proof_text": "Request form requirements not stated in the CPSC notice \u00b7 8- and 12-cup glass-carafe presses sold 1974\u2013October 2026",
+   "region": "",
+   "category": "recall",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-05"
   },
   {
    "id": "oca:bowflex-dumbbell-recall",
