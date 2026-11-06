@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T20:04:47+00:00",
+ "updated": "2026-11-06T06:58:27+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 391
+   "count": 397
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,53 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:university-of-phoenix-pixel-privacy-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "University of Phoenix Pixel Privacy Settlement \u2014 $25 for Students",
-   "url": "https://openclassactions.com/settlements/vppa/university-of-phoenix-pixel-privacy-class-action-settlement.php",
-   "claim_url": "https://uoppixelsettlement.com/form/claim",
-   "deadline": "2026-11-05",
-   "deadline_text": "November 5, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 25.0,
-   "payout_text": "$25 for Students",
-   "proof_text": "ID/code from notice required \u00b7 enrolled since April 1, 2023 (April 1, 2020 in Illinois)",
-   "region": "",
-   "category": "vppa",
-   "summary": "The University of Phoenix has agreed to pay $8.75 million to resolve a class action lawsuit claiming it violated federal and Illinois privacy laws by sharing student information with third parties. The University of Phoenix settlement benefits individuals who were enrolled at the University of Phoenix between April 1, 2023, and Oct. 6, 2026, or who were enrolled at the University of Phoenix in Illinois during the sam",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/8-75m-university-of-phoenix-website-tracking-class-action-settlement/"
-    }
-   ],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:yes-communities-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "YES Communities Data Breach Settlement \u2014 $50 With No Proof, or Up to $2,500 Documented Plus $80 Lost Time",
-   "url": "https://openclassactions.com/settlements/data-breaches/yes-communities-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-05",
-   "deadline_text": "November 5, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": true,
-   "no_proof_amount": 50.0,
-   "payout_max": 2500.0,
-   "payout_text": "$50 With No Proof, or Up to $2,500 Documented Plus $80 Lost Time",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:situsamc-data-breach-settlement",
    "source": "OpenClassActions",
@@ -1195,6 +1148,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:bestway-above-ground-pools-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Bestway Above-Ground Pool Settlement: $15 Million",
+   "url": "https://openclassactions.com/settlements/product-defects/bestway-above-ground-pools-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-19",
+   "deadline_text": "November 19, 2026 (extended from October 30)",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 pool model or serial number from the liner",
+   "region": "",
+   "category": "product defects",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
   },
   {
    "id": "oca:carter-credit-union-data-breach-settlement",
@@ -2964,6 +2938,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:koppers-cicero-odor-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Koppers $625K Cicero Odor Settlement (Cicero, IL)",
+   "url": "https://openclassactions.com/settlements/environmental/koppers-cicero-odor-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-07",
+   "deadline_text": "December 7, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 Cicero, IL-area homeowners and renters \u00b7 Opt-out/objection deadline Nov. 21, 2026",
+   "region": "",
+   "category": "environmental",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
+  },
+  {
    "id": "oca:pillsbury-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Pillsbury Law Firm Data Breach Settlement \u2014 Cash + Up to $3,000",
@@ -3766,6 +3761,27 @@
    "first_seen": "2026-10-27"
   },
   {
+   "id": "oca:caliber-collision-401k-forfeiture-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Caliber Collision $750K 401(k) Forfeiture Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/erisa/caliber-collision-401k-forfeiture-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-15",
+   "deadline_text": "Object by December 15, 2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Hearing Jan 14, 2027 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
+  },
+  {
    "id": "oca:kimco-staffing-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Kimco Staffing Data Breach Settlement \u2014 Up to $5,000 Plus $50 in CA",
@@ -3958,6 +3974,27 @@
     }
    ],
    "first_seen": "2026-10-24"
+  },
+  {
+   "id": "oca:the-shade-store-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "The Shade Store Washington Job Postings Settlement \u2014 Est. $1,572.99",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/the-shade-store-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-18",
+   "deadline_text": "December 18, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 1572.99,
+   "payout_text": "Est. $1,572.99",
+   "proof_text": "ID/code from notice required \u00b7 WA job applicants",
+   "region": "WA job applicants",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
   },
   {
    "id": "oca:container-store-blind-accessibility-class-action-settlement",
@@ -5626,6 +5663,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-29"
+  },
+  {
+   "id": "oca:hilton-grand-vacations-marbrisa-hotel-fee-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "MarBrisa Carlsbad $750K Hotel Fee Settlement",
+   "url": "https://openclassactions.com/settlements/deceptive-pricing/hilton-grand-vacations-marbrisa-hotel-fee-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-21",
+   "deadline_text": "January 21, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "ID/code from notice required \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "deceptive pricing",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
   },
   {
    "id": "oca:warner-music-group-data-breach-settlement",
@@ -8119,6 +8177,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:prestige-financial-services-repossession-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Prestige Financial Services $6.5M Repossession Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/prestige-financial-services-repossession-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No claim form required",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 borrowers sent a pre-sale or post-sale repossession notice by Prestige within their state\u2019s limitations period \u00b7 $2,000 off deficiency balances \u00b7 opt-out deadline December 17, 2026; objections due December 24, 2026; final approval hearing January 7, 2027",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-06"
   },
   {
    "id": "oca:quest-diagnostics-route-service-representative-wage-settlement",
