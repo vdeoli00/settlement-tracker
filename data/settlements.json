@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:30:25+00:00",
+ "updated": "2026-11-07T06:11:52+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -11,27 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:situsamc-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "SitusAMC Data Breach Settlement \u2014 About $75 Cash or Up to $5,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/situsamc-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-06",
-   "deadline_text": "November 6, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 5000.0,
-   "payout_text": "About $75 Cash or Up to $5,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:dominos-san-francisco-health-care-fee-class-action-settlement",
    "source": "OpenClassActions",
