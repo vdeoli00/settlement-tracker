@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-07T13:16:27+00:00",
+ "updated": "2026-11-07T21:58:45+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 405
+   "count": 410
   },
   "Top Class Actions": {
    "ok": true,
@@ -4642,6 +4642,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:missouri-delta-medical-center-pixel-privacy-settlement",
+   "source": "OpenClassActions",
+   "title": "Missouri Delta Medical Center Pixel Settlement \u2014 $20 for Patient Portal Users",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/missouri-delta-medical-center-pixel-privacy-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 20.0,
+   "payout_text": "$20 for Patient Portal Users",
+   "proof_text": "ID/code from notice required \u00b7 MO residents",
+   "region": "MO residents",
+   "category": "pixel tracking",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "oca:napco-securities-class-action-settlement",
    "source": "OpenClassActions",
    "title": "NAPCO $20M Securities Settlement (NSSC) \u2014 About $1.23 a Share",
@@ -4972,6 +4993,27 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "oca:ldf-online-loan-bradby-vivus-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$16.5M Second LDF Online Loan Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/ldf-online-loan-bradby-vivus-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-04",
+   "deadline_text": "January 4, 2027 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 LDF tribal online-loan borrowers, July 24, 2016 \u2013 Oct. 1, 2023 \u00b7 final approval hearing Feb. 18, 2027",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "oca:supernova-offerpad-spac-stockholder-class-action-settlement",
    "source": "OpenClassActions",
    "title": "$3M Supernova (Offerpad) Stockholder Settlement",
@@ -5224,6 +5266,27 @@
    "first_seen": "2026-10-21"
   },
   {
+   "id": "oca:nyc-central-booking-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "NYC Central Booking Settlement \u2014 Up to $475 for Each Detention",
+   "url": "https://openclassactions.com/settlements/nyc-central-booking-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-07",
+   "deadline_text": "January 7, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 475.0,
+   "payout_text": "Up to $475 for Each Detention",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-07"
+  },
+  {
    "id": "oca:red-coats-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Red Coats Data Breach Settlement \u2014 Up to $100 for Lost Time or $5,000 Documented",
@@ -5416,6 +5479,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-03"
+  },
+  {
+   "id": "oca:lowe-engineers-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Lowe Engineers Data Breach Settlement \u2014 $50 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/lowe-engineers-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-13",
+   "deadline_text": "January 13, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "$50 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-07"
   },
   {
    "id": "oca:woodloch-pines-data-breach-settlement",
@@ -6403,6 +6487,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:la-county-mens-central-jail-strip-search-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "LA County Men\u2019s Central Jail Strip Search Settlement \u2014 At Least $5,000 Each",
+   "url": "https://openclassactions.com/settlements/la-county-mens-central-jail-strip-search-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-03-02",
+   "deadline_text": "March 2, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "At Least $5,000 Each",
+   "proof_text": "ID/code from notice required \u00b7 CA residents \u00b7 men in Men\u2019s Central Jail units 2500 or 2700 subjected to the Sept. 7, 2021 mass search \u00b7 est. 182\u2013224 class members",
+   "region": "CA residents",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-07"
   },
   {
    "id": "oca:generic-drugs-state-ag-consumer-settlement",
