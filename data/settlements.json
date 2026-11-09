@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T22:15:07+00:00",
+ "updated": "2026-11-09T06:49:41+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 410
+   "count": 412
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,27 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:dominos-san-francisco-health-care-fee-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Domino's San Francisco Health Care Fee Settlement \u2014 75% Voucher or 50% Cash",
-   "url": "https://openclassactions.com/settlements/deceptive-pricing/dominos-san-francisco-health-care-fee-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-08",
-   "deadline_text": "November 8, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "75% Voucher or 50% Cash",
-   "proof_text": "ID/code from notice required \u00b7 CA residents",
-   "region": "CA residents",
-   "category": "deceptive pricing",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "tca:10m-forbes-media-website-tracking-class-action-settlement",
    "source": "Top Class Actions",
@@ -2485,6 +2464,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:okanogan-behavioral-healthcare-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Okanogan Behavioral Health Breach Settlement \u2014 $50 Plus Losses",
+   "url": "https://openclassactions.com/settlements/data-breaches/okanogan-behavioral-healthcare-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-01",
+   "deadline_text": "December 1, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 50.0,
+   "payout_text": "$50 Plus Losses",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:ontario-corrections-staffing-lockdowns-class-action-settlement",
@@ -6258,6 +6258,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:sportsedtv-vppa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "SportsEdTV VPPA Video Privacy Settlement \u2014 $500K, California Residents 2\u00d7",
+   "url": "https://openclassactions.com/settlements/sportsedtv-vppa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-08",
+   "deadline_text": "February 8, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$500K, California Residents 2\u00d7",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "oca:burke-visa-mastercard-atm-fees-settlement",
    "source": "OpenClassActions",
    "title": "$167.5M Visa & Mastercard Nonbank ATM Fee Settlement",
@@ -7122,6 +7143,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:activision-blizzard-shareholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$250M Activision Blizzard Shareholder Settlement (Microsoft Merger)",
+   "url": "https://openclassactions.com/settlements/activision-blizzard-shareholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Automatic payment \u2014 no claim form",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Final approval granted October 23, 2026",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:stanford-federal-credit-union-overdraft-nsf-fee-settlement",
@@ -8476,6 +8518,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "oca:providence-health-401k-forfeiture-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Providence Health $42.7M 401(k) Forfeiture ERISA Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/employment/erisa/providence-health-401k-forfeiture-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Automatic payment \u2014 no claim form",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Final approval granted October 21, 2026 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "employment",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:quest-diagnostics-route-service-representative-wage-settlement",
