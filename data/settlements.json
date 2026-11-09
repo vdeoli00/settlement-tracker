@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-09T06:49:41+00:00",
+ "updated": "2026-11-09T22:29:34+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 412
+   "count": 415
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 68
+   "count": 70
   }
  },
  "items": [
@@ -1573,6 +1573,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-22"
+  },
+  {
+   "id": "oca:mullinax-ford-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Mullinax Ford Data Breach Settlement \u2014 $50 or Up to $3,075",
+   "url": "https://openclassactions.com/settlements/data-breaches/mullinax-ford-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-23",
+   "deadline_text": "November 23, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3075.0,
+   "payout_text": "$50 or Up to $3,075",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:vasindas-around-the-clock-care-data-breach-settlement",
@@ -5354,7 +5375,7 @@
    "source": "OpenClassActions",
    "title": "Washington Gastroenterology Data Breach Settlement \u2014 $75 or Up to $4,000",
    "url": "https://openclassactions.com/settlements/data-breaches/washington-gastroenterology-data-breach-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://wagastrodataincidentsettlement.com/Login",
    "deadline": "2027-01-10",
    "deadline_text": "January 10, 2027",
    "opt_out": false,
@@ -5366,8 +5387,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Washington Gastroenterology agreed to a $4.6 million class action settlement to resolve claims it failed to protect patient and employee data in a 2024 cyberattack. The Washington Gastroenterology settlement benefits individuals in the United States whose private information was compromised in the data breach, including those who received a breach notice. Washington Gastroenterology is a healthcare and research organ",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-6m-washington-gastroenterology-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-15"
   },
   {
@@ -5628,6 +5654,27 @@
    "first_seen": "2026-10-22"
   },
   {
+   "id": "tca:15m-davita-data-breach-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$15M Davita data breach class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15m-davita-data-breach-class-action-settlement/",
+   "claim_url": "https://claim.dvacyberattacksettlement.com/login",
+   "deadline": "2027-01-19",
+   "deadline_text": "01/19/2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": true,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "Up to $2,500 for documented losses or a pro rata payment of $50",
+   "proof_text": "Proof of purchase: Acceptable documentation may include receipts or similar proofs of payment. Self-prepared documents such as personal handwritten receipts are, by themselves, insufficient.",
+   "region": "",
+   "category": "",
+   "summary": "DaVita agreed to a $15 million class action settlement to resolve claims it failed to prevent a 2025 ransomware attack that compromised patient information. The DaVita settlement benefits individuals whose personal information was potentially accessed without authorization in the cyberattack in April 2025. The DaVita data breach was a ransomware attack that compromised sensitive patient information, such as Social Se",
+   "also": [],
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "tca:8m-progressive-pip-insurance-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$8M Progressive PIP insurance class action settlement",
@@ -5857,6 +5904,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-28"
+  },
+  {
+   "id": "oca:eyecare-partners-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "EyeCare Partners Data Breach Settlement \u2014 $50 or Up to $3,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/eyecare-partners-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-26",
+   "deadline_text": "January 26, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3000.0,
+   "payout_text": "$50 or Up to $3,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:mavis-discount-tire-pennsylvania-ag-restitution-settlement",
@@ -6111,6 +6179,27 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "oca:johnson-controls-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Johnson Controls $5.475M Data Breach Settlement \u2014 Est. $50 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/johnson-controls-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-01",
+   "deadline_text": "February 1, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Est. $50 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "oca:yuma-regional-medical-center-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Yuma Regional Medical Center Data Breach Settlement \u2014 Cash and Up to $4,000",
@@ -6214,6 +6303,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-17"
+  },
+  {
+   "id": "oca:brpa-nrx-pharmaceuticals-stockholder-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "$2.675M BRPA NRx SPAC Stockholder Settlement",
+   "url": "https://openclassactions.com/settlements/securities/brpa-nrx-pharmaceuticals-stockholder-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-08",
+   "deadline_text": "February 8, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Claim form + brokerage records required \u00b7 BRPA holders who did not redeem by June 8, 2021 \u00b7 Settlement hearing Jan. 8, 2027",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-09"
   },
   {
    "id": "oca:ncaa-tennis-prize-money-class-action-settlement",
