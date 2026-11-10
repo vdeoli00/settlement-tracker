@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-10T07:28:32+00:00",
+ "updated": "2026-11-10T19:50:42+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 415
+   "count": 406
   },
   "Top Class Actions": {
    "ok": true,
@@ -839,20 +839,25 @@
    "source": "OpenClassActions",
    "title": "Bestway Above-Ground Pool Settlement: $15 Million",
    "url": "https://openclassactions.com/settlements/product-defects/bestway-above-ground-pools-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://poolsettlementbw.pnclassaction.com",
    "deadline": "2026-11-19",
    "deadline_text": "November 19, 2026 (extended from October 30)",
    "opt_out": false,
    "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
+   "payout_max": 40.0,
+   "payout_text": "Up to $40 without proof of purchase or 10% of the purchase price with proof",
    "proof_text": "Documentation required \u00b7 pool model or serial number from the liner",
    "region": "",
    "category": "product defects",
-   "summary": "",
-   "also": [],
+   "summary": "Bestway has agreed to a $15 million class action settlement to resolve claims that its above-ground pools are defective and pose a drowning hazard. The Bestway settlement benefits consumers who purchased a Bestway-branded pool that is 48 inches or taller (including Power Steel and Steel Pro models) with compression straps located outside of the support poles, sold between 2008 and 2024 . According to the class action",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15m-bestway-above-ground-pool-safety-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-11-06"
   },
   {
@@ -3037,6 +3042,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:2m-bank-of-america-efta-violation-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$2M Bank of America EFTA violation class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2m-bank-of-america-efta-violation-class-action-settlement/",
+   "claim_url": "https://www.eftabankingsettlement.com/submit-claim",
+   "deadline": "2026-12-11",
+   "deadline_text": "12/11/2026",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Bank of America agreed to a $2 million class action settlement to resolve claims it violated the Electronic Fund Transfer Act (EFTA) by denying claims for unauthorized electronic fund transfers. The Bank of America settlement benefits consumers who submitted a dispute or claim to Bank of America for an unauthorized electronic fund transfer related to a debit card or ATM transaction and Bank of America denied that cla",
+   "also": [],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "oca:bank-of-america-efta-dispute-denial-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Bank of America $2M Debit Card & ATM Dispute Settlement",
@@ -4997,7 +5023,7 @@
    "source": "OpenClassActions",
    "title": "ARcare $3.9M Data Breach Settlement \u2014 $100 or Up to $5,000",
    "url": "https://openclassactions.com/settlements/data-breaches/arcare-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://veritaconnect.com/ARcareDataSettlement/Claimant",
    "deadline": "2027-01-07",
    "deadline_text": "January 7, 2027",
    "opt_out": false,
@@ -5009,8 +5035,13 @@
    "proof_text": "Claim ID and PIN from notice required to file online \u00b7 documentation required for losses up to $5,000",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Arcare has agreed to a $3.9 million class action settlement to resolve claims it failed to prevent a 2022 data breach that compromised sensitive patient information. The Arcare settlement benefits individuals who received a notice from Arcare informing them their private information may have been compromised in a data breach between Jan. 18 and Feb. 24, 2022. Plaintiffs in the class action lawsuit resolved by this se",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/3-9m-arcare-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-21"
   },
   {
