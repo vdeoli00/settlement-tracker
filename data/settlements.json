@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-11T06:42:48+00:00",
+ "updated": "2026-11-11T19:42:32+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 408
+   "count": 404
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 70
+   "count": 71
   }
  },
  "items": [
@@ -5248,7 +5248,7 @@
    "source": "OpenClassActions",
    "title": "Ford Transit Trail Settlement \u2014 $6,000 per Van",
    "url": "https://openclassactions.com/settlements/automotive/ford-transit-trail-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.fordtransittrailsettlement.com/Login",
    "deadline": "2027-01-15",
    "deadline_text": "January 15, 2027",
    "opt_out": false,
@@ -5260,8 +5260,13 @@
    "proof_text": "Documentation required",
    "region": "",
    "category": "automotive",
-   "summary": "",
-   "also": [],
+   "summary": "Ford Motor Co. has agreed to a class action settlement to resolve claims that 2023 and 2024 Transit Trail vehicles were sold with defective wheel wells. The Ford settlement benefits original owners and lessees of 2023 and 2024 Ford Transit Trail vehicles who purchased or leased their vehicles before June 1, 2024. Owners and lessees are not eligible for the settlement if they have already received compensation from Fo",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/ford-transit-trail-defective-wheel-wells-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-24"
   },
   {
@@ -5416,7 +5421,7 @@
    "source": "OpenClassActions",
    "title": "Columbia University $16.1M Data Breach Settlement \u2014 Up to $8,500 or Cash",
    "url": "https://openclassactions.com/settlements/data-breaches/columbia-university-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.columbiauniversitydatasettlement.com/submit-claim",
    "deadline": "2027-01-21",
    "deadline_text": "January 21, 2027",
    "opt_out": false,
@@ -5428,8 +5433,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Columbia University has agreed to a $16.1 million class action settlement to resolve claims it failed to protect personal information in a 2025 cyberattack. The Columbia University settlement benefits U.S. residents whose private information was compromised in the May 2025 cyberattack and who were sent notice of it. Columbia University is a private university in New York City. According to claims made in a class acti",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/16-1m-columbia-university-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-29"
   },
   {
@@ -5452,6 +5462,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "oca:warrior-met-coal-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Warrior Met Coal Data Breach Settlement \u2014 $25 or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/warrior-met-coal-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-21",
+   "deadline_text": "January 21, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "$25 or Up to $2,500",
+   "proof_text": "Notice ID may be required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-11"
   },
   {
    "id": "oca:warner-music-group-data-breach-settlement",
