@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-11T19:42:32+00:00",
+ "updated": "2026-11-12T07:23:37+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 404
+   "count": 407
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,27 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:international-shoppes-data-breach-settlement",
-   "source": "OpenClassActions",
-   "title": "International Shoppes Data Breach Settlement \u2014 $50 or Up to $4,000",
-   "url": "https://openclassactions.com/settlements/data-breaches/international-shoppes-data-breach-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-11",
-   "deadline_text": "November 11, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 4000.0,
-   "payout_text": "$50 or Up to $4,000",
-   "proof_text": "ID/code from notice required",
-   "region": "",
-   "category": "data breaches",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:ampam-parks-mechanical-esop-erisa-class-action-settlement",
    "source": "OpenClassActions",
@@ -4227,6 +4206,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:grayback-forestry-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Grayback Forestry Data Breach Settlement \u2014 $65 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/grayback-forestry-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "$65 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
+  },
+  {
    "id": "oca:hyundai-sonata-plug-in-hybrid-battery-repair-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Hyundai Sonata Plug-In Hybrid Battery Settlement \u2014 $10 a Day Down",
@@ -4576,6 +4576,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:tci-alabama-eeoc-sex-discrimination-settlement",
+   "source": "OpenClassActions",
+   "title": "TCI of Alabama $2.6M EEOC Sex Discrimination Settlement",
+   "url": "https://openclassactions.com/settlements/employment-law/tci-alabama-eeoc-sex-discrimination-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-01",
+   "deadline_text": "January 1, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "ID/code from notice required \u00b7 Women who sought laborer jobs at TCI\u2019s Pell City, Alabama plant through staffing agencies",
+   "region": "",
+   "category": "employment law",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
   },
   {
    "id": "oca:avondale-apartments-denver-habitability-elevator-class-action-settlement",
@@ -5672,6 +5693,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-30"
+  },
+  {
+   "id": "oca:pohns-pediatric-ent-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "POHNS Pediatric ENT Data Breach Settlement \u2014 $25 or Up to $2,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/pohns-pediatric-ent-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-27",
+   "deadline_text": "January 27, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2000.0,
+   "payout_text": "$25 or Up to $2,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
   },
   {
    "id": "oca:lakeside-pediatric-data-breach-settlement",
