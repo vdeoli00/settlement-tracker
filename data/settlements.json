@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-12T07:23:37+00:00",
+ "updated": "2026-11-12T20:05:35+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 407
+   "count": 408
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 71
+   "count": 73
   }
  },
  "items": [
@@ -945,27 +945,6 @@
    "proof_text": "ID/code from notice required \u00b7 FL residents",
    "region": "FL residents",
    "category": "real estate",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:bank-of-america-unused-vacation-pay-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "Bank of America $4.28M Unused Vacation Settlement",
-   "url": "https://openclassactions.com/settlements/wage-and-hours/bank-of-america-unused-vacation-pay-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-23",
-   "deadline_text": "November 23, 2026 (Opt-Out)",
-   "opt_out": true,
-   "proof": "automatic",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Automatic payment \u2014 no claim form \u00b7 former CA, NY and IL employees",
-   "region": "",
-   "category": "wage and hours",
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
@@ -2371,6 +2350,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:sequoia-equities-security-deposit-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Sequoia Equities $3.1M Security Deposit Settlement \u2014 About 25% of Kept Deposits",
+   "url": "https://openclassactions.com/settlements/real-estate/sequoia-equities-security-deposit-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-03",
+   "deadline_text": "December 3, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "About 25% of Kept Deposits",
+   "proof_text": "ID/code from notice required \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "real estate",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
+  },
+  {
    "id": "oca:aramark-capital-one-arena-venue-fee-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement \u2014 Equal Share, No Receipt",
@@ -2853,32 +2853,11 @@
    "first_seen": "2000-01-01"
   },
   {
-   "id": "tca:2m-bank-of-america-efta-violation-class-action-settlement",
-   "source": "Top Class Actions",
-   "title": "$2M Bank of America EFTA violation class action settlement",
-   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2m-bank-of-america-efta-violation-class-action-settlement/",
-   "claim_url": "https://www.eftabankingsettlement.com/submit-claim",
-   "deadline": "2026-12-11",
-   "deadline_text": "12/11/2026",
-   "opt_out": false,
-   "proof": "unknown",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "",
-   "proof_text": "Proof of purchase: N/A",
-   "region": "",
-   "category": "",
-   "summary": "Bank of America agreed to a $2 million class action settlement to resolve claims it violated the Electronic Fund Transfer Act (EFTA) by denying claims for unauthorized electronic fund transfers. The Bank of America settlement benefits consumers who submitted a dispute or claim to Bank of America for an unauthorized electronic fund transfer related to a debit card or ATM transaction and Bank of America denied that cla",
-   "also": [],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "oca:bank-of-america-efta-dispute-denial-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Bank of America $2M Debit Card & ATM Dispute Settlement",
    "url": "https://openclassactions.com/settlements/bank-of-america-efta-dispute-denial-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.eftabankingsettlement.com/submit-claim",
    "deadline": "2026-12-11",
    "deadline_text": "December 11, 2026",
    "opt_out": false,
@@ -2890,8 +2869,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Bank of America agreed to a $2 million class action settlement to resolve claims it violated the Electronic Fund Transfer Act (EFTA) by denying claims for unauthorized electronic fund transfers. The Bank of America settlement benefits consumers who submitted a dispute or claim to Bank of America for an unauthorized electronic fund transfer related to a debit card or ATM transaction and Bank of America denied that cla",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2m-bank-of-america-efta-violation-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-29"
   },
   {
@@ -3105,8 +3089,13 @@
    "proof_text": "Automatic payment \u2014 no claim form",
    "region": "",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Fordham University agreed to a $2.55 million class action settlement to resolve claims it failed to refund students for tuition and fees after the COVID-19 pandemic forced it to close in-person classes. The Fordham University settlement benefits students who were enrolled in at least one in-person class during the spring 2020 semester at Fordham University who paid tuition and/or mandatory fees for the semester and w",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-55m-fordham-university-covid-19-tuition-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-11-04"
   },
   {
@@ -4940,6 +4929,27 @@
    "first_seen": "2026-10-21"
   },
   {
+   "id": "oca:bank-of-america-unused-vacation-pay-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Bank of America $4.28M Unused Vacation Settlement",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/bank-of-america-unused-vacation-pay-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-07",
+   "deadline_text": "January 7, 2027 (Opt-Out; extended by Nov. 10, 2026 order)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 former CA, NY and IL employees",
+   "region": "",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2000-01-01"
+  },
+  {
    "id": "oca:nyc-central-booking-class-action-settlement",
    "source": "OpenClassActions",
    "title": "NYC Central Booking Settlement \u2014 Up to $475 for Each Detention",
@@ -5636,7 +5646,7 @@
    "source": "OpenClassActions",
    "title": "Academy Mortgage $1.995M Data Breach Settlement \u2014 Cash Plus Up to $3,000",
    "url": "https://openclassactions.com/settlements/data-breaches/academy-mortgage-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.academymortgagesettlement.com/efiling/fr/eform/sternetal_v_academymortgagecorporation_claimform/new?form-version=1",
    "deadline": "2027-01-27",
    "deadline_text": "January 27, 2027",
    "opt_out": false,
@@ -5648,8 +5658,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Academy Mortgage Corp. agreed to a $1.9 million class action settlement to resolve claims it failed to protect consumers from a 2023 data breach. The Academy Mortgage settlement benefits individuals who were notified by Academy Mortgage that their personal information may have been compromised in a March 2023 data breach. In March 2023, Academy Mortgage suffered a data breach that compromised sensitive consumer infor",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-9m-academy-mortgage-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -5798,6 +5813,27 @@
    "summary": "Allstate agreed to a class action settlement to resolve claims it withheld nonmaterial depreciation from property insurance claims. The Allstate settlement benefits Allstate property insurance policyholders who made a structural loss claim for property in Arizona between April 25, 2017, and Oct. 1, 2026, where Allstate issued payment based on an Xactimate estimate that resulted in an actual cash value payment from wh",
    "also": [],
    "first_seen": "2026-10-28"
+  },
+  {
+   "id": "oca:dothouse-health-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "DotHouse Health $750K Data Breach Settlement \u2014 Est. $40 or Up to $2,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/dothouse-health-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-29",
+   "deadline_text": "January 29, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2000.0,
+   "payout_text": "Est. $40 or Up to $2,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
   },
   {
    "id": "oca:realpage-rental-software-antitrust-class-action-settlement",
@@ -6071,6 +6107,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-20"
+  },
+  {
+   "id": "oca:laguna-honda-hospital-patients-rights-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Laguna Honda Hospital $5.75M Settlement \u2014 Paid Automatically",
+   "url": "https://openclassactions.com/settlements/privacy/laguna-honda-hospital-patients-rights-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-08",
+   "deadline_text": "February 8, 2027 (Distribution Requests; election closed Nov. 10, 2026)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Paid Automatically",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-12"
   },
   {
    "id": "oca:sportsedtv-vppa-class-action-settlement",
