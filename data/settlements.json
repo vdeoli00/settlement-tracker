@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-13T06:55:17+00:00",
+ "updated": "2026-11-13T19:50:45+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 410
+   "count": 413
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 73
+   "count": 74
   }
  },
  "items": [
@@ -1962,6 +1962,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:834000-nordstrom-job-listing-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$834,000 Nordstrom job listing class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/834000-nordstrom-job-listing-class-action-settlement/",
+   "claim_url": null,
+   "deadline": "2026-12-02",
+   "deadline_text": "12/02/2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 1154.06,
+   "payout_text": "Estimated $1,154.06",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Nordstrom agreed to pay $834,375 to resolve a class action lawsuit claiming it failed to disclose wage scales and salary ranges in job listings as required by Washington law. The Nordstrom settlement benefits individuals who applied for a job opening with Nordstrom in Washington between Jan. 1, 2023, and July 26, 2025, in response to a job posting that did not properly disclose the wage scale or salary range or a des",
+   "also": [],
+   "first_seen": "2026-11-13"
+  },
+  {
    "id": "oca:asp-isotopes-securities-class-action-settlement",
    "source": "OpenClassActions",
    "title": "ASP Isotopes $9.35M Securities Settlement (ASPI) \u2014 About $0.38 a Share",
@@ -3612,7 +3633,7 @@
    "source": "OpenClassActions",
    "title": "Benworth Capital Data Breach Settlement \u2014 $50 or Up to $5,000",
    "url": "https://openclassactions.com/settlements/data-breaches/benworth-capital-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://benworthdatasettlement.com/form/claim",
    "deadline": "2026-12-21",
    "deadline_text": "December 21, 2026",
    "opt_out": false,
@@ -3624,8 +3645,13 @@
    "proof_text": "Login ID and PIN from notice required to file online \u00b7 $50 with no receipts \u00b7 up to $5,000 with documented losses \u00b7 automatic credit monitoring \u00b7 people notified of the May 2025 incident",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Benworth Capital Partners agreed to a class action settlement to resolve claims that it failed to prevent a 2025 data breach that compromised sensitive consumer information. The Benworth Capital settlement benefits individuals who received a data breach notice from Benworth Capital Partners informing them that their information may have been compromised in a data breach on May 18, 2025. According to the data breach c",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/benworth-capital-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -4230,6 +4256,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-30"
+  },
+  {
+   "id": "oca:cardiology-associates-of-mobile-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Cardiology Associates of Mobile Data Breach Settlement \u2014 Cash and Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/cardiology-associates-of-mobile-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-29",
+   "deadline_text": "December 29, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "Cash and Up to $4,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
   },
   {
    "id": "oca:goodrx-privacy-class-action-settlement",
@@ -5039,6 +5086,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:expressvpn-auto-renewal-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "ExpressVPN Class Action Settlement \u2014 Up to 2\u00d7 What You Paid",
+   "url": "https://openclassactions.com/settlements/consumer-protection/expressvpn-auto-renewal-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-12",
+   "deadline_text": "January 12, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Up to 2\u00d7 What You Paid",
+   "proof_text": "ID/code from notice required \u00b7 CA residents",
+   "region": "CA residents",
+   "category": "consumer protection",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
+  },
+  {
    "id": "oca:new-york-school-of-interior-design-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "NYSID Data Breach Settlement \u2014 $50 or Up to $5,000",
@@ -5488,6 +5556,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:gateway-community-services-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Gateway Community Services Data Breach Settlement \u2014 Est. $75 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/gateway-community-services-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-25",
+   "deadline_text": "January 25, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Est. $75 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
   },
   {
    "id": "oca:doctors-imaging-group-data-breach-settlement",
@@ -6125,6 +6214,48 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "oca:coffee-bean-tea-leaf-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Coffee Bean & Tea Leaf Data Breach Settlement \u2014 Est. $25 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/coffee-bean-tea-leaf-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-10",
+   "deadline_text": "February 10, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Est. $25 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "oca:north-memorial-health-pixel-privacy-settlement",
+   "source": "OpenClassActions",
+   "title": "North Memorial Health Pixel Privacy Settlement \u2014 $21 for MyChart Users",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/north-memorial-health-pixel-privacy-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-10",
+   "deadline_text": "February 10, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 21.0,
+   "payout_text": "$21 for MyChart Users",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "pixel tracking",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
+  },
+  {
    "id": "oca:adams-toyota-resistall-enviroguard-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Adams Toyota ResistAll/EnviroGuard Settlement \u2014 Up to $4.25M",
@@ -6327,7 +6458,7 @@
    "no_proof_amount": null,
    "payout_max": null,
    "payout_text": "$96.5M",
-   "proof_text": "Documentation required",
+   "proof_text": "Documentation required \u00b7 $400M Sandoz settlement preliminarily approved Oct 2026 ([news](https://openclassactions.com/news/400-million-state-attorneys-general-settlement-preliminary-approval.php))",
    "region": "",
    "category": "pharmaceuticals",
    "summary": "",
@@ -8259,6 +8390,27 @@
    "summary": "Updates: Some class members were notified Aug. 7, 2023, that they had been sent the incorrect settlement notice. Some were sent a notice intended for accounts that paid PACER fees for the first time between April 22, 2016, and May 31, 2018, when they should have received a notice for accounts that paid the fees between April 21, 2010, and April 21, 2016. Class members should check their email to see if they have rece",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:ppl-cdpap-caregivers-settlement",
+   "source": "OpenClassActions",
+   "title": "PPL $162M New York CDPAP Caregiver Wage Settlement \u2014 Automatic ~$680 Payments",
+   "url": "https://openclassactions.com/settlements/ppl-cdpap-caregivers-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 680.0,
+   "payout_text": "Automatic ~$680 Payments",
+   "proof_text": "Final approval granted Nov 10, 2026 \u00b7 payments expected early 2027 if no appeals \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-13"
   },
   {
    "id": "oca:pensacola-energy-natural-gas-franchise-fee-settlement",
