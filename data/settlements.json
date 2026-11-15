@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T22:32:20+00:00",
+ "updated": "2026-11-15T06:47:04+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 412
+   "count": 417
   },
   "Top Class Actions": {
    "ok": true,
@@ -4064,6 +4064,27 @@
    "first_seen": "2026-11-07"
   },
   {
+   "id": "oca:mixbook-discount-pricing-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Mixbook Settlement \u2014 $12 Cash or Automatic $12 Credit",
+   "url": "https://openclassactions.com/settlements/deceptive-pricing/mixbook-discount-pricing-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 12.0,
+   "payout_text": "$12 Cash or Automatic $12 Credit",
+   "proof_text": "ID/code from notice required \u00b7 CA, OR & WA buyers \u00b7 $12 credit automatic without a claim",
+   "region": "",
+   "category": "deceptive pricing",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "oca:napco-securities-class-action-settlement",
    "source": "OpenClassActions",
    "title": "NAPCO $20M Securities Settlement (NSSC) \u2014 About $1.23 a Share",
@@ -4997,6 +5018,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:compumedics-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Compumedics Data Breach Settlement \u2014 Pro Rata Cash or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/compumedics-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-12",
+   "deadline_text": "January 12, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "Pro Rata Cash or Up to $2,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "oca:expressvpn-auto-renewal-class-action-settlement",
    "source": "OpenClassActions",
    "title": "ExpressVPN Class Action Settlement \u2014 Up to 2\u00d7 What You Paid",
@@ -5058,6 +5100,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-07"
+  },
+  {
+   "id": "oca:renkim-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Renkim Data Breach Settlement \u2014 $40 Cash or Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/renkim-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-13",
+   "deadline_text": "January 13, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "$40 Cash or Up to $4,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-15"
   },
   {
    "id": "oca:woodloch-pines-data-breach-settlement",
@@ -5446,6 +5509,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-03"
+  },
+  {
+   "id": "oca:cornwell-quality-tools-2024-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Cornwell Tools Data Breach Settlement \u2014 $50 or Up to $5,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/cornwell-quality-tools-2024-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-25",
+   "deadline_text": "January 25, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "$50 or Up to $5,000",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-15"
   },
   {
    "id": "oca:dental-intelligence-localmed-privacy-class-action-settlement",
@@ -6333,6 +6417,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:shellpoint-gmfs-louisiana-insurance-proceeds-interest-settlement",
+   "source": "OpenClassActions",
+   "title": "Shellpoint & GMFS Louisiana Insurance Interest Settlement \u2014 3% Interest",
+   "url": "https://openclassactions.com/settlements/shellpoint-gmfs-louisiana-insurance-proceeds-interest-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-26",
+   "deadline_text": "February 26, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "3% Interest",
+   "proof_text": "Verified claim form required \u00b7 LA homeowners",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-15"
   },
   {
    "id": "oca:la-county-mens-central-jail-strip-search-class-action-settlement",
