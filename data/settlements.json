@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T18:57:12+00:00",
+ "updated": "2026-11-16T06:45:05+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 417
+   "count": 418
   },
   "Top Class Actions": {
    "ok": true,
@@ -5163,6 +5163,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-24"
+  },
+  {
+   "id": "oca:gofo-bipa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Gofo BIPA Settlement \u2014 About $558, Paid Automatically",
+   "url": "https://openclassactions.com/settlements/privacy/gofo-bipa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-14",
+   "deadline_text": "January 14, 2027 (Opt-Out / Object)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 558.0,
+   "payout_text": "About $558, Paid Automatically",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 IL residents",
+   "region": "IL residents",
+   "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-16"
   },
   {
    "id": "oca:national-instruments-securities-class-action-settlement",
