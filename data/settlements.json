@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-16T06:45:05+00:00",
+ "updated": "2026-11-16T22:16:56+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 418
+   "count": 419
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 72
+   "count": 74
   }
  },
  "items": [
@@ -1576,17 +1576,17 @@
   {
    "id": "oca:oregon-tax-foreclosure-surplus-proceeds-class-action-settlement",
    "source": "OpenClassActions",
-   "title": "Oregon Tax Foreclosure Surplus Settlements \u2014 Seven Counties",
+   "title": "Oregon Tax Foreclosure Surplus Settlements \u2014 12 Counties",
    "url": "https://openclassactions.com/settlements/real-estate/oregon-tax-foreclosure-surplus-proceeds-class-action-settlement.php",
    "claim_url": null,
    "deadline": "2026-11-30",
-   "deadline_text": "November 30, 2026 (Lane County: February 22, 2027)",
+   "deadline_text": "November 30, 2026 (Lane County: February 22, 2027; Clatsop, Deschutes, Douglas, Tillamook, Union: March 23, 2027)",
    "opt_out": false,
    "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
    "payout_max": null,
-   "payout_text": "Seven Counties",
+   "payout_text": "12 Counties",
    "proof_text": "Documentation required \u00b7 Oregon properties only",
    "region": "Oregon properties only",
    "category": "real estate",
@@ -3659,7 +3659,7 @@
    "source": "OpenClassActions",
    "title": "Prime Healthcare Pixel Privacy Settlement \u2014 $20 for Patient Portal Users",
    "url": "https://openclassactions.com/settlements/pixel-tracking/prime-healthcare-pixel-privacy-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.ksacms.com/efiling/fr/tform/doe_v_primehealthcareservices_claimform/new?form-version=1",
    "deadline": "2026-12-21",
    "deadline_text": "December 21, 2026",
    "opt_out": false,
@@ -3671,8 +3671,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "pixel tracking",
-   "summary": "",
-   "also": [],
+   "summary": "Prime Healthcare agreed to a class action settlement to resolve claims it violated privacy laws by using tracking pixels on its websites. The Prime Healthcare settlement benefits patients of Prime Healthcare and certain relevant hospitals who accessed and/or utilized any of the Prime Web Properties between Nov. 1, 2019, and Oct. 18, 2023. A full list of participating hospitals and websites is available on the class a",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/prime-healthcare-tracking-pixels-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-29"
   },
   {
@@ -4110,7 +4115,7 @@
    "source": "OpenClassActions",
    "title": "Park Dental Data Breach Settlement \u2014 Up to $2,500 or $60 for Lost Time",
    "url": "https://openclassactions.com/settlements/data-breaches/park-dental-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://veritaconnect.com/parkdentaldatasecuritysettlement",
    "deadline": "2026-12-28",
    "deadline_text": "December 28, 2026",
    "opt_out": false,
@@ -4122,8 +4127,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Park Dental has agreed to a class action settlement over a data security incident involving unauthorized activity in employee accounts that it discovered around Jan. 23, 2024, and reported to affected individuals in August 2024. The Park Dental settlement class includes living individuals in the United States whose private information may have been compromised in the 2024 data breach. The Park Dental data breach repo",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/park-dental-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-11-04"
   },
   {
@@ -6417,6 +6427,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:nemours-foundation-403b-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Nemours Foundation $2.275M Retirement Plan Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/erisa/nemours-foundation-403b-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-22",
+   "deadline_text": "Object by February 22, 2027",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Hearing Mar 23, 2027 \u00b7 Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-16"
   },
   {
    "id": "oca:elanco-advantix-pet-flea-tick-antitrust-settlement-news",
