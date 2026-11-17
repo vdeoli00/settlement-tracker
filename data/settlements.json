@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-17T08:05:47+00:00",
+ "updated": "2026-11-17T21:03:31+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 411
+   "count": 412
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 74
+   "count": 73
   }
  },
  "items": [
@@ -719,7 +719,7 @@
    "source": "OpenClassActions",
    "title": "Lake Compounce $500K Ticket Processing Fee Settlement \u2014 Pro Rata Cash",
    "url": "https://openclassactions.com/settlements/deceptive-pricing/lake-compounce-ticket-fee-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://lakecompounceticketfeesettlement.com/Login",
    "deadline": "2026-11-24",
    "deadline_text": "November 24, 2026",
    "opt_out": false,
@@ -731,8 +731,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "deceptive pricing",
-   "summary": "",
-   "also": [],
+   "summary": "Festival Fun Parks LLC has agreed to a $500,000 class action settlement resolving claims that it failed to properly disclose processing fees for electronic Lake Compounce tickets. The Lake Compounce settlement benefits individuals who purchased tickets from the company\u2019s website between Oct. 1, 2023, and June 12, 2025. According to the class action lawsuit , Lake Compounce failed to disclose its ticket processing fee",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/500k-lake-compounce-ticket-processing-fee-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -5228,6 +5233,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:unique-on-the-go-hertz-logan-airport-overtime-settlement",
+   "source": "OpenClassActions",
+   "title": "Unique on the Go and Hertz $275K Overtime Settlement \u2014 Logan Airport Workers",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/unique-on-the-go-hertz-logan-airport-overtime-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-20",
+   "deadline_text": "January 20, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Logan Airport Workers",
+   "proof_text": "LoginID and PIN from notice required \u00b7 MA (Hertz Logan Airport workers)",
+   "region": "",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "oca:columbia-university-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Columbia University $16.1M Data Breach Settlement \u2014 Up to $8,500 or Cash",
@@ -5914,7 +5940,7 @@
    "source": "OpenClassActions",
    "title": "Bigelow Tea $6.5M \u201cManufactured in the USA\u201d Settlement \u2014 Up to $10 Without a Receipt",
    "url": "https://openclassactions.com/settlements/false-advertising/bigelow-tea-made-in-usa-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.teaclassaction.com/claim",
    "deadline": "2027-02-08",
    "deadline_text": "February 8, 2027",
    "opt_out": false,
@@ -5926,8 +5952,13 @@
    "proof_text": "No proof required \u00b7 $0.50 a box, up to $10 without a receipt or $20 with proof \u00b7 CA retail buyers Oct. 2017\u2013July 2023",
    "region": "",
    "category": "false advertising",
-   "summary": "",
-   "also": [],
+   "summary": "R.C. Bigelow has agreed to a $2.5 million class action settlement to resolve claims it falsely advertised certain teas as manufactured in the USA. The Bigelow tea settlement benefits anyone who purchased certain Bigelow tea products at a retail store in California between Oct. 17, 2017, and July 31, 2023. R.C. Bigelow is a Connecticut-based tea company that sells its products at retail stores nationwide. A class acti",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/2-5m-bigelow-tea-false-advertising-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-20"
   },
   {
