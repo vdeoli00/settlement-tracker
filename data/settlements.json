@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-18T07:41:05+00:00",
+ "updated": "2026-11-18T20:40:55+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 414
+   "count": 413
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 73
+   "count": 74
   }
  },
  "items": [
@@ -3513,6 +3513,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:long-island-community-hospital-retirement-plan-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Long Island Community Hospital $3M Retirement Plan Settlement \u2014 Automatic Payment",
+   "url": "https://openclassactions.com/settlements/erisa/long-island-community-hospital-retirement-plan-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-25",
+   "deadline_text": "December 25, 2026 (Rollover Form)",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic Payment",
+   "proof_text": "Object by Dec 9, 2026 \u00b7 Hearing Jan 8, 2027 \u00b7 Automatic payment \u2014 no claim form \u00b7 Jacobsen v. Long Island Community Hospital, E.D.N.Y. 2:24-cv-00386 \u00b7 RG/2",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "tca:100m-equifax-fcra-violations-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$100M Equifax FCRA violations class action settlement",
@@ -3664,7 +3685,7 @@
    "source": "OpenClassActions",
    "title": "Hyundai Sonata Plug-In Hybrid Battery Settlement \u2014 $10 a Day Down",
    "url": "https://openclassactions.com/settlements/automotive/hyundai-sonata-plug-in-hybrid-battery-repair-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://www.hvbatteryrepairsettlement.com/submit-claim",
    "deadline": "2026-12-28",
    "deadline_text": "December 28, 2026",
    "opt_out": false,
@@ -3676,8 +3697,13 @@
    "proof_text": "Documentation required \u00b7 eligible VIN on Hyundai\u2019s battery-repair records",
    "region": "",
    "category": "automotive",
-   "summary": "",
-   "also": [],
+   "summary": "Hyundai has agreed to a $1.43 million class action settlement to resolve claims that it failed to honor its high-voltage battery warranty when repairing certain Sonata Plug-In Hybrid vehicles. The Hyundai settlement class includes individuals who purchased or leased a 2016-2019 Hyundai Sonata Plug-In Hybrid that needed a high-voltage battery repair during the warranty period and could not receive the repair within 60",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-43m-hyundai-sonata-plug-in-hybrid-battery-warranty-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-11-03"
   },
   {
@@ -5705,6 +5731,27 @@
    "first_seen": "2026-11-09"
   },
   {
+   "id": "oca:vna-of-texas-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "VNA of Texas Data Breach Settlement \u2014 $50 Cash or Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/vna-of-texas-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-01",
+   "deadline_text": "February 1, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "$50 Cash or Up to $4,000",
+   "proof_text": "No ID required ($50 option, no documents) \u00b7 Durkin v. VNA of Texas, Dallas County Dist. Ct. DC-26-03001 \u00b7 ~26,000 class members \u00b7 Angeion",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "oca:yuma-regional-medical-center-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Yuma Regional Medical Center Data Breach Settlement \u2014 Cash and Up to $4,000",
@@ -5766,6 +5813,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "tca:15-2m-progressive-total-loss-insurance-claims-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$15.2M Progressive total loss insurance claims class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15-2m-progressive-total-loss-insurance-claims-class-action-settlement/",
+   "claim_url": "https://www.veritaconnect.com/COTotalLossClaim/Claimant",
+   "deadline": "2027-02-05",
+   "deadline_text": "02/05/2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: Claimants need the claimant ID or total loss claim number and PIN from their postcard or email notice to file online.",
+   "region": "CO residents",
+   "category": "",
+   "summary": "Progressive Direct and Progressive Preferred Insurance have agreed to a class action settlement worth about $15.2 million to resolve claims they underpaid Colorado drivers for totaled vehicles. The Progressive settlement benefits Colorado policyholders whose vehicles were declared total losses and whose claims were paid based on a Mitchell valuation report that applied a projected sold adjustment. Progressive is a na",
+   "also": [],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "oca:curran-progressive-colorado-total-loss-class-action-settlement",
