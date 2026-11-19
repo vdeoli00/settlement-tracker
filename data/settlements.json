@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-18T20:40:55+00:00",
+ "updated": "2026-11-19T07:37:30+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 413
+   "count": 419
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,27 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:cibc-renaissance-mutual-funds-trailing-commissions-settlement",
-   "source": "OpenClassActions",
-   "title": "CIBC & Renaissance Mutual Funds $11M Trailing Commissions Settlement \u2014 $32 CAD for Former CIBC Fund Holders",
-   "url": "https://openclassactions.com/settlements/cibc-renaissance-mutual-funds-trailing-commissions-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-18",
-   "deadline_text": "November 18, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 32.0,
-   "payout_text": "$32 CAD for Former CIBC Fund Holders",
-   "proof_text": "Documentation required",
-   "region": "",
-   "category": "",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:holley-securities-class-action-settlement",
    "source": "OpenClassActions",
@@ -1050,6 +1029,27 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "oca:blank-rome-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Blank Rome Data Breach Settlement \u2014 Pro Rata Cash or Up to $3,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/blank-rome-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-11-29",
+   "deadline_text": "November 29, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3000.0,
+   "payout_text": "Pro Rata Cash or Up to $3,000",
+   "proof_text": "Unique ID and PIN required \u00b7 Santana v. Blank Rome LLP, Broward Cnty. Fla. CACE-26-011862 \u00b7 $991,508 fund \u00b7 hearing Dec 14, 2026 \u00b7 Epiq",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
+  },
+  {
    "id": "oca:equifax-hard-inquiry-dispute-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Equifax $30M Hard Inquiry Dispute Settlement \u2014 Est. $100 to $400",
@@ -1913,6 +1913,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-06"
+  },
+  {
+   "id": "oca:laz-parking-california-wage-hour-paga-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "LAZ Parking $2.5M California Wage & PAGA Settlement",
+   "url": "https://openclassactions.com/settlements/paga/laz-parking-california-wage-hour-paga-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-07",
+   "deadline_text": "December 7, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 Benitez v. LAZ Parking California, Orange Cnty. Super. Ct. 30-2024-01441429 \u00b7 hearing Jan 14, 2027 \u00b7 Atticus",
+   "region": "",
+   "category": "paga",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "oca:pillsbury-data-breach-settlement",
@@ -4965,6 +4986,27 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "oca:retina-consultants-of-america-pixel-tracking-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Retina Consultants of America $4.5M Pixel Tracking Settlement",
+   "url": "https://openclassactions.com/settlements/pixel-tracking/retina-consultants-of-america-pixel-tracking-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-15",
+   "deadline_text": "January 15, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "no documents; paper form asks Claim ID if known \u00b7 Goodman v. Illinois Retina Associates (Retina Consultants of America), Cook Cnty. Ill. 2026-CH-05572 \u00b7 $1,175,160 Portal / $3,324,840 Visitor subclasses \u00b7 hearing Feb 22, 2027 \u00b7 Eisner Advisory Group",
+   "region": "",
+   "category": "pixel tracking",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
+  },
+  {
    "id": "oca:honda-acura-denso-fuel-pump-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Honda & Acura Fuel Pump Settlement \u2014 15-Year Warranty + Repair Reimbursement",
@@ -5152,6 +5194,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-22"
+  },
+  {
+   "id": "oca:picis-clinical-solutions-medstreaming-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Picis Medstreaming Data Breach Settlement \u2014 $20 Cash or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/picis-clinical-solutions-medstreaming-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-19",
+   "deadline_text": "January 19, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "$20 Cash or Up to $2,500",
+   "proof_text": "Notice ID and PIN required \u00b7 Gibson v. Picis Clinical Solutions, Broward Cnty. Fla. CACE-26-013729 \u00b7 hearing Feb 3, 2027 \u00b7 RG/2",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "oca:progressive-texas-pip-late-payment-class-action-settlement",
@@ -5815,6 +5878,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "oca:quatrro-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Quatrro Data Breach Settlement \u2014 Cash Share or Up to $3,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/quatrro-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-03",
+   "deadline_text": "February 3, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 3000.0,
+   "payout_text": "Cash Share or Up to $3,000",
+   "proof_text": "LoginID and PIN required \u00b7 Kashanian v. Quatrro Business Support Services, N.D. Ga. 1:26-cv-01800-TWT \u00b7 $2.08M fund \u00b7 hearing Feb 5, 2027 \u00b7 Simpluris",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
+  },
+  {
    "id": "tca:15-2m-progressive-total-loss-insurance-claims-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$15.2M Progressive total loss insurance claims class action settlement",
@@ -6343,6 +6427,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:colibri-group-vppa-video-privacy-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Colibri Group $4.3M Video Privacy Settlement \u2014 Est. $51 to $102",
+   "url": "https://openclassactions.com/settlements/vppa/colibri-group-vppa-video-privacy-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-03-12",
+   "deadline_text": "March 12, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 102.0,
+   "payout_text": "Est. $51 to $102",
+   "proof_text": "LoginID and PIN required, no proof of purchase \u00b7 Damrau v. Colibri Group, E.D. Mo. 4:24-cv-01441-JMD \u00b7 547,514 class members \u00b7 hearing Feb 11, 2027 \u00b7 Simpluris",
+   "region": "",
+   "category": "vppa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "oca:tenet-healthcare-pixel-tracking-class-action-settlement",
