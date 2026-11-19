@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T07:37:30+00:00",
+ "updated": "2026-11-19T20:46:39+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -37,25 +37,20 @@
    "source": "OpenClassActions",
    "title": "Bestway Above-Ground Pool Settlement: $15 Million",
    "url": "https://openclassactions.com/settlements/product-defects/bestway-above-ground-pools-class-action-settlement.php",
-   "claim_url": "https://poolsettlementbw.pnclassaction.com",
+   "claim_url": null,
    "deadline": "2026-11-19",
    "deadline_text": "November 19, 2026 (extended from October 30)",
    "opt_out": false,
    "proof": "docs",
    "no_proof_option": false,
    "no_proof_amount": null,
-   "payout_max": 40.0,
-   "payout_text": "Up to $40 without proof of purchase or 10% of the purchase price with proof",
+   "payout_max": null,
+   "payout_text": "",
    "proof_text": "Documentation required \u00b7 pool model or serial number from the liner",
    "region": "",
    "category": "product defects",
-   "summary": "Bestway has agreed to a $15 million class action settlement to resolve claims that its above-ground pools are defective and pose a drowning hazard. The Bestway settlement benefits consumers who purchased a Bestway-branded pool that is 48 inches or taller (including Power Steel and Steel Pro models) with compression straps located outside of the support poles, sold between 2008 and 2024 . According to the class action",
-   "also": [
-    {
-     "source": "Top Class Actions",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/15m-bestway-above-ground-pool-safety-class-action-settlement/"
-    }
-   ],
+   "summary": "",
+   "also": [],
    "first_seen": "2026-11-06"
   },
   {
@@ -6555,6 +6550,27 @@
    "first_seen": "2000-01-01"
   },
   {
+   "id": "tca:39m-merrill-edge-retirement-cash-sweep-accounts-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$39M Merrill Edge retirement cash sweep accounts class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/39m-merrill-edge-retirement-cash-sweep-accounts-class-action-settlement/",
+   "claim_url": null,
+   "deadline": "2027-03-26",
+   "deadline_text": "03/26/2027",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Proof of purchase: None Electronic Payment Request CLICK HERE TO FILE A ELECTRONIC PAYMENT REQUEST \u00bb NOTE: If you do not qualify for this settlement do NOT file a claim. Remember: you are submitting your claim under penalty of perjury . You are also harming other eligible Class Members by submitting a fraudulent claim. If you\u2019re unsure if you qualify, please read the FAQ section of the Settlement Administrator\u2019s website to ensure you meet all standards (Top Class Actions is not a Settlement Administrator). If you don\u2019t qualify for this settlement, check out our database of other open class action settlements you may be eligible for.",
+   "region": "",
+   "category": "",
+   "summary": "Merrill Lynch has agreed to a $39 million class action settlement to resolve claims it failed to pay a reasonable rate of interest on cash in customers\u2019 retirement accounts. The Merrill Lynch settlement benefits anyone who had a Merrill Edge retirement account with cash balances swept into deposit accounts through the Retirement Asset Savings Program between Dec. 15, 2016, and March 15, 2020. Merrill Lynch, Pierce, F",
+   "also": [],
+   "first_seen": "2026-11-19"
+  },
+  {
    "id": "oca:beef-and-pork-wages-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Beef & Pork Plant Workers $202.7M Wage-Fixing Settlement",
@@ -8584,6 +8600,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:sharper-image-tabletop-fire-pit-recall",
+   "source": "OpenClassActions",
+   "title": "Sharper Image Fire Pit Recall \u2014 Full Refund",
+   "url": "https://openclassactions.com/recalls/sharper-image-tabletop-fire-pit-recall.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "No fixed deadline stated",
+   "opt_out": false,
+   "proof": "unknown",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Full Refund",
+   "proof_text": "Registration plus three photos of the marked fire pit; no receipt mentioned \u00b7 Tabletop and Tabletop Infinity Fire Pits sold January 2023\u2013June 2026, about 265,000 units",
+   "region": "",
+   "category": "recall",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "oca:smith-nephew-401k-erisa-class-action-settlement",
