@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-20T07:28:23+00:00",
+ "updated": "2026-11-20T20:30:24+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 421
+   "count": 420
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 74
+   "count": 75
   }
  },
  "items": [
@@ -2439,6 +2439,27 @@
    "first_seen": "2026-11-04"
   },
   {
+   "id": "oca:integrated-power-services-washington-job-postings-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Integrated Power Services $2.46M WA Job Postings Settlement \u2014 Automatic",
+   "url": "https://openclassactions.com/settlements/wage-and-hours/integrated-power-services-washington-job-postings-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-14",
+   "deadline_text": "December 14, 2026 (Opt-Out)",
+   "opt_out": true,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Automatic",
+   "proof_text": "Automatic payment \u2014 no claim form \u00b7 Washington applicants to Integrated Power Services job postings without pay ranges, Jan. 1, 2023 \u2013 Oct. 20, 2026",
+   "region": "Washington applicants to Integrated Power Services job postings without pay ranges, Jan. 1, 2023 \u2013 Oct. 20, 2026",
+   "category": "wage and hours",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-20"
+  },
+  {
    "id": "oca:kiromic-biopharma-securities-class-action-settlement",
    "source": "OpenClassActions",
    "title": "Kiromic BioPharma $1.225M Securities Settlement \u2014 About $0.08 a Share",
@@ -3606,6 +3627,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-12"
+  },
+  {
+   "id": "oca:howard-and-company-cpas-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Howard & Co. CPAs Data Breach Settlement \u2014 $50 or Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/howard-and-company-cpas-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-28",
+   "deadline_text": "December 28, 2026",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "$50 or Up to $2,500",
+   "proof_text": "Login ID and PIN from notice required \u00b7 Harris v. Howard and Company, P.A., Seminole Cnty. Fla. 2024-CA-002405 \u00b7 hearing Jan 11, 2027 \u00b7 Simpluris",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-20"
   },
   {
    "id": "oca:hyundai-sonata-plug-in-hybrid-battery-repair-class-action-settlement",
@@ -5359,6 +5401,27 @@
    "first_seen": "2026-11-13"
   },
   {
+   "id": "oca:tradealgo-tcpa-text-message-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "TradeAlgo Text Message Settlement \u2014 Up to $50.10",
+   "url": "https://openclassactions.com/settlements/tcpa/tradealgo-tcpa-text-message-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-25",
+   "deadline_text": "January 25, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 50.1,
+   "payout_text": "Up to $50.10",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "tcpa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-20"
+  },
+  {
    "id": "oca:doctors-imaging-group-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Doctors Imaging Group Data Breach Settlement \u2014 Up to $2,500 Plus Monitoring",
@@ -6213,7 +6276,7 @@
    "source": "OpenClassActions",
    "title": "Vanilla Gift Card California Settlement \u2014 $15 No Receipt, or Full Loss",
    "url": "https://openclassactions.com/settlements/consumer-protection/vanilla-gift-card-california-restitution-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://veritaconnect.com/CAGiftCardSettlement/Claimant",
    "deadline": "2027-02-19",
    "deadline_text": "February 19, 2027",
    "opt_out": false,
@@ -6225,8 +6288,13 @@
    "proof_text": "Documentation required \u00b7 CA residents with a card bought in California",
    "region": "CA residents with a card bought in California",
    "category": "consumer protection",
-   "summary": "",
-   "also": [],
+   "summary": "A $1.5 million restitution fund resolves allegations in a California lawsuit over stolen Vanilla gift card balances and denied refunds. The Vanilla gift card settlement benefits California residents who purchased a non-reloadable Vanilla gift card in California between Nov. 1, 2019, and Sept. 30, 2024, or received a card purchased during that period, and lost access to some or all of its balance due to unrefunded una",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-5m-vanilla-gift-card-restitution-settlement/"
+    }
+   ],
    "first_seen": "2026-10-30"
   },
   {
@@ -6402,7 +6470,7 @@
    "source": "OpenClassActions",
    "title": "Tenet Healthcare Pixel Tracking Settlement \u2014 $16 + Privacy Monitoring",
    "url": "https://openclassactions.com/settlements/pixel-tracking/tenet-healthcare-pixel-tracking-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://tenetpixelsettlement.com/form/claim",
    "deadline": "2027-03-15",
    "deadline_text": "March 15, 2027",
    "opt_out": false,
@@ -6414,8 +6482,13 @@
    "proof_text": "Login ID and PIN from notice required to file online \u00b7 online claim form open; paper form by mail (postmarked by March 15, 2027) \u00b7 Opt out or object by December 21, 2026 \u00b7 Tenet Healthcare website and patient portal users, January 2017\u2013September 2023",
    "region": "",
    "category": "pixel tracking",
-   "summary": "",
-   "also": [],
+   "summary": "Tenet Healthcare has agreed to a class action settlement to resolve claims that it violated privacy laws by using tracking pixels on its websites. The Tenet Healthcare settlement class includes identifiable individuals who used or accessed Tenet Healthcare\u2019s online platforms from Jan. 1, 2017, through Sept. 18, 2023, to create a patient portal account, submit a web form or check in to an urgent care or emergency room",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/tenet-healthcare-website-tracking-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
