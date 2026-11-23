@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T19:49:55+00:00",
+ "updated": "2026-11-23T07:51:30+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 441
+   "count": 442
   },
   "Top Class Actions": {
    "ok": true,
@@ -11,48 +11,6 @@
   }
  },
  "items": [
-  {
-   "id": "oca:lavista-walk-apartment-fire-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "LaVista Walk Apartment Fire $8.45M Settlement \u2014 About $4,594 per Adult",
-   "url": "https://openclassactions.com/settlements/environmental/lavista-walk-apartment-fire-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-22",
-   "deadline_text": "November 22, 2026",
-   "opt_out": false,
-   "proof": "docs",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": 4594.0,
-   "payout_text": "About $4,594 per Adult",
-   "proof_text": "Documentation required \u00b7 Former residents of The Reserve at LaVista Walk, Atlanta GA",
-   "region": "Former residents of The Reserve at LaVista Walk, Atlanta GA",
-   "category": "environmental",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
-  {
-   "id": "oca:sela-realty-florida-security-deposit-class-action-settlement",
-   "source": "OpenClassActions",
-   "title": "SELA Realty Florida Security Deposit Settlement \u2014 60% Back",
-   "url": "https://openclassactions.com/settlements/real-estate/sela-realty-florida-security-deposit-class-action-settlement.php",
-   "claim_url": null,
-   "deadline": "2026-11-22",
-   "deadline_text": "November 22, 2026",
-   "opt_out": false,
-   "proof": "notice_id",
-   "no_proof_option": false,
-   "no_proof_amount": null,
-   "payout_max": null,
-   "payout_text": "60% Back",
-   "proof_text": "ID/code from notice required \u00b7 FL residents",
-   "region": "FL residents",
-   "category": "real estate",
-   "summary": "",
-   "also": [],
-   "first_seen": "2000-01-01"
-  },
   {
    "id": "oca:emerald-city-pizza-washington-job-postings-class-action-settlement",
    "source": "OpenClassActions",
@@ -6758,6 +6716,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-05"
+  },
+  {
+   "id": "oca:mindgeek-aylo-120-million-survivor-settlement",
+   "source": "OpenClassActions",
+   "title": "MindGeek (Aylo) $120M Survivor Settlement \u2014 Equal Shares",
+   "url": "https://openclassactions.com/settlements/mindgeek-aylo-120-million-survivor-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-04-05",
+   "deadline_text": "April 5, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "Equal Shares",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-23"
   },
   {
    "id": "oca:hyundai-kia-airbag-control-units-class-action-settlement",
