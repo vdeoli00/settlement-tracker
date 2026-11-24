@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-24T10:03:53+00:00",
+ "updated": "2026-11-24T22:35:04+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 438
+   "count": 441
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 73
+   "count": 75
   }
  },
  "items": [
@@ -3036,6 +3036,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:nevro-corp-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Nevro Data Breach Settlement \u2014 $60 (California) or $35, Up to $2,500",
+   "url": "https://openclassactions.com/settlements/data-breaches/nevro-corp-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2026-12-22",
+   "deadline_text": "December 22, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 2500.0,
+   "payout_text": "$60 (California) or $35, Up to $2,500",
+   "proof_text": "ID/code from notice required",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-24"
+  },
+  {
    "id": "oca:trc-staffing-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "TRC Staffing Data Breach Settlement \u2014 Up to $200 or $5,000 Documented",
@@ -4450,7 +4471,7 @@
    "source": "OpenClassActions",
    "title": "Compumedics Data Breach Settlement \u2014 Pro Rata Cash or Up to $2,500",
    "url": "https://openclassactions.com/settlements/data-breaches/compumedics-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://compumedicssettlement.com/claim/login",
    "deadline": "2027-01-12",
    "deadline_text": "January 12, 2027",
    "opt_out": false,
@@ -4462,8 +4483,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Compumedics USA Inc. has agreed to a $500,000 cash payment fund in a class action settlement that resolves claims it failed to protect personal and health information in a 2025 data breach. The Compumedics settlement benefits anyone living in the United States whose private information may have been impacted in the data breach between Feb. 15, 2025, and March 23, 2025. Compumedics USA is the U.S. arm of a global supp",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/500000-compumedics-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-11-15"
   },
   {
@@ -5063,6 +5089,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-11"
+  },
+  {
+   "id": "oca:7tabz-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "7Tabz 7-OH Settlement \u2014 $100 Automatic or $40 Claim",
+   "url": "https://openclassactions.com/settlements/false-advertising/7tabz-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-22",
+   "deadline_text": "January 22, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 100.0,
+   "payout_text": "$100 Automatic or $40 Claim",
+   "proof_text": "ID may be required online (unverified); $40 retail claim needs no receipt",
+   "region": "",
+   "category": "false advertising",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-24"
   },
   {
    "id": "oca:warner-music-group-data-breach-settlement",
@@ -6732,7 +6779,7 @@
    "source": "OpenClassActions",
    "title": "Natera $9.5M Genetic Screening Settlement \u2014 Panorama & Horizon Billing",
    "url": "https://openclassactions.com/settlements/natera-genetic-screening-test-billing-class-action-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/calcaterra_v_natera_claimform/new?form-version=1",
    "deadline": "2027-05-03",
    "deadline_text": "May 3, 2027",
    "opt_out": false,
@@ -6744,8 +6791,13 @@
    "proof_text": "ID/code from notice required",
    "region": "",
    "category": "",
-   "summary": "",
-   "also": [],
+   "summary": "Natera Inc. has agreed to a $9.5 million class action settlement to resolve claims it charged unfair out-of-pocket costs for genetic screening tests. The Natera settlement benefits individuals who had noninvasive prenatal testing or genetic carrier screening tests performed by Natera between July 10, 2019, and Sept. 2, 2026, and who were billed more than $249 for noninvasive prenatal testing without microdeletions, m",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/9-5m-natera-genetic-screening-class-action-settlement/"
+    }
+   ],
    "first_seen": "2000-01-01"
   },
   {
@@ -7996,6 +8048,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-31"
+  },
+  {
+   "id": "oca:fresenius-401k-forfeiture-erisa-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Fresenius $740K 401(k) Forfeiture Settlement",
+   "url": "https://openclassactions.com/settlements/erisa/fresenius-401k-forfeiture-erisa-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Pending \u2014 awaiting preliminary approval",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Automatic payment \u2014 no claim form",
+   "region": "",
+   "category": "erisa",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-24"
   },
   {
    "id": "oca:geico-clue-report-fcra-class-action-settlement",
