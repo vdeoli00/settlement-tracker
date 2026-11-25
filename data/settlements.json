@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:49:43+00:00",
+ "updated": "2026-11-25T21:48:55+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "Top Class Actions": {
    "ok": true,
-   "count": 75
+   "count": 76
   }
  },
  "items": [
@@ -3036,6 +3036,27 @@
    "first_seen": "2026-11-18"
   },
   {
+   "id": "tca:1-99m-mixbook-discounts-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "$1.99M Mixbook discounts class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/1-99m-mixbook-discounts-class-action-settlement/",
+   "claim_url": "https://www.mbpricingsettlement.com/submit-claim",
+   "deadline": "2026-12-28",
+   "deadline_text": "12/28/2026",
+   "opt_out": false,
+   "proof": "automatic",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 12.0,
+   "payout_text": "$12 cash or website credit",
+   "proof_text": "Proof of purchase: N/A",
+   "region": "",
+   "category": "",
+   "summary": "Mixbook has agreed to a $1.99 million class action settlement to resolve claims it deceptively advertised discounts on its website. The Mixbook settlement benefits consumers who, while in California, Oregon or Washington, purchased one or more products advertised at a discount on Mixbook.com between June 1, 2022, and March 1, 2026. According to the class action lawsuit, Mixbook deceptively advertised discounts on its",
+   "also": [],
+   "first_seen": "2026-11-25"
+  },
+  {
    "id": "tca:100m-equifax-fcra-violations-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$100M Equifax FCRA violations class action settlement",
@@ -5116,7 +5137,7 @@
    "source": "OpenClassActions",
    "title": "Doctors Imaging Group Data Breach Settlement \u2014 Up to $2,500 Plus Monitoring",
    "url": "https://openclassactions.com/settlements/data-breaches/doctors-imaging-group-data-breach-settlement.php",
-   "claim_url": null,
+   "claim_url": "https://digdatasettlement.com/claim/login",
    "deadline": "2027-01-26",
    "deadline_text": "January 26, 2027",
    "opt_out": false,
@@ -5128,8 +5149,13 @@
    "proof_text": "Documentation required",
    "region": "",
    "category": "data breaches",
-   "summary": "",
-   "also": [],
+   "summary": "Doctors Imaging Group has agreed to a class action settlement to resolve claims that it failed to protect consumers from a 2024 data breach. The Doctors Imaging Group settlement benefits individuals whose private information may have been compromised in a Doctors Imaging Group data breach between Nov. 5 and Nov. 11, 2024. The Doctors Imaging Group data breach reportedly compromised sensitive information, such as name",
+   "also": [
+    {
+     "source": "Top Class Actions",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/doctors-imaging-group-data-breach-class-action-settlement/"
+    }
+   ],
    "first_seen": "2026-10-28"
   },
   {
