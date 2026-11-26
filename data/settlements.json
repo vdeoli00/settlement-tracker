@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-26T08:34:44+00:00",
+ "updated": "2026-11-26T21:42:39+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 435
+   "count": 437
   },
   "Top Class Actions": {
    "ok": true,
@@ -4850,6 +4850,27 @@
    "first_seen": "2026-11-24"
   },
   {
+   "id": "oca:upgrade-website-tracking-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Upgrade $5.25M Website Tracking Settlement \u2014 Up to $15",
+   "url": "https://openclassactions.com/settlements/privacy/upgrade-website-tracking-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-22",
+   "deadline_text": "January 22, 2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 15.0,
+   "payout_text": "Up to $15",
+   "proof_text": "ID/code from notice required for the online form; paper form available without it \u00b7 up to $15, pro rata \u00b7 Kroll",
+   "region": "",
+   "category": "privacy",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-26"
+  },
+  {
    "id": "oca:warner-music-group-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Warner Music Group $1.25M Data Breach Settlement \u2014 Est. $50, $100 in California",
@@ -4932,6 +4953,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-22"
+  },
+  {
+   "id": "tca:cornwell-quality-tools-data-breach-class-action-settlement",
+   "source": "Top Class Actions",
+   "title": "Cornwell Quality Tools data breach class action settlement",
+   "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/cornwell-quality-tools-data-breach-class-action-settlement/",
+   "claim_url": "https://cqtcybersettlement.com/form/claim",
+   "deadline": "2027-01-25",
+   "deadline_text": "01/25/2027",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": true,
+   "no_proof_amount": null,
+   "payout_max": 5000.0,
+   "payout_text": "Up to $5,000",
+   "proof_text": "Proof of purchase: Documentation of losses, such as credit card or bank statements, emails, invoices, receipts or telephone records to support their claims.",
+   "region": "",
+   "category": "",
+   "summary": "Cornwell Quality Tools Co. has agreed to a class action settlement to resolve claims surrounding a December 2024 data breach. The Cornwell Tools settlement benefits individuals whose private information was potentially impacted by the Cornwell Tools data breach that occurred between Dec. 11 and Dec. 22, 2024, and who received a notice letter from the company. According to the class action lawsuit, Cornwell Tools fail",
+   "also": [],
+   "first_seen": "2026-11-26"
   },
   {
    "id": "oca:cornwell-quality-tools-2024-data-breach-settlement",
@@ -6222,6 +6264,27 @@
     }
    ],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:crestwyn-acadia-data-breach-settlement",
+   "source": "OpenClassActions",
+   "title": "Crestwyn & Acadia Data Breach Settlement \u2014 $40 or Up to $4,000",
+   "url": "https://openclassactions.com/settlements/data-breaches/crestwyn-acadia-data-breach-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-03-16",
+   "deadline_text": "March 16, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 4000.0,
+   "payout_text": "$40 or Up to $4,000",
+   "proof_text": "LoginID + PIN required for the online form; paper form available without it \u00b7 $40 no-document option, up to $400 ordinary and $4,000 extraordinary documented, plus 2 years CyEx monitoring \u00b7 Simpluris",
+   "region": "",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-26"
   },
   {
    "id": "oca:meridian-security-texas-depreciation-class-action-settlement",
