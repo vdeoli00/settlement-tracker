@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-27T08:46:39+00:00",
+ "updated": "2026-11-27T21:26:48+00:00",
  "sources": {
   "OpenClassActions": {
    "ok": true,
-   "count": 434
+   "count": 440
   },
   "Top Class Actions": {
    "ok": true,
@@ -2292,6 +2292,27 @@
    "first_seen": "2026-11-06"
   },
   {
+   "id": "oca:clay-county-public-health-data-breach",
+   "source": "OpenClassActions",
+   "title": "Clay County Public Health Data Breach Settlement \u2014 Est. $150",
+   "url": "https://openclassactions.com/settlements/data-breaches/clay-county-public-health-data-breach.php",
+   "claim_url": null,
+   "deadline": "2026-12-20",
+   "deadline_text": "December 20, 2026",
+   "opt_out": false,
+   "proof": "notice_id",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 150.0,
+   "payout_text": "Est. $150",
+   "proof_text": "ID/code from notice required \u00b7 MO residents",
+   "region": "MO residents",
+   "category": "data breaches",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "oca:container-store-blind-accessibility-class-action-settlement",
    "source": "OpenClassActions",
    "title": "The Container Store $780K Accessibility Settlement \u2014 $75 Per Purchase",
@@ -4142,6 +4163,27 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "oca:synagro-woonsocket-odors-settlement",
+   "source": "OpenClassActions",
+   "title": "Synagro Woonsocket $1.3M Odor Settlement (Woonsocket, RI)",
+   "url": "https://openclassactions.com/settlements/environmental/synagro-woonsocket-odors-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-01-11",
+   "deadline_text": "January 11, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required \u00b7 RI residents",
+   "region": "RI residents",
+   "category": "environmental",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "oca:compumedics-data-breach-settlement",
    "source": "OpenClassActions",
    "title": "Compumedics Data Breach Settlement \u2014 Pro Rata Cash or Up to $2,500",
@@ -5474,6 +5516,27 @@
    "first_seen": "2026-11-19"
   },
   {
+   "id": "oca:winix-true-hepa-air-purifier-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Winix \u201cTrue HEPA\u201d Air Purifier Settlement \u2014 Up to $12",
+   "url": "https://openclassactions.com/settlements/false-advertising/winix-true-hepa-air-purifier-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-04",
+   "deadline_text": "February 4, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": 12.0,
+   "payout_text": "Up to $12",
+   "proof_text": "Documentation required \u00b7 LoginID & PIN from the email notice, or an uploaded receipt without one \u00b7 Winix air purifier or replacement filter bought Sept. 19 2020 \u2013 Oct. 7 2026",
+   "region": "",
+   "category": "false advertising",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
+  },
+  {
    "id": "tca:15-2m-progressive-total-loss-insurance-claims-class-action-settlement",
    "source": "Top Class Actions",
    "title": "$15.2M Progressive total loss insurance claims class action settlement",
@@ -5666,6 +5729,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-11-22"
+  },
+  {
+   "id": "oca:philly-pops-cancelled-concerts-ticket-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Philly Pops Cancelled-Concert Ticket Settlement \u2014 $200,000 Fund",
+   "url": "https://openclassactions.com/news/philly-pops-cancelled-concerts-ticket-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2027-02-09",
+   "deadline_text": "February 9, 2027",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "$200,000 Fund",
+   "proof_text": "Claim Number & PIN from the notice required \u00b7 PA (Kimmel Center ticket buyers) \u00b7 pro rata, capped at the ticket price \u00b7 ~2,600 class members \u00b7 Hearing Feb. 10, 2027",
+   "region": "",
+   "category": "",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
   },
   {
    "id": "oca:burke-visa-mastercard-atm-fees-settlement",
@@ -6794,6 +6878,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2000-01-01"
+  },
+  {
+   "id": "oca:toyota-lexus-hybrid-mgr-connector-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Toyota & Lexus Hybrid Cable Settlement \u2014 10-Year Warranty Plus Refunds",
+   "url": "https://openclassactions.com/settlements/automotive/toyota-lexus-hybrid-mgr-connector-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": "2028-03-27",
+   "deadline_text": "March 27, 2028",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "10-Year Warranty Plus Refunds",
+   "proof_text": "Documentation required for refunds \u00b7 the extended warranty needs no claim form but requires a dealer inspection by September 30, 2028",
+   "region": "",
+   "category": "automotive",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
   },
   {
    "id": "oca:federal-indian-hospitals-class-action-settlement",
@@ -8043,6 +8148,27 @@
    "summary": "",
    "also": [],
    "first_seen": "2026-10-14"
+  },
+  {
+   "id": "oca:humacyte-securities-class-action-settlement",
+   "source": "OpenClassActions",
+   "title": "Humacyte $9M Securities Settlement (HUMA)",
+   "url": "https://openclassactions.com/settlements/securities/humacyte-securities-class-action-settlement.php",
+   "claim_url": null,
+   "deadline": null,
+   "deadline_text": "Pending \u2014 awaiting preliminary approval",
+   "opt_out": false,
+   "proof": "docs",
+   "no_proof_option": false,
+   "no_proof_amount": null,
+   "payout_max": null,
+   "payout_text": "",
+   "proof_text": "Documentation required",
+   "region": "",
+   "category": "securities",
+   "summary": "",
+   "also": [],
+   "first_seen": "2026-11-27"
   },
   {
    "id": "oca:hunter-warfield-unlicensed-rental-collections-settlement",
